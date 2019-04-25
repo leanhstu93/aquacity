@@ -1,0 +1,194 @@
+/*================================================================================
+	Item Name: Kode
+	Description: Premium Bootstrap Admin Template
+	Author: Egemen Kapusuz
+	Author URL: http://www.themeforest.net/user/egemem
+================================================================================*/
+
+/* ================================================
+Google Web Fonts
+================================================ */
+/* Montserrat */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* Open Sans */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300italic,100italic,400italic,400,300,500italic,700italic,100,700,500&subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,vietnamese,greek);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,400,300&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300&subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,greek,vietnamese);
+/* === Icons === */
+/* Font Awesome */
+@import url('font-awesome.min.css');
+
+/* ================================================
+Main Css
+================================================ */
+/* Bootstrap Main Css File (unedited) */
+@import url('bootstrap.css');
+
+/* Theme Style */
+@import url('style.css');
+
+/* Responsive Style */
+@import url('responsive.css');
+
+/* Shortcuts Css Codes */
+@import url('shortcuts.css');
+
+/* ================================================
+Plugin Css
+================================================ */
+/* Awesome Bootstrap Checkbox */
+@import url('awesome-bootstrap-checkbox.css');
+
+/* Bootstrap Select */
+@import url('bootstrap-select.css');
+
+/* Bootstrap Select */
+@import url('bootstrap-toggle.min.css');
+
+/* Bootstrap wysihtml5 */
+@import url('bootstrap-wysihtml5.css');
+
+/* Summernote */
+@import url('summernote.css');
+@import url('summernote-bs3.css');
+
+/* Sweet Alert */
+@import url('sweet-alert.css');
+
+/* Data Tables */
+@import url('datatables.css');
+
+/* Chartist */
+@import url('chartist.min.css');
+
+/* Rickshaw */
+@import url('rickshaw.css');
+@import url('detail.css');
+@import url('graph.css');
+@import url('legend.css');
+/* Date Range Picker */
+@import url('daterangepicker-bs3.css');
+
+/* Full Calendar */
+@import url('fullcalendar.css');
+.gb_da {
+background-color: #db4437;
+color: #fff;
+font-size: 12px;
+font-weight: bold;
+line-height: 20px;
+right: 40px;
+padding: 0 2px;
+text-align: center;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+height: 20px;
+width: 20px;
+float: right;
+z-index: 9999;
+position: relative;
+}
+.note .row {
+margin-right: -10px;
+margin-left: -10px;
+}
+.note .tile_count .tile_stats_count {
+border-left: 0px solid #333;
+padding: 0;
+}
+
+ .note .tile_count div:first-child .left {
+border: 0;
+}
+
+ .note  .tile_stats_count .left {
+width: 15%;
+float: left;
+height: 65px;
+border-left: 2px solid #ADB2B5;
+margin-top: 10px;
+}
+
+ .note .tile_stats_count .right {
+padding-left: 10px;
+
+text-overflow: ellipsis;
+overflow: hidden;
+}
+
+ .note  .tile_stats_count .right span {
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+ .note .tile_stats_count .count {
+ 	color: rgb(99, 16, 16);
+font-size: 30px;
+line-height: 47px;
+font-weight: 600;
+}
+.note .col-md-1{
+	width: 12.5%;
+}
+table {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*langague*/
+    .tabngonngu{
+        width: 100%;
+        margin-bottom: 22px;
+        border-bottom: 1px solid #ccc;
+        margin-left: -2%;
+        display: block;
+        float: left;
+        margin-top: 3%;
+    }
+    .tabngonngu a.active{
+        font-weight: bold;
+        color: black;
+        background: -webkit-linear-gradient(top,#f3f3f3,#fff);
+        background: -moz-linear-gradient(top,#f3f3f3,#fff);
+        border-color: #ccc #ccc #fff;
+        border-radius: 5px 5px 0 0;
+        border-style: solid;
+        border-width: 1px;
+        -moz-border-bottom-colors: none;
+        -moz-border-image: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        box-shadow: none;
+
+    }
+    
+    .tabngonngu a:hover{
+        background: white;
+    }
+    .tabngonngu a{
+        top: 2px;
+        width: 137px;
+        float: left;
+        display: block;
+        margin-left: 5px;
+        position: relative;
+        /* top: 18px; */
+        padding: 14px 30px;
+        line-height: 0.7em;
+        min-width: 55px;
+        text-align: center;
+        color: #CAC8C8;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+        background: -webkit-linear-gradient(top,#f3f3f3,#fff);
+        background: -moz-linear-gradient(top,#f3f3f3,#fff);
+        border-radius: 5px 5px 0 0;
+        box-shadow: 2px 0px 2px rgba(0,0,0,0.1),-2px 0 2px rgba(0,0,0,0.1)/*0.1*/;
+    }
+    .tt_ta{display: none;}
+    /*end langague*/
