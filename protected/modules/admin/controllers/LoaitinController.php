@@ -37,10 +37,10 @@ class LoaitinController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin','*'),
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
-				'users'=>array('*'),
+				'users'=>array(''),
 			),
 		);
 	}
@@ -71,6 +71,7 @@ class LoaitinController extends Controller
 			$model->attributes=$_POST['Loaitin'];
 			if($model->save())
 			{
+				
 				$ltl = new LoaitinLang;
 				$ltl->attributes=$_POST['LoaitinLang'];
 				$ltl->idLoaiTin = $model->id;
@@ -109,19 +110,23 @@ class LoaitinController extends Controller
 			$model->attributes=$_POST['Loaitin'];
 			if($model->save())
 			{
+			
 				$ltl = LoaitinLang::model()->find("idNgonNgu = 1 and idLoaiTin = $model->id");
 				$ltl->attributes=$_POST['LoaitinLang'];
 				$ltl->idLoaiTin = $model->id;
 				$ltl->idNgonNgu = 1;
+				$ltl->Alias = Common::bodau($ltl->Name);
 				$ltl->save();
 				$ltl = LoaitinLang::model()->find("idNgonNgu = 2 and idLoaiTin = $model->id");
 				$ltl->attributes=$_POST['LoaitinLang_'];
 				$ltl->idLoaiTin = $model->id;
 				$ltl->idNgonNgu = 2;
+				$ltl->Alias = Common::bodau($ltl->Name);
 				$ltl->save();
 				$this->redirect(array('admin'));
 			}
 		}
+
 		$this->render('update',array(
 			'model'=>$model,
 		));
@@ -143,6 +148,7 @@ class LoaitinController extends Controller
 			throw new CHttpException(404,'Không thể xóa loại tin tức này.');
 		$this->loadModel($id)->delete();
 		LoaitinLang::model()->deleteAll("`idLoaiTin` = :idl",array(":idl"=>$id));
+		
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));

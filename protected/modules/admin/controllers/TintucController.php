@@ -37,10 +37,10 @@ class TintucController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin','*'),
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
-				'users'=>array('*'),
+				'users'=>array(''),
 			),
 		);
 	}
@@ -63,37 +63,67 @@ class TintucController extends Controller
 	public function actionCreate()
 	{
 		$model=new Tintuc;
-
+		$tt = new TintucLang;
+        $tt_ = new TintucLang;
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Tintuc']))
 		{
+
 			$model->idNguoiDang = Yii::app()->user->getState("iduser");
 			$model->attributes=$_POST['Tintuc'];
+			
+			if(!is_array($model->idTags))
+				$model->idTags = array(0);
+			$model->idTags = json_encode($model->idTags);
+			
 			$getdate = getdate();
 			$model->Date = $getdate[0];
+			
 			if($model->save())
 			{
-				$ttl = new TintucLang;
-				$ttl->attributes=$_POST['TintucLang'];
-				$ttl->idTinTuc = $model->id;
-				$ttl->idNgonNgu = 1;
-				$insert_id = Yii::app()->db->getLastInsertID();
-				$ttl->Alias = Common::bodau($ttl->Name)."-".$insert_id;
-				$ttl->save();
-				$ttl = new TintucLang;
-				$ttl->attributes=$_POST['TintucLang_'];
-				$ttl->idTinTuc = $model->id;
-				$ttl->idNgonNgu = 2;
-				$ttl->Alias = Common::bodau($ttl->Name)."-".$insert_id;
-				$ttl->save();
-				$this->redirect(array('admin'));
+				/*
+				if($model->UrlImage != '')
+				{
+					$file = basename($model->UrlImage);
+					Common::resizeform($file,58,58);
+					Common::resizeform($file,80,60);
+					Common::resizeform($file,90,70);
+					Common::resizeform($file,530,370);
+				}
+				*/
+				$tt = new TintucLang;
+				$tt->attributes=$_POST['TintucLang'];
+				$tt->Name = trim($tt->Name);
+				$tt->idTinTuc = $model->id;
+				$tt->idNgonNgu = 1;
+				$tt->Alias = Common::bodau($tt->Name);
+				if($tt->save())
+				{
+					$tt->Alias = $tt->Alias."-".$tt->id;
+					$tt->save();
+					$tt_ = new TintucLang;
+					$tt_->attributes=$_POST['TintucLang_'];
+					$tt_->Name = trim($tt_->Name);
+					$tt_->idTinTuc = $model->id;
+					$tt_->idNgonNgu = 2;
+					$tt_->Name = $model->id;
+					$tt_->Alias = Common::bodau($tt_->Name);
+					if($tt_->save())
+					{
+						$tt_->Alias = $tt_->Alias."-".$tt_->id;
+						$tt_->save();
+						$this->redirect(array('admin'));
+					}
+				}
 			}
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
+			'tt'=>$tt,
+			'tt_'=>$tt_
 		));
 	}
 
@@ -106,32 +136,67 @@ class TintucController extends Controller
 	{
 		$model=$this->loadModel($id);
 
+		$tt = TintucLang::model()->find("idNgonNgu = 1 and idTinTuc = $model->id");
+        $tt_ = TintucLang::model()->find("idNgonNgu = 2 and idTinTuc = $model->id");
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-
 		if(isset($_POST['Tintuc']))
-		{
-		
+		{	 
 			$model->idNguoiDang = Yii::app()->user->getState("iduser");
 			$model->attributes=$_POST['Tintuc'];
-		
+			
+			TagsTintuc::model()->deleteAll("`idTinTuc` = :id",array(":id"=>$id));
+			/*if(is_array($model->idTags))
+			{
+				foreach ($model->idTags as $key => $value) {
+					# code...
+					$tags= new TagsTintuc;
+					$tags->idTinTuc = $id;
+					$tags->idTags = $value;
+					$tags->save();
+				}
+			}
+			*/
+			if(!is_array($model->idTags))
+				$model->idTags = array(0);
+			$model->idTags = json_encode($model->idTags);
 			if($model->save())
 			{
-				$ttl = TintucLang::model()->find("idTinTuc = $id and idNgonNgu = 1");
-				$ttl->attributes=$_POST['TintucLang'];
-				$ttl->save();
-				$ttl = TintucLang::model()->find("idTinTuc = $id and idNgonNgu = 2");
-				$ttl->attributes=$_POST['TintucLang_'];
-				$ttl->save();
-				$this->redirect(array('admin'));
+				/*if($model->UrlImage != '')
+				{
+					$file = basename($model->UrlImage);
+					Common::resizeform($file,58,58);
+					Common::resizeform($file,80,60);
+					Common::resizeform($file,90,70);
+					Common::resizeform($file,530,370);
+				}
+				*/
+				$tt = TintucLang::model()->find("idTinTuc = $id and idNgonNgu = 1");
+				$tt->attributes=$_POST['TintucLang'];
+				$tt->Alias = Common::bodau($tt->Name);
+				if($tt->save())
+					{
+						$tt->Alias = $tt->Alias."-".$tt->id;
+						$tt->save();
+						$tt_ = TintucLang::model()->find("idTinTuc = $id and idNgonNgu = 2");
+						$tt_->attributes=$_POST['TintucLang_'];
+						$tt_->Name = $model->id;
+						$tt_->Alias = Common::bodau($tt_->Name);
+						if($tt_->save())
+						{
+							$tt_->Alias = $tt_->Alias."-".$tt_->id;
+							$tt_->save();
+							$this->redirect(array('admin'));
+						}
+					}
 			}
 		}
-
 		$this->render('update',array(
 			'model'=>$model,
+			'tt' => $tt,
+			'tt_' => $tt_
 		));
 	}
-
 	/**
 	 * Deletes a particular model.
 	 * If deletion is successful, the browser will be redirected to the 'admin' page.
@@ -141,6 +206,7 @@ class TintucController extends Controller
 	{
 		$this->loadModel($id)->delete();
 		TintucLang::model()->deleteAll("idTinTuc = $id");
+		TagsTintuc::model()->deleteAll("idTinTuc = $id");
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));

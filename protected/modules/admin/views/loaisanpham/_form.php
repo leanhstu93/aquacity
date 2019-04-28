@@ -10,7 +10,6 @@
         'class'=>'form-horizontal',
     ),
 )); ?>
-
 <div class="form-group" style="margin-bottom:0px">
     <label class="col-sm-2 control-label form-label" for="input001">Loại cha:</label>
     <div class="col-sm-6">

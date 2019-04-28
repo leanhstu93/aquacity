@@ -32,7 +32,7 @@
   width: auto;
   font-family: 'Arial', sans-serif;
   line-height: 1;
-  float: right;
+  float: left;
 }
 
 #menu-line {
@@ -40,7 +40,7 @@
   bottom: 0;
   left: 0;
   height: 3px;
-  background: #db3011;
+  background: white;
   -webkit-transition: all 0.25s ease-out;
   -moz-transition: all 0.25s ease-out;
   -ms-transition: all 0.25s ease-out;
@@ -68,8 +68,8 @@
   text-align: right;
 }
 #cssmenu > ul > li > a {
-  padding: 20px;
-  font-size: 12px;
+  padding: 20px 15px;
+  font-size: 11px;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -82,7 +82,7 @@
 }
 #cssmenu > ul > li:hover > a,
 #cssmenu > ul > li.active > a {
-  color: #db3011;
+  color: white;
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 25px;
@@ -190,7 +190,7 @@
 #cssmenu ul ul li.has-sub:hover > a::after {
   border-color: #ffffff;
 }
-@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1150px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1150px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1150px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1150px), only screen and (min-resolution: 192dpi) and (max-width: 1150px), only screen and (min-resolution: 2dppx) and (max-width: 1150px) {
   #cssmenu {
     width: 100%;
   }
@@ -207,7 +207,7 @@
   #cssmenu ul li:hover > ul > li {
     width: 100%;
     height: auto;
-    border-top: 1px solid rgba(120, 120, 120, 0.15);
+    border-top: 1px solid rgba(248, 122, 108, 0.56);
   }
   #cssmenu ul li a,
   #cssmenu ul ul li a {
@@ -295,7 +295,7 @@
     display: block;
     width: 1px;
     height: 11px;
-    background: #000000;
+    background: white;
     z-index: 99;
   }
   #cssmenu .submenu-button::before {
@@ -306,7 +306,7 @@
     display: block;
     width: 11px;
     height: 1px;
-    background: #000000;
+    background: white;
     z-index: 99;
   }
   #cssmenu .submenu-button.submenu-opened:after {

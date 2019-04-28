@@ -1,6 +1,10 @@
 <?php
 
 class Common extends CController {
+	function isJson($string) {
+		 json_decode($string);
+		 return (json_last_error() == JSON_ERROR_NONE);
+	}
 	static function sendphone($button,$phone){
 		$script = '
 		<script>
@@ -54,6 +58,21 @@ class Common extends CController {
 		</script>';
 		echo $script;
 	}
+	public static function curPageURLY() {
+        $pageURL = 'http';
+//        if ($_SERVER["HTTPS"] == "on") {
+//            $pageURL .= "s";
+//        }
+        $pageURL .= "://";
+        if ($_SERVER["SERVER_PORT"] != "80") {
+            $pageURL .= $_SERVER["SERVER_NAME"] . ":" . $_SERVER["SERVER_PORT"]. $_SERVER["REQUEST_URI"];
+        } else {
+            $pageURL .= $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"];
+            ;
+        }
+        return $pageURL;
+    }
+
  function chuoingaunhien( $length ) {
       $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
       $size = strlen( $chars );
@@ -78,7 +97,7 @@ class Common extends CController {
     	 $criteria = new CDbCriteria();
         $criteria->condition = "idLoaiTin = $idLoaiTin and Active = 1 and idNgonNgu = 1 and t.id != $id";
         $criteria->order = "t.id desc";
-        $criteria->limit = 6;
+        $criteria->limit = 4;
         $criteria->with = "tintuc_lang";
         $tlq = Tintuc::model()->findAll($criteria);
         return $tlq;
@@ -243,11 +262,12 @@ public static function menudacap2($id,$model ="Loaisanpham",$idnn)
 	
 	
 }
-public static function menutintuc($id,$model ="Loaitin",$idnn)
+public static function menudacap2ajax($id,$model ="Loaisanpham",$idnn)
 {
 	$criteria = new CDbCriteria();
 	$criteria->condition = "Active = 1 and t.id = $id and idNgonNgu = $idnn";
 	$criteria->with = "loaitin_lang";
+	$criteria->order = "t.Order ";
 	$data = $model::model()->find($criteria);
 	$count = $model::model()->count($criteria);
 	$ul_open = '<ul class="dropdown-menu">';
@@ -261,6 +281,51 @@ public static function menutintuc($id,$model ="Loaitin",$idnn)
 			$criteria = new CDbCriteria();
 			$criteria->condition = "Active = 1 and Parent = $id and idNgonNgu = $idnn";
 			$criteria->with = "loaitin_lang";
+			$criteria->order = "t.Order ";
+			$data1 = $model::model()->findAll($criteria);
+			$count = $model::model()->count($criteria);
+			if($count> 0 )
+				echo $li_open;
+			else
+				echo $li_open_;
+			echo '<a alias="'.$data->loaitin_lang->Alias.'" href="'.Yii::app()->request->baseUrl.'/loai-tin/'.$data->loaitin_lang->Alias.'.html">'.$data->loaitin_lang->Name.'</a>';
+			//kiem tra co menu con hay k, neu co thi goi lai
+			
+			if($count > 0)
+			{
+				echo $ul_open;
+				foreach ($data1 as $key => $value) {
+					# code...
+
+					Common::menudacap2($value->id,"Loaitin",$idnn);
+				}
+				echo $ul_close;
+			}
+				
+			echo $li_close;
+		
+		}
+	
+	
+}
+public static function menutintuc($id,$model ="Loaitin",$idnn)
+{
+	$criteria = new CDbCriteria();
+	$criteria->condition = "Active = 1 and t.id = $id and idNgonNgu = $idnn";
+	$criteria->with = "loaitin_lang";
+	$data = $model::model()->find($criteria);
+	$count = $model::model()->count($criteria);
+	$ul_open = '<ul class="dropdown-menu">';
+	$ul_close = "</ul>";
+	$li_open_ ='<li>';
+	$li_open ='<li class="dropdown-submenu">';
+	$li_close = '</li>';
+		if($count > 0)
+		{
+			$criteria = new CDbCriteria();
+			$criteria->condition = "Active = 1 and Parent = $id and idNgonNgu = $idnn";
+			$criteria->with = "loaitin_lang";
+			$criteria->order = "t.Order";
 			$data1 = $model::model()->findAll($criteria);
 			$count = $model::model()->count($criteria);
 			if($count> 0 )
@@ -284,10 +349,52 @@ public static function menutintuc($id,$model ="Loaitin",$idnn)
 			echo $li_close;
 		
 		}
-	
-	
 }
+public static function menutintucajax($id,$model ="Loaitin",$idnn,$lag = 0)
+{
+	$criteria = new CDbCriteria();
+	$criteria->condition = "Active = 1 and t.id = $id and idNgonNgu = $idnn";
+	$criteria->with = "loaitin_lang";
+	$data = $model::model()->find($criteria);
+	$count = $model::model()->count($criteria);
+	$ul_open = '<ul class="dropdown-menu">';
+	$ul_close = "</ul>";
+	$li_open_ ='<li>';
+	$li_open ='<li class="dropdown-submenu">';
+	$li_close = '</li>';
+		if($count > 0)
+		{
+			$criteria = new CDbCriteria();
+			$criteria->condition = "Active = 1 and Parent = $id and idNgonNgu = $idnn";
+			$criteria->with = "loaitin_lang";
+			$data1 = $model::model()->findAll($criteria);
+			$count = $model::model()->count($criteria);
+			if($count> 0 ){
+				if($lag == 1)
+					echo '<li class="dropdown-submenu active">';
+				else 
+					echo '<li class="dropdown-submenu">';
+			}
+			else
+				echo $li_open_;
+			echo '<a alias ="'.$data->loaitin_lang->Alias.'" href="'.Yii::app()->request->baseUrl.'/loai-tin/'.$data->loaitin_lang->Alias.'.html">'.$data->loaitin_lang->Name.'</a>';
+			//kiem tra co menu con hay k, neu co thi goi lai
+			
+			if($count > 0)
+			{
+				echo $ul_open;
+				foreach ($data1 as $key => $value) {
+					# code...
 
+					Common::menudacap2ajax($value->id,"Loaitin",$idnn);
+				}
+				echo $ul_close;
+			}
+				
+			echo $li_close;
+		
+		}
+}
  
 public static function menudacap4($id,$model ="Loaisanpham",$idnn)
 {
@@ -925,49 +1032,148 @@ public static function phanquyen($idper)
        // else echo "0 OK"; 
 
     }
-    
-	//LÂM COMMON
-   public static function YMD($date){
-		//$date = str_replace('/', '-', $date);
-		return strtotime(date('Y-m-d', strtotime($date)));
-	}
-	
-	public static function lay_string_theo_so_ngay($ngayhientai,$string_ngayhientai,$songay)
+    	public static function resizeImage($SrcImage,$DestImage, $MaxWidth,$MaxHeight,$Quality)
 	{
-		$str=$string_ngayhientai;
-		for($i=1;$i<$songay;$i++)
+			list($iWidth,$iHeight,$type)    = getimagesize($SrcImage);
+		$ImageScale             = min($MaxWidth/$iWidth, $MaxHeight/$iHeight);
+		$NewWidth               = ceil($ImageScale*$iWidth);
+		$NewHeight              = ceil($ImageScale*$iHeight);
+		$NewCanves              = imagecreatetruecolor($NewWidth, $NewHeight);
+
+		switch(strtolower(image_type_to_mime_type($type)))
 		{
-			$get_day=strtotime($ngayhientai." + ".$i." days"); // đổi ngày thành string,
-			$next_day= date("d-m-Y",$get_day);  //Lấy dc ngày tiếp theo
-			$get_string_day= Common::YMD($next_day);	//Chuyển về thành string
-			$str .=",".$get_string_day;
+
+			case 'image/jpeg':
+				$NewImage = imagecreatefromjpeg($SrcImage);
+				break;
+			case 'image/jpg':
+				$NewImage = imagecreatefromjpeg($SrcImage);
+				break;		
+			case 'image/png':
+				$NewImage = imagecreatefrompng($SrcImage);
+				break;
+			case 'image/gif':
+				$NewImage = imagecreatefromgif($SrcImage);
+				break;
+			default:
+				return false;
 		}
-		return $str;
+		if(imagecopyresampled($NewCanves, $NewImage,0, 0, 0, 0, $NewWidth, $NewHeight, $iWidth, $iHeight))
+		{
+        // copy file
+			if(imagejpeg($NewCanves,$DestImage,$Quality))
+			{
+				imagedestroy($NewCanves);
+				return true;
+			}
+		}
 	}
-	
-	
-	public static function excerpt($content,$length){
-		$array=explode(" ",$content);
-		$text;
-		$end_text=" ...";
-		
-		if($length>=count($array)){
-			$length=count($array);
-			$end_text="";
+	public static function resizeform($file,$NewImageWidth,$NewImageHeight)
+	{
+		ini_set('max_execution_time', 0);
+		$ImagesDirectory    = $_SERVER["DOCUMENT_ROOT"].'/uploads/files/';
+		$DestImagesDirectory    = $_SERVER["DOCUMENT_ROOT"].'/uploads/resize/'.$NewImageWidth.'x'.$NewImageHeight.'/'; 
+		//$NewImageWidth      = 380; //New Width of Image
+		//$NewImageHeight     = 241; // New Height of Image
+		$Quality        = 100;
+		if($dir = opendir($ImagesDirectory)){
+			if (!file_exists($DestImagesDirectory)) {
+				mkdir($DestImagesDirectory,0777, true);
+			}
+			//$file="nguyen-nhan-di-tieu-ra-mau%20(2).jpg";
+			$imagePath = $ImagesDirectory.$file;
+			$data = getimagesize($imagePath);
+			if ($data[0] > $NewImageWidth && $data[1]>$NewImageHeight){
+				$destPath = $DestImagesDirectory.$file;
+				$checkValidImage = @getimagesize($imagePath);
+				if(file_exists($imagePath) && $checkValidImage) //Continue only if 2 given parameters are true
+				{
+					if(Common::resizeImage($imagePath,$destPath,$NewImageWidth,$NewImageHeight,$Quality))
+					{
+						echo $file.' resize Success!<br />';
+					}else{
+						echo $file.' resize Failed!<br />';
+					}
+				}
 		}
-		
-		for($i=0;$i<=$length;$i++){
-			if($i==0){
-				$text = $array[$i];
-			}
-			else if($i==$length){
-					$text .= $end_text;	
-			}
-			else {
-				$text .= " ".$array[$i];
-			}
+		closedir($dir);
 		}
-		return $text;
+	}
+	public static function getResize($file)
+    {
+    	$DestImagesDirectory = $_SERVER["DOCUMENT_ROOT"].'/uploads/resize/'.$file; 	
+    	if (file_exists($DestImagesDirectory)) 
+    	{
+			return "/uploads/resize/".$file;
+		}
+		else return false;
     }
-	///END LÂM COMMON
+	public static function getIntdate($lag)
+	{
+		if($lag == "week")
+		{
+			$now = strtotime("now");
+			$n = date("N",$now)-1;
+			$ngaydautuan = strtotime("-".$n." day",strtotime("now"));
+			$ngaydautuan1 = date("Y/m/d",$ngaydautuan);
+			$ngaydautuan2 = strtotime($ngaydautuan1);
+			return $ngaydautuan2;
+		}
+		elseif($lag == "month")
+		{
+			$n = date("d",strtotime("now")) - 1;
+			$ngaydauthang = strtotime("-".$n." day",strtotime("now"));
+			$ngaydauthang1 = date("Y/m/d",$ngaydauthang);
+			$ngaydauthang2 = strtotime($ngaydauthang1);
+			return $ngaydauthang2;
+			
+		}
+	}
+	public static function viewcount($id){
+	 	Yii::app()->session;
+	 	if(!isset($_SESSION['dem']))
+	 	{
+	 		$_SESSION['dem'] = 1;
+	 		$model = Tintuc::model()->find("id = $id");
+	 		$model->ViewCount = $model->ViewCount + 1;
+	 		$model->save();
+	 	}
+	 }
+	  public function luuThongtin(){
+
+        $ipAddress = $_SERVER['REMOTE_ADDR'];
+        $userAgent = mysql_escape_string($_SERVER['HTTP_USER_AGENT']);
+
+        $idSession = session_id();
+        $model = Sessions::model()->find("idSession = '$idSession'");
+        $getdate = getdate();
+        if ($model != false ){ // người này có rồi, giờ request lại 
+            $model->lastVisit = $getdate[0];
+            $model->save();
+           // $this->db->query($sql) or die($this->db->error." : " . $sql);
+        } else { //người này chưa có, mới vào lần đầu
+            $model = new Sessions;
+            $model->idSession = $idSession;
+            $model->userAgent = $userAgent;
+            $model->lastVisit = $getdate[0];
+            $model->session_start = $getdate[0];
+            $model->ipAddress = $ipAddress;
+            $model->save();
+            $truycap = Counttruycap::model()->find('id = 1');
+            $truycap->Count = $truycap->Count+1;
+            $truycap->save();
+        }
+        $sessionTime = 15; //thời gian lưu thông tin 
+        Sessions::model()->deleteAll("lastVisit + 15 <= ".$getdate[0]);
+
+        }//luuthongtin
+	public static  function DemSoNguoiXem(){
+         // $sql="select count(*) from sessions where idloai=$idloai 
+          //      or idloai in (select idloai from phanloaibai where idcha=$idloai)";
+         // $rs=$this->db->query($sql) or die($this ->db->error);
+         // $row= $rs->fetch_row();  $songuoi=$row[0];
+          $songuoi = Sessions::model()->count();
+          return $songuoi;
+        }
+
 }

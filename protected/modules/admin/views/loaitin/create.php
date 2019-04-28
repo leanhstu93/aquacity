@@ -26,8 +26,8 @@
                 </div>
                 <div class="panel-body">
                     <?php 
-                     $lt_=new LoaitinLang;
-                    $lt= new LoaitinLang;   
+                    $lt_=new LoaitinLang;
+                    $lt= new LoaitinLang;  
                     $this->renderPartial('_form', array('lt'=>$lt,'lt_'=>$lt_,'model'=>$model,"parent" => 0,"id"=>null)); ?>
                 </div>
             </div>

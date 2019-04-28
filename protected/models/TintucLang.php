@@ -31,6 +31,8 @@ class TintucLang extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('idNgonNgu, idTinTuc', 'numerical', 'integerOnly'=>true),
+			array('Name', 'required','message'=>'{attribute} không thể trống'),
+			array('Name', 'unique','message'=>'Tin này đã thêm'),
 			array('Name, Alias', 'length', 'max'=>255),
 			array('Description, Content', 'safe'),
 			// The following rule is used by search().
@@ -94,7 +96,6 @@ class TintucLang extends CActiveRecord
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
-			'sort'=> array('defaultOrder'=>'t.id desc')
 		));
 	}
 

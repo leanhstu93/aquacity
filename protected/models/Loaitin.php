@@ -28,10 +28,10 @@ class Loaitin extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Parent, SetMenu, SetHome, Active,Order', 'numerical', 'integerOnly'=>true),
+			array('Parent, SetMenu,Order, SetHome, SetQC,Active', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, Parent, SetMenu, SetHome, Active,Order', 'safe', 'on'=>'search'),
+			array('id, Parent, SetMenu,Order, SetHome, Active, SetQC', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -54,11 +54,12 @@ class Loaitin extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
+			'Order' => 'Thứ tự',
 			'Parent' => 'Parent',
-			'SetMenu' => 'Set Menu',
+			'SetMenu' => 'Hiển thị menu',
 			'SetHome' => 'Set Home',
 			'Active' => 'Hiển thị',
-			'Order' =>'Order'
+			'SetQC' => 'Quảng cáo hiển thị trang chủ'
 		);
 	}
 
@@ -85,7 +86,7 @@ class Loaitin extends CActiveRecord
 		$criteria->compare('SetMenu',$this->SetMenu);
 		$criteria->compare('SetHome',$this->SetHome);
 		$criteria->compare('Active',$this->Active);
-		$criteria->compare('Order',$this->Order);
+		$criteria->compare('SetQC',$this->SetQC);
 		$criteria->compare('loaitin_lang.Name',Yii::app()->request->getParam('Name'),true);
 		$criteria->addCondition("idNgonNgu = 1");
 		return new CActiveDataProvider($this, array(

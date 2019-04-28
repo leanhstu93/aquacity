@@ -39,6 +39,26 @@ class UserIdentity extends CUserIdentity
         }
         return !$this->errorCode;
     }
+    public function authenticate1_() {
+        $user = Nguoithue::model()->find('Email ="'.$this->username.'" AND Active = 1 ');
+    
+        if ($user === null) { // No user found!
+           
+           return array("email"=>1);
+        } else if ($user->MatKhau !== $this->password) { // Invalid password! 
+            return array("email"=>1);
+        } else { // Okay!
+            $this->errorCode = self::ERROR_NONE;
+            // Store the role in a session:
+            Yii::app()->user->setState('HoTen',$user->HoTen);
+            Yii::app()->user->setState('Email',$user->Email);
+            Yii::app()->user->setState('isAuth1',1);
+            Yii::app()->user->setState('idthanhvien',$user->id);
+            return array("success"=>1);
+            //
+            
+        }
+    }
     public function authenticate1() {
         $user = Nguoithue::model()->find('Email ="'.$this->username.'" AND Active = 1 ');
     

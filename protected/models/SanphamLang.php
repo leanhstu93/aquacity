@@ -12,9 +12,9 @@
  * @property string $Alias
  * @property string $Youtube
  * @property string $File
- * @property string $CongDung
- * @property string $CachDung
- * @property string $ChongChiDinh
+ * @property string $ThongTinDatHang
+ * @property string $ThongSoKyThuat
+ * @property string $HuongDanDatHang
  * @property string $MoTa
  * @property string $Content
  */
@@ -40,10 +40,10 @@ class SanphamLang extends CActiveRecord
 			array('idSP, idNgonNgu', 'numerical', 'integerOnly'=>true),
 			array('BaoHanh', 'length', 'max'=>50),
 			array('Name, Alias, Youtube', 'length', 'max'=>255),
-			array('File, CongDung, CachDung, ChongChiDinh, MoTa, Content', 'safe'),
+			array('File, ThongTinDatHang, ThongSoKyThuat, HuongDanDatHang, MoTa, Content', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, idSP, idNgonNgu, BaoHanh, Name, Alias, Youtube, File, CongDung, CachDung, ChongChiDinh, MoTa, Content', 'safe', 'on'=>'search'),
+			array('id, idSP, idNgonNgu, BaoHanh, Name, Alias, Youtube, File, ThongTinDatHang, ThongSoKyThuat, HuongDanDatHang, MoTa, Content', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -72,9 +72,9 @@ class SanphamLang extends CActiveRecord
 			'Alias' => 'Alias',
 			'Youtube' => 'Youtube',
 			'File' => 'File',
-			'CongDung' => 'Công dụng',
-			'CachDung' => 'Cách dùng',
-			'ChongChiDinh' => 'Chống chỉ định',
+			'ThongTinDatHang' => 'Thông tin đặt hàng',
+			'ThongSoKyThuat' => 'Thông số kỹ thuât',
+			'HuongDanDatHang' => 'Hướng dẫn kỹ thuật',
 			'MoTa' => 'Mô tả',
 			'Content' => 'Nội dung',
 		);
@@ -106,9 +106,9 @@ class SanphamLang extends CActiveRecord
 		$criteria->compare('Alias',$this->Alias,true);
 		$criteria->compare('Youtube',$this->Youtube,true);
 		$criteria->compare('File',$this->File,true);
-		$criteria->compare('CongDung',$this->CongDung,true);
-		$criteria->compare('CachDung',$this->CachDung,true);
-		$criteria->compare('ChongChiDinh',$this->ChongChiDinh,true);
+		$criteria->compare('ThongTinDatHang',$this->ThongTinDatHang,true);
+		$criteria->compare('ThongSoKyThuat',$this->ThongSoKyThuat,true);
+		$criteria->compare('HuongDanDatHang',$this->HuongDanDatHang,true);
 		$criteria->compare('MoTa',$this->MoTa,true);
 		$criteria->compare('Content',$this->Content,true);
 

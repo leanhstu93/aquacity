@@ -1,150 +1,176 @@
- <?php $ttc = Thongtinchung::model()->find(" idNgonNgu = $this->lang "); ?>
- <section class="wrap-slide w100">
-    <?php $this->renderPartial("//layouts/slide",array('slide'=>$slide));?> 
-    <div class="pos">
-      <div class="rel w100">
-      <section class="headerPart-top">
-            <ul>
-            <li>
-                <a href="/cart.html"><?php echo $this->ngonngu[35] ?>(<span class="items_total"><?php echo Yii::app()->shoppingCart->getCount(); ?></span>)</a>
-              </li>
-              <li>
-                <select class="sl-lang">
-                  <option value="1" > Tiếng việt</option>
-                  <option value="2" <?php echo $this->lang == 2 ? "selected" : "" ?>>  English</option>
-                </select>
-              </li>
-              <li>
-                <img src="/images/ictime.png" /><?php echo $this->ngonngu[38] ?> 11h - 22h
-              </li>
-              <li>
-                <img src="/images/icphone.png" /><?php echo $ttc->Tel ?>
-              </li>
-              <li>
-                <img src="/images/icmap.png" /><?php echo $ttc->Address ?>
-              </li>
-            </ul>
-      </section>
-       <section class="menu w100">
-          <div class="wrap-menu w100">
-             <div class="w1000">
-             <div class="wrp-logo">
-               <img class="w100" src="<?php echo $ttc->Logo ?>">
-             </div>
-            <?php $this->renderPartial("//layouts/menu",array('ttc'=>$ttc));?> 
-          </div>
-        </div>
-      </section>
-      </div>
-  </div>
-  <div class="bg-rangcua"></div>
-  </section>
-<section class="quangcao w100">
-	<?php
-		$criteria = new CDbCriteria();
-    if($this->lang == 1)
-    	$criteria->condition = "Type = 0 and Active = 1";
-   	else
-   		$criteria->condition = "Type = 1 and Active = 1";
-    $model = Quangcao::model()->find($criteria);
-	?>
-	<img src="<?php echo $model->UrlImage ?>">
-</section>
-<section class="spnb">
-  <div class="w1000">
-      <div class="tt">
-      <span><?php echo $this->ngonngu[41] ?></span><br>
-      <img src="/images/mt-0889-img.png">
-    </div>
-    <div class="ct w100">
-      <ul class="list-pro">
-          <?php
-           foreach ($spnb as $key => $value) {
-             # code...
-           ?>
-        <li>
-          <a href="/mon/<?php echo $value->sanpham_lang->Alias ?>.html">
-          <div class="w100 wrap-img-sp">
-            <img src="<?php echo $value->UrlImage ?>" class="w100">
-          </div>
-          <div class="pad3 w100">
-            <label >
-              <?php echo $value->sanpham_lang->Name ?>
-            </label>
-            <div class="price">
-              <?php echo number_format($value->Gia) ?> VND
-            </div>
-            <div class="des-pro w100">
-              <?php echo Common::getDescription($value->sanpham_lang->MoTa,100); ?>
-            </div>
-          </div>
-          </a>
-        </li>
-        <?php } ?>
-      </ul>
-    </div>
-    </div>
-</section>
-<section class="csvc w100">
-  <div class="w1000">
-    <ul>
-      <li>
-        <img src="/images/mt-0975-home-icon1.png">
-        <label>11h - 22h</label>
-        <div class="gach"></div>
-        <span class="w100"><?php echo $this->ngonngu[14] ?></span>
-      </li>
-      <li>
-        <img src="/images/icgiaohang.png">
-        <label><?php echo $this->ngonngu[16] ?> </label>
-        <div class="gach"></div>
-        <span><?php echo $this->ngonngu[36] ?><br>
-        <strong><?php echo $this->ngonngu[104] ?>: </strong> <?php echo $this->ttc->Tel ?>
-        </span>
-      </li>
-      <li>
-        <img src="/images/mt-0975-home-icon3.png">
-        <label><?php echo $this->ngonngu[18] ?> </label>
-        <div class="gach"></div>
-        <span><?php echo $this->ngonngu[19] ?></span>
-      </li>
-      <li>
-        <img src="/images/mt-0975-home-icon4.png">
-        <label><?php echo $this->ngonngu[54] ?></label>
-        <div class="gach"></div>
-        <span><?php echo $this->ngonngu[58] ?></span>
-      </li>
-    </ul>
-  </div>
-</section>
-<section class="hinhanh">
-   <div class="tt">
-      <span><?php echo $this->ngonngu[49] ?></span><br>
-      <img src="/images/mt-0889-img.png">
-    </div>
-  <ul>
-    <?php 
-      foreach ($hinhanh as $key => $value) {
-        # code..
-    ?>
-    <li>
-      <img src="<?php echo $value->UrlImage ?>" class="w100">
-    </li>
-    <?php } ?>
-  </ul>
-</section>
-<script>
-    $(function(){
-      $(window).scroll(function(){
-        if($(this).scrollTop()>250){
-          $(".wrap-menu").addClass("fix-scroll");
-        }
-        else{
-          $(".wrap-menu").removeClass("fix-scroll");
-        }
-      });
-    }); 
-  </script>
-  <style type="text/css">
-    .wrap-menu.fix-scroll{position: fixed;width: 100%;float:  left;background:black;    padding-bottom: 11px;top: 0px;z-index: 99}
-  </style>
+
+<div class="wrp-bg-white w100">
+ <section class="wrp-slide w100">    
+       <?php $this->renderPartial("//layouts/slide"); ?>
+    </section>
+     <section class="taisao w100" style="position: relative">
+      
+      <div class="w1000">
+        <div class="wrp-col4">
+          <div class="col4">
+            <div class="tr-icon"> <i class="fa fa-thumbs-up">  </i> </div>
+            <label>SẢN PHẨM CHẤT LƯỢNG CAO</label>
+            <p class="w100">
+              Thiết bị hiện đại, thợ lành nghề, cho ra sản phẩm in siêu nét, chuẩn màu
+            </p>
+          </div>
+          <div class="col4">
+            <div class="tr-icon"> <i class="fa fa-rocket" aria-hidden="true"></i>
+ </div>
+            <label>CAM KẾT GIAO HÀNG ĐÚNG HẸN</label>
+            <p class="w100">
+              Thiết bị hiện đại, thợ lành nghề, cho ra sản phẩm in siêu nét, chuẩn màu
+            </p>
+          </div>
+          <div class="col4">
+            <div class="tr-icon"> <i class="fa fa-paper-plane"></i> </div>
+            <label>CAM KẾT GIÁ TỐT NHẤT </label>
+            <p class="w100">
+              Thiết bị hiện đại, thợ lành nghề, cho ra sản phẩm in siêu nét, chuẩn màu
+            </p>
+          </div>
+          <div class="col4">
+            <div class="tr-icon"> <i class="fa fa-money"></i> </div>
+            <label>TIẾN ĐỘ SẢN XUẤT NHANH </label>
+            <p class="w100">
+              Thiết bị hiện đại, thợ lành nghề, cho ra sản phẩm in siêu nét, chuẩn màu
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+    <section class="dichvunb">
+      <div class="w1000">
+        <div class="tt w100 center">
+          Dịch vụ nổi bật
+        </div>
+        <span class="icon-title">
+              <span></span>
+              <i class="fa fa-star"></i>
+        </span>
+        <div class="wrp-col4">
+        <?php
+        $criteria = new CDbCriteria();
+        $criteria->with = "sanpham_lang";
+        $criteria->condition = "Active = 1 and SetHome = 1";
+        $criteria->order = "t.id desc";
+        $criteria->limit = 4;
+        $data = Sanpham::model()->findAll($criteria);
+        if($data != false){
+        foreach ($data as $key => $value) {
+          # code...
+        
+      ?>
+            <div class="col4">
+              <a href="/sp/<?php echo  $value->sanpham_lang->Alias ?>.html">
+                <div class="wrp-img W100">
+                  <img src="<?php echo $value->UrlImage ?>" class="w100">
+                </div>
+                <label class="w100">
+                  <?php echo $value->sanpham_lang->Name ?>
+                </label>
+                <p class="w100">
+                  <?php 
+                      if($value->sanpham_lang->MoTa != "" )
+                          $mota = $value->sanpham_lang->MoTa;
+                        else
+                          $mota = $value->sanpham_lang->Content;
+                       echo Common::getDescription($mota,250);  
+                  ?> 
+                </p>
+              </a>
+            </div>
+      <?php   }
+    }
+        ?>
+        </div>
+      </div>
+    </section>
+    <section class="newshome w100">
+      <div class="w1000">
+       <div class="tt w100 center">
+          Bài viết mới nhất
+        </div>
+        <span class="icon-title">
+              <span></span>
+              <i class="fa fa-star"></i>
+        </span>
+        <div class="ct w100">
+           <?php $this->renderPartial("//layouts/slidenews"); ?>
+        </div>
+      </div>
+    </section>
+    <section class="khachhang w100" style="position: relative;">
+      <canvas></canvas>
+      <div class="tt w100 center">
+         	Cảm nhận khách hàng
+        </div>
+        <span class="icon-title">
+              <span></span>
+              <i class="fa fa-star"></i>
+        </span>
+        <div class="w1000">
+          <div class="ct w100">
+            
+            <?php $this->renderPartial("//layouts/camnhankhachhang"); ?>
+          </div>
+        </div>
+    </section>
+    <section class="yeucaubaogia w100">
+    	<div class="w1000">
+    		<div class="tt w100 center">
+         		Báo giá
+        	</div>
+	        <span class="icon-title">
+              <span></span>
+              <i class="fa fa-star"></i>
+	        </span>	
+          <div class="ct w100">
+            <div class="wrp-frm w100">
+              <?php 
+              $model=new Baogia;
+                $form=$this->beginWidget('CActiveForm', array(
+                    'id'=>'checkout',
+                    // Please note: When you enable ajax validation, make sure the corresponding
+                    // controller action is handling ajax validation correctly.
+                    // There is a call to performAjaxValidation() commented in generated controller code.
+                    // See class documentation of CActiveForm for details on this.
+                    'enableAjaxValidation'=>false,
+                    'action' => '/site/Xulybaogia',
+                    'htmlOptions'=>array(
+                        'class'=>'form-horizontal',
+
+                    ),
+                )); ?>
+                <?php echo $form->errorSummary($model); ?>
+                <ul>
+                  <li>
+                   
+                    <?php echo $form->textField($model,'Name',array("placeholder"=>"Họ tên")); ?>
+                    <?php echo $form->error($model,'Name'); ?>
+                     <?php echo $form->textField($model,'Phone',array("placeholder"=>"Điện thoại")); ?>
+                    <?php echo $form->error($model,'Phone'); ?>
+                  </li>
+                 
+                   <li>
+                   
+                    <?php echo $form->textField($model,'Email',array("placeholder"=>"Email")); ?>
+                    <?php echo $form->error($model,'Email'); ?>
+                  </li>
+                   <li>
+                    
+                    <?php echo $form->textArea($model,'Description',array("placeholder"=>"Mô tả chi tiết sản phẩm cần báo giá (VD: Kích thước, số lượng, loại giấy...)","rows"=>8)); ?>
+                    <?php echo $form->error($model,'Description'); ?>
+                  </li>
+                  <li>
+                    <?php echo CHtml::submitButton("Gửi",array("name"=>"Gui")); ?>
+                  </li>
+                </ul>
+                <?php $this->endWidget(); ?>
+            </div>
+          </div>
+    	</div>
+    </section>
+    <script type="text/javascript" src="http://netbaseteam.com/wordpress/theme/landingpage/printshop/js/Stats.js"></script>
+<script type="text/javascript" src="http://netbaseteam.com/wordpress/theme/landingpage/printshop/js/constellation.js"></script>

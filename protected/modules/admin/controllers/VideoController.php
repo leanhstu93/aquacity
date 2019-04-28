@@ -37,10 +37,10 @@ class VideoController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin','*'),
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
-				'users'=>array('*'),
+				'users'=>array(''),
 			),
 		);
 	}
@@ -63,34 +63,25 @@ class VideoController extends Controller
 	public function actionCreate()
 	{
 		$model=new Video;
-
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-
 		if(isset($_POST['Video']))
 		{
+		//W	Yii::app()->cache->flush();
 			$model->attributes=$_POST['Video'];
 			$model->Alias = Common::bodau($model->Name);
+			/*if($model->UrlImage != '')
+			{
+				$file = basename($model->UrlImage);
+				Common::resizeform($file,58,58);
+				Common::resizeform($file,263,182);
+			}
+			*/
 			$getdate = getdate();
 			$model->Date = $getdate[0];
-			if($model->save()){
-				$video = new VideoLang;
-				$video->attributes=$_POST['VideoLang'];
-				$video->idVideo = $model->id;
-				$video->idNgonNgu = 1;
-				$insert_id = Yii::app()->db->getLastInsertID();
-				$video->Alias = Common::bodau($video->Name)."-".$insert_id;
-				$video->save();
-				$video = new videoLang;
-				$video->attributes=$_POST['VideoLang_'];
-				$video->idVideo = $model->id;
-				$video->idNgonNgu = 2;
-				$video->Alias = Common::bodau($video->Name)."-".$insert_id;
-				$video->save();
+			if($model->save())
 				$this->redirect(array('admin'));
-			}
 		}
-
 		$this->render('create',array(
 			'model'=>$model,
 		));
@@ -110,26 +101,25 @@ class VideoController extends Controller
 
 		if(isset($_POST['Video']))
 		{
+			//Yii::app()->cache->flush();
 			$model->attributes=$_POST['Video'];
 			$model->Alias = Common::bodau($model->Name);
 			$getdate = getdate();
 			$model->Date = $getdate[0];
-			if($model->save()){
-				$video = VideoLang::model()->find("idVideo = $id and idNgonNgu = 1");
-				$video->attributes=$_POST['VideoLang'];
-				$video->save();
-				$video = VideoLang::model()->find("idVideo = $id and idNgonNgu = 2");
-				$video->attributes=$_POST['VideoLang_'];
-				$video->save();
-				$this->redirect(array('admin'));
+			/*if($model->UrlImage != '')
+			{
+				$file = basename($model->UrlImage);
+				Common::resizeform($file,58,58);
+				Common::resizeform($file,263,182);
 			}
+			*/
+			if($model->save())
+				$this->redirect(array('admin'));
 		}
-
 		$this->render('update',array(
 			'model'=>$model,
 		));
 	}
-
 	/**
 	 * Deletes a particular model.
 	 * If deletion is successful, the browser will be redirected to the 'admin' page.
@@ -138,7 +128,7 @@ class VideoController extends Controller
 	public function actionDelete($id)
 	{
 		$this->loadModel($id)->delete();
-
+		//Yii::app()->cache->flush();
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));

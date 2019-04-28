@@ -41,12 +41,13 @@ class Thongtinchung extends CActiveRecord
 		return array(
 			array('idNgonNgu', 'numerical', 'integerOnly'=>true),
 			array('Company, Logo,Favicon, Banner, Email, Twitter, Google, Youtube, Pinterest, Tumblr', 'length', 'max'=>255),
-			array('Fax, Phone, Tel', 'length', 'max'=>20),
+			array('Fax, Phone, Tel', 'length', 'max'=>50),
 			array('Facebook', 'length', 'max'=>100),
-			array('Address', 'safe'),
+			array('MessengerFB', 'length', 'max'=>255),
+			array('Address,DoiNguBacSi', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, idNgonNgu, Address, Company, Logo, Banner, Email, Fax, Phone, Tel, Facebook, Twitter, Google, Youtube, Pinterest, Tumblr', 'safe', 'on'=>'search'),
+			array('id, idNgonNgu, Address,DoiNguBacSi, Company, Logo, Banner, Email, Fax, Phone, Tel, Facebook, Twitter, Google, Youtube, Pinterest, Tumblr,MessengerFB', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -84,6 +85,8 @@ class Thongtinchung extends CActiveRecord
 			'Youtube' => 'Youtube',
 			'Pinterest' => 'Pinterest',
 			'Tumblr' => 'Tumblr',
+			'DoiNguBacSi' => 'DoiNguBacSi',
+			'MessengerFB' => "MessengerFB"
 		);
 	}
 
@@ -122,7 +125,7 @@ class Thongtinchung extends CActiveRecord
 		$criteria->compare('Youtube',$this->Youtube,true);
 		$criteria->compare('Pinterest',$this->Pinterest,true);
 		$criteria->compare('Tumblr',$this->Tumblr,true);
-
+		$criteria->compare('MessengerFB',$this->MessengerFB,true);
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));

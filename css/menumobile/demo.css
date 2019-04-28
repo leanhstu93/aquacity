@@ -1,0 +1,18 @@
+nav:not(.mm-menu) {display: none; }
+.footer {background: #777; font-size: 16px; font-weight: bold; color: #fff; line-height: 40px; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; height: 40px; padding: 0 10px; }
+.sh_related > ul{list-style: none}
+#chieucao span {font-size: 14px; }
+.header {background: #eb1c24; margin-bottom: 5px; background-size: 100% 100%; height: 50px; top:0; left:0; position: fixed; width: 100%; max-width: 1200px; z-index: 30; right:0;margin-left:auto;margin-right:auto; line-height:50px; }
+.header:after{content: ''; position: fixed; top: 50px; left:0; height: 6px; width: 100%; background: rgba(255,255,255,0.6); border-bottom: solid 1px rgba(255,255,255,0.8); }
+.header>div{width: 70%; float: right; }
+.header>div input[type='text']{width: 71%; height: 34px; padding: 0 2%; border: none; font-size: 14px; }
+.header>div input[type='submit'], .header>div button{height: 34px; width: 20%; border: none; background: rgba(255,255,255,0.2); background-size: 100% 100%; color: #fff; font-style: italic; border-radius: 3px; border: solid 1px rgba(255,255,255,0.5); }
+.header a.menu_m{margin-left: 10px; font-weight: bold; font-family: tahoma; }
+.header a.menu_m span{width: 40px; height: 40px; border: solid 1px rgba(255,255,255,0.1); background: url("../../images/menumobile/bg-menu.png") no-repeat white; background-size: 100% 100%; display: inline-block; vertical-align: middle; margin-bottom: 5px; margin-right: 5px; margin-top: 4px}
+.header.fixed {position: fixed; top: 0; left: 0; }
+.m_container .fix-menu{height: 50px;}
+.header a.menu_m {height: 40px; color:#fff; text-align:left;float: left;}
+@media only screen and (max-width: 450px){
+    .header a.menu_m{width: 44px; height: 44px; overflow: hidden; }
+    .header>div{width: 82%; } 
+}

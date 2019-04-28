@@ -25,8 +25,8 @@ config.toolbar_Full =
     { name: 'colors',      items : [ 'TextColor','BGColor' ] },
     { name: 'tools',       items : [ 'Maximize', 'ShowBlocks','-','About' ] }
 ];
-	config.removeButtons = '';
-
+	/*config.removeButtons = 'Underline,Subscript,Superscript,Flash,Find,Replace,-,SelectAll,Save,SpellChecker, Scayt,NewPage,DocProps,Print,Templates,HorizontalRule,Smiley,SpecialChar,PageBreak,ShowBlocks,CreateDiv,BidiLtr,BidiRtl,Blockquote,Indent,Outdent,BulletedList,NumberedList,RemoveFormat,Superscript,Subscript,HiddenField,ImageButton,Button,Select,Textarea,TextField,Radio,Checkbox,Form,Scayt,Table,Anchor,PageBreak,/';
+*/
 
 	// Set the most common block elements.
 	

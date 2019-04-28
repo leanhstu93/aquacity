@@ -40,7 +40,7 @@ class CauhinhController extends Controller
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
-				'users'=>array('*'),
+				'users'=>array(''),
 			),
 		);
 	}
@@ -87,19 +87,21 @@ class CauhinhController extends Controller
 	public function actionUpdate($id = 1)
 	{
 		$model=$this->loadModel($id);
-
+		$ntc=Counttruycap::model()->findByPk($id);
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Cauhinh']))
 		{
 			$model->attributes=$_POST['Cauhinh'];
-			if($model->save())
+			$ntc->attributes=$_POST['Counttruycap'];
+			if($model->save() && $ntc->save())
 				$this->redirect(array('update'));
 		}
 
 		$this->render('update',array(
 			'model'=>$model,
+			'ntc' => $ntc
 		));
 	}
 

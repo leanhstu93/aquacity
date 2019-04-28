@@ -26,9 +26,9 @@
                 </div>
                 <div class="panel-body">
                     <?php 
-                    $lt= LoaitinLang::model()->find("idLoaiTin = $model->id and idNgonNgu = 1");
+                     $lt= LoaitinLang::model()->find("idLoaiTin = $model->id and idNgonNgu = 1");
                     $lt_=  LoaitinLang::model()->find("idLoaiTin = $model->id and idNgonNgu = 2");  
-                    $this->renderPartial('_form', array('lt'=>$lt,'lt_'=>$lt_,'model'=>$model,"parent"=>$model->Parent,"id"=>$model->id)); ?>
+                    $this->renderPartial('_form', array('lt_'=>$lt_,'lt'=>$lt,'model'=>$model,"parent"=>$model->Parent,"id"=>$model->id)); ?>
                 </div>
             </div>
         </div>

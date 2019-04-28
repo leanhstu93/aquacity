@@ -42,7 +42,12 @@
                                       'name' => 'loaitin_lang.Name',
                                     'filter' => CHtml::textField('Name', Yii::app()->request->getParam('Name')),
                                     ),
-                                array('name' => 'Order', ),
+                                  
+                                  array(
+                                    'name'=>'Order',
+                                    'type'=>'raw',
+                                    
+                                    ),
                                array(
                                     'name'=>'Active',
                                     'type'=>'raw',

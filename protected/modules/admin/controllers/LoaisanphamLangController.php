@@ -37,7 +37,7 @@ class LoaisanphamLangController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin','*'),
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -77,12 +77,6 @@ class LoaisanphamLangController extends Controller
 				$lsp->idNgonNgu = 1;
 				$lsp->Alias =  Common::bodau($lsp->Name);
 				$lsp->save();
-				$lsp = new LoaisanphamLang;
-				$lsp->attributes = $_POST['LoaisanphamLang_'];
-				$lsp->idLoai = $model->id;
-				$lsp->idNgonNgu = 2;
-				$lsp->Alias =  common::bodau($lsp->Name);
-				$lsp->save();	
 				$this->redirect(array('admin'));
 			}
 		}
@@ -111,14 +105,8 @@ class LoaisanphamLangController extends Controller
 				$lsp->attributes = $_POST['LoaisanphamLang'];
 				$lsp->idLoai = $model->id;
 				$lsp->idNgonNgu = 1;
-				
+				$lsp->Alias =  Common::bodau($lsp->Name);
 				$lsp->save();
-				$lsp = LoaisanphamLang::model()->find("idNgonNgu = 2 and idLoai = $id");
-				$lsp->attributes = $_POST['LoaisanphamLang_'];
-				$lsp->idLoai = $model->id;
-				$lsp->idNgonNgu = 2;
-				
-				$lsp->save();	
 				$this->redirect(array('admin'));
 			}
 		}

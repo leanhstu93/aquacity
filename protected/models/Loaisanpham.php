@@ -87,7 +87,7 @@ class Loaisanpham extends CActiveRecord
 		$criteria->compare('Active',$this->Active);
 		$criteria->compare('Order',$this->Order);
 		$criteria->compare('loaisanpham_lang.Name',Yii::app()->request->getParam('Name'),true);
-		$criteria->addCondition("idNgonNgu = 1");
+	
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 			 'sort'=> array('defaultOrder'=>'t.id desc')

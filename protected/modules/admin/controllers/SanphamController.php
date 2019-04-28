@@ -37,7 +37,7 @@ class SanphamController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin','*'),
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -89,14 +89,8 @@ class SanphamController extends Controller
 				$spl->idSP = $model->id;
 				$spl->idNgonNgu = 1;
 				$spl->attributes = $_POST['SanphamLang'];
-				
+				$spl->File = trim($spl->File, "/");
 				$insert_id = Yii::app()->db->getLastInsertID();
-				$spl->Alias = Common::bodau($spl->Name)."-".$insert_id;
-				$spl->save();
-				$spl = new SanphamLang;
-				$spl->idSP = $model->id;
-				$spl->idNgonNgu = 2;
-				$spl->attributes=$_POST['SanphamLang_'];
 				$spl->Alias = Common::bodau($spl->Name)."-".$insert_id;
 				$spl->save();
 				$this->redirect(array('admin'));
@@ -145,12 +139,8 @@ class SanphamController extends Controller
 				$spl->idSP = $model->id;
 				$spl->idNgonNgu = 1;
 				$spl->attributes = $_POST['SanphamLang'];
+				$spl->File = trim($spl->File, "/");
 				//$spl->Alias = Common::bodau($spl->Name)."-".$spl->id;
-				$spl->save();
-				$spl = SanphamLang::model()->find("idSP = $id and idNgonNgu = 2");
-				$spl->idSP = $model->id;
-				$spl->idNgonNgu = 2;
-				$spl->attributes=$_POST['SanphamLang_'];
 				$spl->save();
 				$this->redirect(array('admin'));
 			}

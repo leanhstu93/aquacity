@@ -61,8 +61,8 @@ class Binhluan extends CActiveRecord
 			'Parent' => 'Parent',
 			'idBaiViet' => 'Id Bai Viet',
 			'idNguoiDung' => 'Id Nguoi Dung',
-			'Content' => 'Content',
-			'CountLike' => 'Count Like',
+			'Content' => 'Nội dung ',
+			'CountLike' => ' Thích',
 			'CountReport' => 'CountReport',
 			'Active' => 'Active',
 			'Type' => 'Type'

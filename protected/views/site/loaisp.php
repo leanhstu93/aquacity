@@ -1,62 +1,66 @@
-<?php $this->renderPartial("//layouts/header");?> 
-<section class="container w100 wrap-lsp">
-    <div class="w1000">
-       <?php $this->renderPartial("//layouts/menuleft");?> 
-      <div class="right page-cate">
-      <!-- breadbrum -->
-      <div class="w100"> 
-        <?php 
-        $arrBread[0]["Name"] = $lsp->loaisanpham_lang->Name;
-        $criteria = new CDbCriteria();
-        $criteria->with = "loaisanpham_lang";
-        $criteria->condition = "idNgonNgu = $this->lang and Active = 1";
-        $criteria->order = "t.id desc";
-        $criteria->addInCondition("idLoai",$this->arridloai);
-        $arrloai = Loaisanpham::model()->findAll($criteria);
-        $j = 0;
-        for ($i= (count($arrloai)-1); $i >= 0; $i--) { 
-          # code...
-          $j++;
-          $arrBread[$j]["Name"] = $arrloai[$i]->loaisanpham_lang->Name;
-           $arrBread[$j]["Href"] = "loai-san-pham/".$arrloai[$i]->loaisanpham_lang->Alias.".html";
-        }
-        $this->renderPartial("//layouts/breadcrumb",array('data'=>$arrBread));?> 
-        <div class="line w100"> <img class="w100" src="/images/line.jpg"> </div>
-      </div>
-        <!-- end breadbrum -->
-         <div class="head w100"><?php echo $lsp->loaisanpham_lang->Name ?></div>
-         <div class="clear"></div>
-        <ul class="list-pro">
-        <?php
-        $i=0;
-        foreach ($sp as $key => $value) {
-          # code...
-          $i++;
-         ?>
-          <li class="<?php echo ($i%3 == 0)? "last":"" ?>" >
-            <a href="/mon/<?php echo $value->sanpham_lang->Alias ?>.html">
-              <div class="wrap-img-cate wrap-img-sp">
-                <img src="<?php echo $value->UrlImage ?>">
-              </div>
-               <div class="pad3 w100">
-                <label >
-                  <?php echo $value->sanpham_lang->Name ?>
-                </label>
-                <div class="price">
-                  <?php echo number_format($value->Gia) ?> VND
-                </div>
-                <div class="des-pro w100">
-                  <?php echo Common::getDescription($value->sanpham_lang->MoTa,100); ?>
-                </div>
-              </div>
-
-            </a>
-          </li>
-          <?php } ?>
-        </ul>
-        <div class="clear"></div>
-          <?php $this->renderPartial("//layouts/pagination",array("pages"=>$pages));?> 
-            </div>  
-      </div>
-    </div>
-</section>
+
+<section class="container w1000 wrap-loaitin">
+<div class="wrp-mar w100">
+    <div class="left page-left">
+      <div class="w100">
+      <?php 
+       $arrBread[0]["Name"] = $lsp->loaisanpham_lang->Name;
+        $criteria = new CDbCriteria();
+        $criteria->condition = "idNgonNgu = $this->lang and Active = 1";
+         $criteria->addInCondition("idLoai",$this->arridloai);
+        $criteria->order = "t.id desc";
+        $criteria->with = "loaisanpham_lang";
+         $arrloai = Loaisanpham::model()->findAll($criteria);
+        $j = 0;
+         for ($i= (count($arrloai)-1); $i >= 0; $i--) { 
+            $j++;
+         $arrBread[$j]["Href"] = "/loai-san-pham/".$arrloai[$i]->loaisanpham_lang->Alias.".html";
+          $arrBread[$j]["Name"] = $arrloai[$i]->loaisanpham_lang->Name;
+        
+        }
+        $this->renderPartial("//layouts/breadcrumb",array('data'=>$arrBread));?> 
+        <!-- end breadbrum -->
+        <div class="line w100"> <img class="w100" src="/images/line.jpg"> </div>
+      </div>
+         <div class="head w100"><?php echo $lsp->loaisanpham_lang->Name ?></div>
+         <div class="clear"></div>
+          <ul class="list-pro">
+        <?php
+        $i = 0;
+        foreach ($data as $key => $value) {
+          $i++;
+        ?>
+         <li <?php echo ($i%3 == 0)? "sub":"" ?> >
+          <a href="/sp/<?php echo $value->sanpham_lang->Alias ?>.html">
+            <div class="wrap-img-cate">
+                <img src="<?php echo $value->UrlImage ?>">
+            </div>
+            <div class="wrap-des-cate">
+              <h3 ><?php echo $value->sanpham_lang->Name ?></h3>
+              <div class="time-stamp">
+                <small><i>In</i> <?php echo $lsp->loaisanpham_lang->Name; ?></small> &nbsp;
+                <small class="date"><i class="fa fa-clock-o"></i> <?php echo date("d/m/Y",$value->Date) ?></small>
+               
+              </div>
+              <p class="w100">
+              <?php
+              if($value->sanpham_lang->MoTa != "" && strlen($value->sanpham_lang->MoTa) > 300)
+                $mota = $value->sanpham_lang->MoTa;
+              else
+                $mota = $value->sanpham_lang->Content;
+               echo Common::getDescription($mota,300); ?> 
+              </p>
+            </div>
+        </a>
+            </li>
+         <?php } ?>
+         </ul> 
+            <div class="clear"></div>
+          <?php $this->renderPartial("//layouts/pagination",array("pages"=>$pages));?> 
+      </div>
+      <?php $this->renderPartial("//layouts/right"); ?>
+      </div>
+
+    </div>
+    
+</section>

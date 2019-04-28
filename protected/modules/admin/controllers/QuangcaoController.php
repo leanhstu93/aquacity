@@ -37,10 +37,10 @@ class QuangcaoController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin','*'),
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
-				'users'=>array('*'),
+				'users'=>array(''),
 			),
 		);
 	}
@@ -72,19 +72,14 @@ class QuangcaoController extends Controller
 
 			$model->attributes=$_POST['Quangcao'];
 			$getdate = getdate();
-			$model->Type = 0;
 			$model->Date = $getdate[0];
-			if($model->save())
+			if($model->Type == 1)
 			{
-				$model=new Quangcao;
 				$model->attributes=$_POST['Quangcao_'];
-				$getdate = getdate();
-				$model->Type = 1;
-				$model->Date = $getdate[0];
 				$model->Alias = Common::bodau($model->Name);
-				$model->save();
-				$this->redirect(array('admin'));
 			}
+			if($model->save())
+				$this->redirect(array('admin'));
 		}
 
 		$this->render('create',array(
@@ -99,8 +94,7 @@ class QuangcaoController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
-		//$model=$this->loadModel($id);
-		 $model= Quangcao::model()->find("Type = 0");
+		$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -108,9 +102,12 @@ class QuangcaoController extends Controller
 		if(isset($_POST['Quangcao']))
 		{
 			$model->attributes=$_POST['Quangcao'];
-			$model->save();
-			$model= Quangcao::model()->find("Type = 1");
-			$model->attributes=$_POST['Quangcao_'];
+			if($model->Type == 1)
+			{
+				$model->attributes=$_POST['Quangcao_'];
+				
+				$model->Alias = Common::bodau($model->Name);
+			}
 			if($model->save())
 				$this->redirect(array('admin'));
 		}

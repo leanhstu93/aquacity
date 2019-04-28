@@ -48,7 +48,6 @@ class Video extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'video_lang' => array(self::BELONGS_TO,'VideoLang',array('id'=>'idVideo')),
 		);
 	}
 
@@ -61,13 +60,12 @@ class Video extends CActiveRecord
 			'id' => 'ID',
 			'Name' => 'Tiêu đề',
 			'Alias' => 'Alias',
-			'Link' => 'Source',
-			'UrlImage' => 'Url Image',
+			'Link' => 'Link',
+			'UrlImage' => 'Hình ảnh',
 			'Description' => 'Mô tả',
-			'SetHome' => 'Nổi bật',
+			'SetHome' => 'Hiển thị trang chủ',
 			'Footer' => 'Footer',
 			'Active' => 'Hiển thị',
-			'HinhAnh' => 'Hình ảnh',	
 			'Date' => 'Date'
 		);
 	}

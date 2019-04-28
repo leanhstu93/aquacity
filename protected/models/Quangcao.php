@@ -104,7 +104,6 @@ class Quangcao extends CActiveRecord
 		$criteria->compare('Content',$this->Content,true);
 		$criteria->compare('idLoai',$this->idLoai,true);
 		$criteria->compare('Date',$this->Date,true);
-		$criteria->condition = "Type = 0";
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 			'sort'=> array('defaultOrder'=>'t.id desc')

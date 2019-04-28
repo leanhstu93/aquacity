@@ -1,18 +1,41 @@
-/*langague*/
-$(function(){
-    $(".tabngonngu a:first").click(function(){
-        $(".tabngonngu a:last").removeClass("active");
-        $(this).addClass("active");
-        $(".tt_tv").show();
-        $(".tt_ta").hide();
-        return false;
-    })
-    $(".tabngonngu a:last").click(function(){
-        $(".tabngonngu a:first").removeClass("active");
-        $(this).addClass("active");
-        $(".tt_tv").hide();
-        $(".tt_ta").show();
-        return false;
-    })
-})
-/*end langague*/
+/** Alert Position Top  **/
+$(document).ready(function(){
+    $("#showtop").click(function(){
+        $("#alerttop").fadeToggle(350);
+    });
+});
+
+/** Alert Position Bottom  **/
+$(document).ready(function(){
+    $("#showbottom").click(function(){
+        $("#alertbottom").fadeToggle(350);
+    });
+});
+
+/** Alert Position Top Left  **/
+$(document).ready(function(){
+    $("#showtopleft").click(function(){
+        $("#alerttopleft").fadeToggle(350);
+    });
+});
+
+/** Alert Position Top Right  **/
+$(document).ready(function(){
+    $("#showtopright").click(function(){
+        $("#alerttopright").fadeToggle(350);
+    });
+});
+
+/** Alert Position Bottom Left  **/
+$(document).ready(function(){
+    $("#showbottomleft").click(function(){
+        $("#alertbottomleft").fadeToggle(350);
+    });
+});
+
+/** Alert Position Bottom Right  **/
+$(document).ready(function(){
+    $("#showbottomright").click(function(){
+        $("#alertbottomright").fadeToggle(350);
+    });
+});

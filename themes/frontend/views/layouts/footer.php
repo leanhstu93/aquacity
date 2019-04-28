@@ -1,97 +1,208 @@
- <?php
-$gioithieu = Gioithieu::model()->find("id = 1");
- ?>
- <div id="column-bottom" class="h-column column clearfix ">
-    <div class="column-wrapper">
-      <div class="column-inner-wrapper">
-        <div id="box-1" class="box box-1 products-box bestsellers-box ">
-          <div class="box-title-wrapper">
-            <h2 class="box-title"> Bán chạy nhất </h2>
-          </div>
-          <div class="box-content-wrapper">
-            <div class="box-content ">
-              <?php
-              $criteria = new CDbCriteria();
-              $criteria->limit = "3";
-              $best_sale = Sanpham::model()->findAll($criteria);
-              foreach ($best_sale as $key => $value) {
-                # code...
-              
-               ?>
-              <div class="product clearfix">
-                <div class="product-wrapper clearfix">
-                  <a href="<?php echo Yii::app()->request->baseUrl ?>sanpham/<?php echo $value->Alias ?>.html" class="product-image-link" title="<?php echo $value->Name ?>">
-                    <img src="<?php echo $value->UrlImage ?>" alt="<?php echo $value->Name ?>" width="157" height="206"></a>
-                    <h3 class="">
-                      <a href="<?php echo Yii::app()->request->baseUrl ?>sanpham/<?php echo $value->Alias ?>.html"><?php echo $value->Name ?></a>
-                    </h3><div class="product-prices box-has-prices-without-tax ">
-                      <div class="product-price"><div class="price-withouttax"><span class="what-price">Giá cũ: </span><span class="price-value"><?php echo number_format($value->Gia*1.2)  ?></span></div><div class="price-withtax"><span class="what-price single-price">Giá mới: </span><span class="taxed-price-value"><?php echo number_format($value->Gia)  ?></span></div></div></div></div></div>
-                      <?php } ?>
-
-                     </div>
-                   </div>
-                 </div>
-                 <div id="box-83" class="box box-83 articles-box ">
-                  <div class="box-title-wrapper">
-                    <h2 class="box-title">Tin tức</h2>
-                    <?php $news = TintucLang::model()->find(); ?>
-                  </div>
-                  <div class="box-content-wrapper">
-                    <div class="box-content ">
-                      <div class="item">
-                        <div class="article-box-image">
-                          <a href="<?php echo Yii::app()->request->baseUrl ?>tin/<?php echo $news->Alias ?>.html">
-                            <img src="<?php echo $news->HinhAnh ?>" style="    max-width: 41%;" width="400" height="203"></a>
-                          </div>
-                          <div class="article-box-details">
-                            <h3>
-                              <a href="<?php echo Yii::app()->request->baseUrl ?>tin/<?php echo $news->Alias ?>.html"><?php echo $news->TieuDe ?></a></h3><div class="date"><?php  echo
-                              date("d/m/Y",$news->Date) ?>
-                            </div>
-                            <div class="article-short-excerpt">
-</div></div></div></div>
-<div class="view_all_articles">
-  <a href="<?php echo Yii::app()->request->baseUrl ?>tin-tuc.html">xem hết</a></div></div></div>
-
-  <div id="box-7" class="box box-7 news-box ">
-    <div class="box-title-wrapper">
-      <h2 class="box-title">Liên kết mạng xã hội</h2>
-    </div>
-      <div class="box-content-wrapper">
-        <!-- lien ket mang xa hoi -->
-        <ul class="list social ">
-            <li class="item-content">
-                            <a href="<?php echo $gioithieu->Facebook ?>" target="_blank">
-                                        <div class="item-image">
-                  <i class="fa fb pull-left"></i>
-                </div>
-                                                                </a>
-                    </li>
-            <li class="item-content">
-                            <a href="<?php echo $gioithieu->Twitter ?>" target="_blank">
-                                        <div class="item-image">
-                    <i class="fa tw pull-left"></i>
-                </div>
-                                                                </a>
-                    </li>
-            <li class="item-content">
-                                        <div class="item-image">
-
-                    <i class="fa googleplus pull-left"></i>
-                </div>
-                                                        </li>
-          
-            <li class="item-content">
-                            <a href="<?php echo $gioithieu->Youtube ?>" target="_blank">
-                                        <div class="item-image">
-                    <i class="fa youtube pull-left"></i>
-                </div>
-                                                                </a>
-                    </li>
-    </ul>
-        <!-- end lien ket mang xa hoi -->
-
-        </div></div>
-        <div id="box-91" class="box newsletter-box box-91 ">
-          <div class="box-title-wrapper">
-            <h2 class="box-title"><font style="color:black;">Nhận tin mới</font></h2></div><form id="newsletter_form_91" action="" method="post" class="box-content"><div><font style="color:black;"><input type="hidden" name="ModuleName" value="com.summercart.newsletter"><input type="hidden" name="action" value="subscribe"><input type="hidden" name="NewsletterID" value="4"><input type="hidden" name="CMSBoxID" value="91"><p>Nhập email để nhận tin khuyến mãi mới nhất:</p><input type="text" name="SubscriberEmail" value="" class="input-text"><div class="right"><span class="button simple-button"><input type="submit" value="Gửi" class="button_blue"><span class="button-addon"></span></span></div></font></div></form><script type="text/javascript">$(function(){ $('#newsletter_form_91').submit(function(){ var emailJqObj = $('[name="SubscriberEmail"]', this); var email = emailJqObj.val(); var filter = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/; if (!filter.test(email)) { alert ('Please provide a valid email address.'); emailJqObj.focus(); return false; } }); }); </script></div></div></div></div>
+<?php
+  $ttc = Thongtinchung::model()->find(" idNgonNgu = $this->lang ");
+  $ch = Cauhinh::model()->find("id = 1 ");
+?>
+     <footer class="footer">
+
+        <!-- Footer Columns -->
+        <div class="footer-columns">
+            <div class="container">
+                <div class="row position-r theme-padding">
+                     
+                    <!-- widget -->
+                    <div class="col-lg-3 col-sm-3 col-xs-6 r-full-width">
+                        <!-- Contact widget -->
+                        <div class="footer-widget">
+                            <div class="contact-list">
+
+                                <!-- Logo Holder -->
+                                <a href="/" class="inner-logo-2"></a>
+                                <!-- Logo Holder -->
+
+                                <ul>
+                                    <li><i class="fa fa-map-marker"></i><?php echo $ttc->Address ?></li>
+                                    <li><i class="fa fa-headphones"></i><?php echo $ttc->Tel ?></li>
+                                    <li><i class="fa fa-envelope-o"></i><?php echo $ttc->Email ?></li>
+                                   
+                                    <li><i class="fa fa-globe"></i>www.vaatv.vn</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Contact widget -->
+                    
+                    </div>
+                    <!-- widget -->
+
+                    <!-- widget -->
+                    <div class="col-lg-3 col-sm-3 col-xs-6 r-full-width">
+                        <!-- populer post  -->
+                        <div class="footer-widget">
+                            <h3>Tin mới đây </h3>
+                            <div class="recent-post-widget">
+                                <ul>
+                                <?php 
+                                $criteria = new CDbCriteria();
+                                $criteria->with = "tintuc_lang";
+                                $criteria->condition = "Active = 1 and idNgonNgu= 1";
+                                $criteria->order = "t.id desc";
+                                $criteria->limit = 4;
+                                $data = Tintuc::model()->findAll($criteria);
+                                foreach ($data as $key => $value) {
+                                    # code...
+                              
+                                ?>
+                                    <li>
+                                        <!-- blog post -->
+                                        <div class="post-wrap small-post">
+                                            <!-- blog img -->
+                                            <div class="post-thumb">
+                                                <?php 
+                                                    $urlimage = basename($value->UrlImage);
+                                                    $urlimage = "58x58/".$urlimage;
+                                                    $urlimage = Common::getResize($urlimage);
+                                                    if($urlimage != false) $urlimage1 = $urlimage;
+                                                    else  $urlimage1 = $value->UrlImage;
+                                                ?>
+                                                <img  src="<?php echo $urlimage1 ?>" alt="<?php echo $value->tintuc_lang->Name ?>">
+                                            </div>
+                                            <!-- blog img -->
+
+                                            <!-- post detail -->
+                                            <div class="post-content">
+                                                <h5><a href="/bai-viet/<?php echo $value->tintuc_lang->Alias ?>.html"><?php echo $value->tintuc_lang->Name ?></a></h5>
+                                                <!-- post meta -->
+                                                <ul class="post-meta">
+                                                    <li><i class="icon-clock"></i><?php echo date("d/m/Y",$value->Date) ?></li>
+                                                    
+                                                </ul>
+                                                <!-- post meta -->
+                                            </div>
+                                            <!-- post detail -->
+                                        </div>
+                                        <!-- blog post -->
+                                    </li>
+                                    <?php   } ?>
+                             
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        <!-- populer post  -->
+                    </div>
+                    <!-- widget -->
+                   
+                    <!-- widget -->
+                    <div class="col-lg-3 col-sm-3 col-xs-6 r-full-width">
+                        <!-- quick links -->
+                        <div class="footer-widget mb-30">
+                            <h3>Menu</h3>
+                            <div class="quick-links">
+                                <ul>
+                                <?php
+                            $criteria = new CDbCriteria();
+                            $criteria->with ="loaitin_lang";
+                            $criteria->condition ="t.Active = 1 and t.Parent = 0 and loaitin_lang.idNgonNgu =1";
+                            $criteria->order = "t.Order ";
+                            $data = Loaitin::model()->findAll($criteria);
+                            foreach ($data as $key => $value) {
+                              # code...
+                             ?>
+                                    <li><a href="/loai-tin/<?php echo $value->loaitin_lang->Alias ?>.html"><?php echo $value->loaitin_lang->Name ?></a></li>
+                              <?php } ?>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- quick links -->
+
+                         <!-- populer tags -->
+                     
+                        <!-- populer tags -->
+                    </div>
+                    <!-- widget -->
+
+                     <!-- widget -->
+                    <div class="col-lg-3 col-sm-3 col-xs-6 r-full-width">
+
+                        <!-- Contact widget -->
+                        <div class="footer-widget mb-30">
+                            <h3>Video</h3>
+                            <div class="flicker-imgs-list">
+                                <ul>
+                                <?php $criteria = new CDbCriteria();
+                                $criteria->condition = "Active = 1 ";
+                                $criteria->limit = 8;
+                                $data = Video::model()->findAll($criteria) ;
+                                foreach ($data as $key => $value) {
+                                    # code...
+                                 ?>
+                                    <li><a href="/video/<?php echo $value->Alias ?>.html" >
+                                        <?php 
+                                            $urlimage = basename($value->UrlImage);
+                                            $urlimage = "58x58/".$urlimage;
+                                            $urlimage = Common::getResize($urlimage);
+                                            if($urlimage != false) $urlimage1 = $urlimage;
+                                            else  $urlimage1 = $value->UrlImage;
+                                        ?>
+                                        <img  class="thum58px" src="<?php echo  $urlimage1 ?>" alt="<?php echo $value->Name ?>"></a></li>
+                                <?php } ?>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Contact widget -->
+
+                        <!-- Newsletter widget -->
+                          <div class="footer-widget">
+                            <h3 class="mb-20">Tags mới đây </h3>
+                            <div class="populer-tags">
+                                <ul>
+                                <?php
+                                $criteria = new CDbCriteria();
+                                $criteria->condition = "Active = 1";
+                                $criteria->limit = 7;
+                                $data = Tags::model()->findAll($criteria);
+                                foreach ($data as $key => $value) {
+                                  # code...
+                                
+                                 ?>
+                                    <li><a href="/tags/<?php echo $value->Alias ?>.html"><?php echo $value->Name ?></a></li>
+                                    <?php } ?>
+                                 
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Newsletter widget -->
+
+                    </div>
+                    <!-- widget -->
+
+                    <!-- back To Button -->
+                    <span id="scrollup" class="scrollup"><i class="fa fa-angle-up"></i></span>
+                    <!-- back To Button -->
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Footer Columns -->
+
+        <!-- Copyright Bar -->
+        <div class="sub-footer">
+            <div class="container">
+                <div class="copyright-bar">
+                    <p>ngoisaoxanh.vn <i class="fa fa-copyright"></i> 2016, All Rights Reserved</p>
+                    <ul>
+                         <li><a href="#">home</a></li>
+                         <li><a href="#">about</a></li>
+                         <li><a href="#">blog</a></li>
+                         <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright Bar -->
+
+        <!-- contact popup -->
+     
+         <!-- contact popup -->
+
+    </footer>

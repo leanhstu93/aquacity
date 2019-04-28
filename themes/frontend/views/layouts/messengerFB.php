@@ -1,7 +1,18 @@
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '137105413692030',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+</script>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
 <div class="wrap-mess-fb active">
 	<label>Facebook Chat</label>
 	<div class="fb-page"
-	     data-href="<?php echo $this->ttc->Facebook ?>"
+	     data-href="https://www.facebook.com/leanhstu93"
 	     data-tabs="messages"
 	     data-width="400"
 	     data-height="300"

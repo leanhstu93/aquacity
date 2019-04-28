@@ -32,12 +32,13 @@ class Tintuc extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('idLoaiTin, Date, SetHome, Active,idNguoiDang', 'numerical', 'integerOnly'=>true),
-			array('UrlImage, NguoiDang', 'length', 'max'=>255),
+			array('UrlImage', 'required','message'=>'{attribute} không thể trống'),
+			array('idLoaiTin,Date, SetHome, Active,idNguoiDang, ViewCount', 'numerical', 'integerOnly'=>true),
+			array('UrlImage, NguoiDang,idTags', 'length', 'max'=>255),
 			array('Seo_Keywords, Seo_Description', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, idLoaiTin, idNguoiDang,UrlImage, NguoiDang, Date, SetHome, Seo_Keywords, Seo_Description, Active', 'safe', 'on'=>'search'),
+			array('id, idLoaiTin, idTags,idNguoiDang,UrlImage, ViewCount,NguoiDang, Date, SetHome, Seo_Keywords, Seo_Description, Active', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -49,7 +50,8 @@ class Tintuc extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'tintuc_lang' => array(self::BELONGS_TO,'TintucLang',array('id'=>'idTinTuc')),
+			'tintuc_lang' => array(self::BELONGS_TO,'TintucLang',array('id'=>'idTinTuc'),'condition'=>'tintuc_lang.idNgonNgu = 1'),
+			'loaitin_lang' => array(self::BELONGS_TO,'LoaitinLang',array('idLoaiTin'=>'idLoaiTin'),'condition'=>'loaitin_lang.idNgonNgu = 1'),
 			'quantri' => array(self::BELONGS_TO,'Quantri',array('idNguoiDang'=>'id')),
 		);
 	}
@@ -61,12 +63,14 @@ class Tintuc extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
+			'idTags' =>'Tags',
 			'idNguoiDang' => 'Người đăng',
 			'idLoaiTin' => 'Id Loai Tin',
 			'UrlImage' => 'Hình ảnh',
-			'NguoiDang' => 'Người đăng',
+			'NguoiDang' => 'Nguoi Dang',
 			'Date' => 'Date',
-			'SetHome' => 'Nổi bật',
+			'SetHome' => 'Tin nổi bật',
+			'ViewCount' => 'Lượt xem',
 			'Seo_Keywords' => 'Seo Keywords',
 			'Seo_Description' => 'Seo Description',
 			'Active' => 'Hiển thị',
@@ -88,23 +92,23 @@ class Tintuc extends CActiveRecord
 	public function search()
 	{
 		// @todo Please modify the following code to remove attributes that should not be searched.
-
 		$criteria=new CDbCriteria;
-		$criteria->with ="tintuc_lang";
-		
+		$criteria->with =array("quantri","tintuc_lang","loaitin_lang");
 		$criteria->compare('id',$this->id);
 		$criteria->compare('idLoaiTin',$this->idLoaiTin);
+		$criteria->compare('idTags',$this->idTags);
 		$criteria->compare('idNguoiDang',$this->idNguoiDang);
 		$criteria->compare('UrlImage',$this->UrlImage,true);
 		$criteria->compare('NguoiDang',$this->NguoiDang,true);
 		$criteria->compare('Date',$this->Date);
 		$criteria->compare('SetHome',$this->SetHome);
+		$criteria->compare('ViewCount',$this->ViewCount);
 		$criteria->compare('Seo_Keywords',$this->Seo_Keywords,true);
 		$criteria->compare('Seo_Description',$this->Seo_Description,true);
 		$criteria->compare('tintuc_lang.Name',Yii::app()->request->getParam('Name'),true);
-		$criteria->condition = "tintuc_lang.idNgonNgu = 1";
+		$criteria->compare('loaitin_lang.Name',Yii::app()->request->getParam('Name1'),true);
+		$criteria->compare('quantri.HoTen',Yii::app()->request->getParam('HoTen'),true);
 		$criteria->compare('t.Active',$this->Active);
-
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 			'sort'=> array('defaultOrder'=>'t.id desc')

@@ -32,12 +32,12 @@ class GioithieuController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','update1'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin','*'),
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -79,12 +79,6 @@ class GioithieuController extends Controller
 				$gtl->idNgonNgu = 1;
 				$gtl->Alias = Common::bodau($gtl->Name);
 				$gtl->save();
-				$gtl = new GioithieuLang;
-				$gtl->idGioiThieu = $model->id;
-				$gtl->attributes=$_POST['GioithieuLang_'];
-				$gtl->idNgonNgu = 2;
-				$gtl->Alias = Common::bodau($gtl->Name);
-				$gtl->save();
 				$this->redirect(array('admin'));
 			}
 		}
@@ -113,11 +107,7 @@ class GioithieuController extends Controller
 			{
 				$gtl = GioithieuLang::model()->find("idNgonNgu = 1 and idGioiThieu = $model->id");
 				$gtl->attributes=$_POST['GioithieuLang'];
-				
-				$gtl->save();
-				$gtl = GioithieuLang::model()->find("idNgonNgu = 2 and idGioiThieu = $model->id");
-				$gtl->attributes=$_POST['GioithieuLang_'];
-				
+				$gtl->Alias = Common::bodau($gtl->Name);
 				$gtl->save();
 				$this->redirect(array('admin'));
 			}
@@ -141,9 +131,7 @@ class GioithieuController extends Controller
 			{
 				$gtl = GioithieuLang::model()->find("idNgonNgu = 1 and idGioiThieu = $model->id");
 				$gtl->attributes=$_POST['GioithieuLang'];
-				$gtl->save();
-				$gtl = GioithieuLang::model()->find("idNgonNgu = 2 and idGioiThieu = $model->id");
-				$gtl->attributes=$_POST['GioithieuLang_'];
+				$gtl->Alias = Common::bodau($gtl->Name);
 				$gtl->save();
 				$this->redirect(array('update1'));
 			}

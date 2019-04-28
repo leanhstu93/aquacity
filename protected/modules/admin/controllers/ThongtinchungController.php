@@ -37,10 +37,10 @@ class ThongtinchungController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin','*'),
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
-				'users'=>array('*'),
+				'users'=>array(''),
 			),
 		);
 	}
@@ -69,6 +69,7 @@ class ThongtinchungController extends Controller
 
 		if(isset($_POST['Thongtinchung']))
 		{
+			Yii::app()->cache->flush();
 			$model->attributes=$_POST['Thongtinchung'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
@@ -98,7 +99,7 @@ class ThongtinchungController extends Controller
 			{
 				$model_ = $this->loadModel(2);
 				$model_->attributes=$_POST['Thongtinchung'];
-				$model_->attributes=$_POST['Thongtinchung_'];
+				
 				if($model_->save())
 					$this->redirect(array('update'));
 			}

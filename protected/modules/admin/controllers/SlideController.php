@@ -37,10 +37,10 @@ class SlideController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin','*'),
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
-				'users'=>array('*'),
+				'users'=>array(''),
 			),
 		);
 	}
@@ -77,11 +77,6 @@ class SlideController extends Controller
 				$sli->idSlide = $model->id;
 				$sli->idNgonNgu = 1;
 				$sli->save();
-				$sli = new SlideLang;
-				$sli->attributes=$_POST['SlideLang_'];
-				$sli->idSlide = $model->id;
-				$sli->idNgonNgu = 2;
-				$sli->save();
 				$this->redirect(array('admin'));
 			}
 		}
@@ -112,11 +107,6 @@ class SlideController extends Controller
 				$sli->attributes=$_POST['SlideLang'];
 				$sli->idSlide = $model->id;
 				$sli->idNgonNgu = 1;
-				$sli->save();
-				$sli = SlideLang::model()->find("idNgonNgu = 2 and idSlide = $model->id");
-				$sli->attributes=$_POST['SlideLang_'];
-				$sli->idSlide = $model->id;
-				$sli->idNgonNgu = 2;
 				$sli->save();
 				$this->redirect(array('admin'));
 			}

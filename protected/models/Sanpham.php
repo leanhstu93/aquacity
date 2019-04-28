@@ -14,7 +14,7 @@
  * @property integer $SetHome
  * @property integer $Active
  */
-class Sanpham extends CActiveRecord implements IECartPosition
+class Sanpham extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
@@ -32,7 +32,7 @@ class Sanpham extends CActiveRecord implements IECartPosition
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('idLoai, SetHome, Active, Gia', 'numerical', 'integerOnly'=>true),
+			array('idLoai, SetHome, Active,Date', 'numerical', 'integerOnly'=>true),
 			array('UrlImage, MaSP', 'length', 'max'=>255),
 			array('HangSanXuat', 'length', 'max'=>100),
 			array('Description, Keywords', 'safe'),
@@ -63,14 +63,14 @@ class Sanpham extends CActiveRecord implements IECartPosition
 		return array(
 			'id' => 'ID',
 			'idLoai' => 'Id Loai',
-			'Gia' => 'Giá',
 			'UrlImage' => 'Hình ảnh',
 			'HangSanXuat' => 'Hãng sản xuất',
 			'Description' => 'Description',
 			'Keywords' => 'Keywords',
 			'MaSP' => 'Mã sản phẩm',
-			'SetHome' => 'Hiển thị trang chủ',
-			'Active' => 'Hiển thị ',
+			'SetHome' => 'Nổi bật',
+			'Date' => 'Ngày đăng',
+			'Active' => 'Active',
 		);
 	}
 
@@ -91,24 +91,20 @@ class Sanpham extends CActiveRecord implements IECartPosition
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
-		$criteria->with ="sanpham_lang";
+
 		$criteria->compare('id',$this->id);
 		$criteria->compare('idLoai',$this->idLoai);
-		$criteria->compare('Gia',$this->Gia);
 		$criteria->compare('UrlImage',$this->UrlImage,true);
 		$criteria->compare('HangSanXuat',$this->HangSanXuat,true);
 		$criteria->compare('Description',$this->Description,true);
 		$criteria->compare('Keywords',$this->Keywords,true);
 		$criteria->compare('MaSP',$this->MaSP,true);
 		$criteria->compare('SetHome',$this->SetHome);
+		$criteria->compare('Date',$this->Date);
 		$criteria->compare('Active',$this->Active);
-		$criteria->compare('sanpham_lang.Name',Yii::app()->request->getParam('Name'),true);
+
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
-		
-			'pagination'=>array(
-        		'pageSize'=>10,
-    		),	
 			'sort'=> array('defaultOrder'=>'t.id desc')
 		));
 	}
@@ -123,11 +119,4 @@ class Sanpham extends CActiveRecord implements IECartPosition
 	{
 		return parent::model($className);
 	}
-	function getId(){
-        return $this->id;
-    }
-
-    function getPrice(){
-        return $this->Gia;
-    }
 }
