@@ -12018,3 +12018,91 @@ Stack trace:
 REQUEST_URI=/css/font-awesome.min.css
 HTTP_REFERER=http://mexitaco.vn/loai-san-pham/Ten-loai-12.html
 ---
+2019/04/28 11:06:31 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'mexitaco_main'@'localhost' (using password: YES) in C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\bacsisuamui\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(1460): CActiveRecord->getCommandBuilder()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(39): CActiveRecord->find(' idNgonNgu = 1 ')
+#8 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(281): SiteController->init()
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php
+---
+2019/04/28 11:06:31 [error] [php] include(C:\xampp\htdocs\bacsisuamui\framework/i18n/CPhpMessageSource.php): failed to open stream: No such file or directory (C:\xampp\htdocs\bacsisuamui\framework\YiiBase.php:403)
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\YiiBase.php(196): import()
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CModule.php(393): createComponent()
+#2 C:\xampp\htdocs\bacsisuamui\framework\YiiBase.php(583): CWebApplication->getComponent()
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(287): t()
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\bacsisuamui\index.php(13): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+in C:\xampp\htdocs\bacsisuamui\index.php (13)
+2019/04/28 11:14:33 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'mexitaco_main'@'localhost' (using password: YES) in C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\bacsisuamui\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(39): CActiveRecord->find(' idNgonNgu = 1 ')
+#8 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(281): SiteController->init()
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php
+---
+2019/04/28 11:14:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://bacsisuamui.com:92/index.php
+---
+2019/04/28 11:27:48 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'mexitaco_main'@'localhost' (using password: YES) in C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\bacsisuamui\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(39): CActiveRecord->find(' idNgonNgu = 1 ')
+#8 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(281): SiteController->init()
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/
+---
+2019/04/28 11:27:49 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'mexitaco_main'@'localhost' (using password: YES) in C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\bacsisuamui\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\bacsisuamui\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(39): CActiveRecord->find(' idNgonNgu = 1 ')
+#8 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(281): SiteController->init()
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/
+---

@@ -638,14 +638,6 @@ class CUrlRule extends CBaseUrlRule
 	public $hasHostInfo;
 
 	/**
-	 * Callback for preg_replace_callback in counstructor
-	 */
-	protected function escapeRegexpSpecialChars($matches)
-	{
-		return preg_quote($matches[0]);
-	}
-
-	/**
 	 * Constructor.
 	 * @param string $route the route of the URL (controller/action)
 	 * @param string $pattern the pattern for matching the URL
@@ -696,10 +688,7 @@ class CUrlRule extends CBaseUrlRule
 		$this->append=$p!==$pattern;
 		$p=trim($p,'/');
 		$this->template=preg_replace('/<(\w+):?.*?>/','<$1>',$p);
-		$p=$this->template;
-		if(!$this->parsingOnly)
-			$p=preg_replace_callback('/(?<=^|>)[^<]+(?=<|$)/',array($this,'escapeRegexpSpecialChars'),$p);
-		$this->pattern='/^'.strtr($p,$tr).'\/';
+		$this->pattern='/^'.strtr($this->template,$tr).'\/';
 		if($this->append)
 			$this->pattern.='/u';
 		else
