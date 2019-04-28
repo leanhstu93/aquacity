@@ -76,6 +76,7 @@ class CMemCache extends CCache
 	 */
 	private $_servers=array();
 
+	private $available=false;
 	/**
 	 * Initializes this application component.
 	 * This method is required by the {@link IApplicationComponent} interface.
@@ -85,20 +86,32 @@ class CMemCache extends CCache
 	public function init()
 	{
 		parent::init();
-		$servers=$this->getServers();
+		$servers=$this->getServers();		
 		$cache=$this->getMemCache();
 		if(count($servers))
 		{
 			foreach($servers as $server)
 			{
 				if($this->useMemcached)
+				{
 					$cache->addServer($server->host,$server->port,$server->weight);
+					//print_r(@$this->_cache->getExtendedStats());die;
+					$stats = @$this->_cache->getExtendedStats();
+					$ahost = $server->host;
+					$aport = $server->port;
+					$this->available = (bool) $stats["$ahost:$aport"];
+				}
 				else
+				{
 					$cache->addServer($server->host,$server->port,$server->persistent,$server->weight,$server->timeout,$server->retryInterval,$server->status);
+					//print_r(@$this->_cache->getExtendedStats());die;
+					$stats = @$this->_cache->getExtendedStats();
+					$ahost = $server->host;
+					$aport = $server->port;
+					$this->available = (bool) $stats["$ahost:$aport"];
+				}
 			}
 		}
-		else
-			$cache->addServer('localhost',11211);
 	}
 
 	/**
@@ -114,7 +127,7 @@ class CMemCache extends CCache
 			$extension=$this->useMemcached ? 'memcached' : 'memcache';
 			if(!extension_loaded($extension))
 				throw new CException(Yii::t('yii',"CMemCache requires PHP {extension} extension to be loaded.",
-					array('{extension}'=>$extension)));
+                    array('{extension}'=>$extension)));
 			return $this->_cache=$this->useMemcached ? new Memcached : new Memcache;
 		}
 	}
@@ -145,7 +158,9 @@ class CMemCache extends CCache
 	 * @return string|boolean the value stored in cache, false if the value is not in the cache or expired.
 	 */
 	protected function getValue($key)
-	{
+	{		
+		if(!$this->available)
+			return false;
 		return $this->_cache->get($key);
 	}
 
@@ -156,6 +171,8 @@ class CMemCache extends CCache
 	 */
 	protected function getValues($keys)
 	{
+		if(!$this->available)
+			return false;
 		return $this->useMemcached ? $this->_cache->getMulti($keys) : $this->_cache->get($keys);
 	}
 
@@ -170,10 +187,12 @@ class CMemCache extends CCache
 	 */
 	protected function setValue($key,$value,$expire)
 	{
-		if($expire>0)
-			$expire+=time();
-		else
-			$expire=0;
+		if(!$this->available)
+			return false;
+		//if($expire>0)
+		//	$expire+=time();
+		//else
+		//	$expire=0;
 
 		return $this->useMemcached ? $this->_cache->set($key,$value,$expire) : $this->_cache->set($key,$value,0,$expire);
 	}
@@ -189,10 +208,12 @@ class CMemCache extends CCache
 	 */
 	protected function addValue($key,$value,$expire)
 	{
-		if($expire>0)
-			$expire+=time();
-		else
-			$expire=0;
+		if(!$this->available)
+			return false;
+		//if($expire>0)
+		//	$expire+=time();
+		//else
+		//	$expire=0;
 
 		return $this->useMemcached ? $this->_cache->add($key,$value,$expire) : $this->_cache->add($key,$value,0,$expire);
 	}
@@ -205,6 +226,8 @@ class CMemCache extends CCache
 	 */
 	protected function deleteValue($key)
 	{
+		if(!$this->available)
+			return false;
 		return $this->_cache->delete($key, 0);
 	}
 
@@ -216,6 +239,8 @@ class CMemCache extends CCache
 	 */
 	protected function flushValues()
 	{
+		if(!$this->available)
+			return false;
 		return $this->_cache->flush();
 	}
 }
