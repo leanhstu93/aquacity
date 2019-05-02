@@ -11,6 +11,8 @@ class SiteController extends Controller {
     public $text = "";
     public $ttc = "";
     public $ch = "";
+    public $hinhanh = "";
+    public $footer = "";
     public function actions() {
         return array(
             // captcha action renders the CAPTCHA image displayed on the contact page
@@ -40,21 +42,18 @@ class SiteController extends Controller {
              $this->ngonngu = Common::translate($this->lang);
             return true;
         }
-        $this->lang = 1;
-         $this->ngonngu = Common::translate($this->lang);
-         $this->ttc = Thongtinchung::model()->find(" idNgonNgu = $this->lang ");
-        $this->ch = Cauhinh::model()->find("id = 1 ");   
+       $this->lang = 1;
+       $this->ngonngu = Common::translate($this->lang);
+        $this->ttc = Thongtinchung::model()->find(" idNgonNgu = $this->lang ");
+        $this->hinhanh = Hinhanh::model()->find("id=1");
+        $this->ch = Cauhinh::model()->find("id = 1 ");
+        $this->footer = Footer::model()->find("id = 1 ");
         Yii::app()->clientScript->registerMetaTag( $this->ch->Title, '', null, array('property' => 'og:title'), 'meta_og_title');
             Yii::app()->clientScript->registerMetaTag("http://".$_SERVER["HTTP_HOST"].$this->ch->ImageCompany, '', null, array('property' => 'og:image'), 'meta_og_image');
         Yii::app()->clientScript->registerMetaTag($_SERVER["REQUEST_URI"], '', null, array('property' => 'og:url'), 'meta_og_site_name');
         Yii::app()->clientScript->registerMetaTag($this->ch->Description, '', null, array('property' => 'og:description'), 'meta_og_description');
     }
-    public function actionBookticket($id)
-    {
-        //Yii::app()->theme = 'frontend';
-        $this->layout="//site/formticket";   
-        $this->render("indexticket",array("id"=>$id));
-    }
+
     /**
      * This is the default 'index' action that is invoked
      * when an action is not explicitly requested by users.
@@ -69,29 +68,7 @@ class SiteController extends Controller {
         $this->pageTitle = $model->gioithieu_lang->Name;
         $this->render('gioithieu',array('model'=>$model));
     }
-    public function actionXulydatve()
-    {
-        if(isset($_POST['submit']))
-        {
-            $book = new Book;
-            $book->attributes = $_POST;
-            print_r($_POST);
-            $book->Date = strtotime("now") ;
-            if($book->save())
-            {
-                $email ="";
-                $subject =" Đặt vé trực tuyến";
-                $this->sendMail($email,$subject,$book,'ticket');
-                 $this->redirect("/dat-ve/0?success=1");
-            }
-            else
-            {
-                $this->redirect("/dat-ve/0?error=1");
-            }
-        }
-        else
-            $this->redirect("/dat-ve/0?error=1");
-    }
+
     public function actionIndex() {
         Yii::app()->theme = 'frontend';
         $this->layout = '//layouts/main';

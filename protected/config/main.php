@@ -20,7 +20,7 @@ return array(
 		'application.components.*',
 		'ext.yii-mail.YiiMailMessage',
 	),
-	
+
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		 'admin',
@@ -30,7 +30,7 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1','113.172.107.91','*'),
 		),
-		
+
 	),
 
 	// application components
@@ -40,7 +40,7 @@ return array(
 		     //And integer that holds the offset of hours from GMT e.g. 4 for GMT +4
 		     'offset' => 4,
 		),
-		
+
 		 'errorHandler'=>array(
             'errorAction' => 'site/error'
         ),
@@ -51,10 +51,10 @@ return array(
                         'host'=>'smtp.gmail.com',
                         'username'=>'leanh.stu93@gmail.com',
                         'password'=>'ukzmzuqifgzgzwyk',
-                        'port'=>'465',   
-                        'encryption'=>'ssl',                    
+                        'port'=>'465',
+                        'encryption'=>'ssl',
                 ),
-                'viewPath' => 'application.views.mail',   
+                'viewPath' => 'application.views.mail',
                 'logging' => true,
 
 				'dryRun' => false
@@ -88,17 +88,17 @@ return array(
             'allowAutoLogin' => true,
             'loginUrl' => array('admin/login')
         ),
-	
+
 
 		// uncomment the following to enable URLs in path-format
-		
+
 		'urlManager'=>array(
 			 'urlFormat' => 'path',
             'showScriptName' => false,
             'urlSuffix' => '.html',
 			'rules'=>array(
-				
-				
+
+
 				'loai-tin/<alias>' => 'site/loaitin',
 				'tags/<alias>' => 'site/tags',
 				'authrender/<id>/<mangaunhien>' => 'site/AuthRender',
@@ -111,21 +111,21 @@ return array(
 				'tin-tuc/<alias>' => 'site/Chitiet' ,
 				'loai-tin/<alias>' => 'site/loaitin',
 				'loai-tin' => 'site/loaitin',
-				
+
 				'rao-vat' => 'site/raovat',
 				'rao-vat/<alias>' => 'site/xemraovat',
 				'khach-hang' => 'site/khachhang',
 				'khach-hang/<alias>' => 'site/khachhang',
 				'sp/<alias>' => 'site/sanpham',
 				'loai-san-pham/<alias>' => 'site/loaisp',
-				
+
 				'lien-he' =>'site/lienhe',
 				'Languagechange/<lang>' => 'site/languagechange',
 
 				'admin/them-slide' =>'admin/slide/create',
 				'admin/quan-ly-slide' =>'admin/slide/admin',
 				'admin/sua-slide' =>'admin/slide/update',
-				
+
 				'admin/quan-ly-ban-quan-tri' => 'admin/quantri/admin',
 				'admin/them-ban-quan-tri' => 'admin/quantri/create',
 				'admin/sua-ban-quan-tri/<id:\d+>' => 'admin/quantri/update',
@@ -141,7 +141,7 @@ return array(
 				'admin/them-video' =>'admin/video/create',
 				'admin/quan-ly-video' =>'admin/video/admin',
 				'admin/sua-video' =>'admin/video/update',
-				
+
 				'admin/them-slide' =>'admin/slide/create',
 				'admin/quan-ly-slide' =>'admin/slide/admin',
 				'admin/sua-slide' =>'admin/slide/update',
@@ -152,7 +152,7 @@ return array(
 				'admin/quan-ly-quang-cao' =>'admin/quangcao/admin',
 				'admin/sua-quang-cao/<id>' =>'admin/quangcao/update',
 
-				
+
 				'admin/quan-ly-nhan-bao-gia' =>'admin/baogia/admin',
 				'admin/xem-bao-gia/<id>' =>'admin/baogia/view',
 
@@ -170,14 +170,30 @@ return array(
 				'admin/cap-nhat-thong-tin' => 'admin/thongtinchung/update',
 
 				'admin/cau-hinh' => 'admin/cauhinh/update',
-				
+
 				'admin/quan-ly-loai-san-pham' => 'admin/loaisanphamLang/admin',
 				'admin/them-loai-san-pham' => 'admin/loaisanphamLang/create',
 				'admin/sua-loai-san-pham/<id>' => 'admin/loaisanphamLang/update',
 
+                'admin/quan-ly-trang-don' => 'admin/singlePage/admin',
+                'admin/them-trang-don' => 'admin/singlePage/create',
+                'admin/sua-trang-don/<id>' => 'admin/singlePage/update',
+
 				'admin/quan-ly-loai-quang-cao' => 'admin/loaiquangcao/admin',
 				'admin/them-loai-quang-cao' => 'admin/loaiquangcao/create',
 				'admin/sua-loai-quang-cao/<id>' => 'admin/loaiquangcao/update',
+
+                'admin/thiet-lap-video' => 'admin/videoSetting/update',
+
+                'admin/quan-ly-loai-video' => 'admin/videoCategory/admin',
+                'admin/them-loai-video'    => 'admin/videoCategory/create',
+                'admin/sua-loai-video/<id>'=> 'admin/videoCategory/update',
+
+                'admin/quan-ly-hinh-anh' => 'admin/hinhanh/admin',
+                'admin/sua-hinh-anh/<id>' => 'admin/hinhanh/update',
+                'admin/them-hinh-anh/<id>' => 'admin/hinhanh/create',
+
+                'admin/cap-nhat-footer' => 'admin/footer/update',
 
 				'admin/quan-ly-san-pham' => 'admin/sanpham/admin',
 				'admin/them-san-pham' => 'admin/sanpham/create',
@@ -190,7 +206,7 @@ return array(
 				'admin/quan-ly-binh-luan' => 'admin/binhluan/admin',
 				'admin/them-binh-luan' => 'admin/binhluan/create',
 				'admin/sua-binh-luan/<id>' => 'admin/binhluan/update',
-				
+
 				'admin/quan-ly-tin-tuc' => 'admin/tintuc/admin',
 				'admin/sua-tin-tuc/<id>' => 'admin/tintuc/update',
 				'admin/them-tin-tuc' =>'admin/tintuc/create',
@@ -243,7 +259,7 @@ return array(
 				array(
 					'class'=>'CWebLogRoute',
 				),*/
-				
+
 			),
 		),
 
@@ -256,5 +272,6 @@ return array(
 		'adminEmail'=>'leanh.stu93@gmail.com',
 		'company_name' =>'Autotrader',
 		'appid' => '405345616337756',
+        'settingTemplate' => require(dirname(__FILE__).'/settingTemplate.php')
 	),
 );

@@ -174,20 +174,7 @@ class Common extends CController {
     $date =  $now["hours"].":".$now["minutes"].":".$now["seconds"]." ".$now["mday"]."-".$now["mon"]."-".$now["year"];
     return $date;
  }
- public static function getState($data,$key)
- {
-    return $data[$key];
- }
 
-  public static function ngaychothue($data)
- {
-    $arr = explode(",",$data);
-    $kq = "";
-    foreach ($arr as  $value) {
-    	$kq .= date("d/m/Y", $value)." - ";
-    }
-    return $kq;
- }
  public static function bodau($str){
 	$unicode = array(
 	  'a'=>'á|à|ả|ã|ạ|ă|ắ|ằ|ẳ|ẵ|ặ|â|ấ|ầ|ẩ|ẫ|ậ',
@@ -475,6 +462,24 @@ public static function menudacap4($id,$model ="Loaisanpham",$idnn)
 		}
 	}
 }
+
+public static function dequyOptionsLoaiVideo($data,$parent=0,$text="--",$select=0,$continue = null){
+    foreach($data as $k=>$value){
+        if($continue == $value->id) continue;
+        if($value->id_parent == $parent){
+            $id=$value->id;
+            $name = $value->name;
+            if($select != 0 && $id == $select){
+                echo "<option value='".$id."' selected='selected'>".$text.$name."</option>";
+            }else{
+                echo "<option value='".$id."'>".$text.$name."</option>";
+            }
+            unset($data[$k]);
+            Common::dequyOptionsLoaiVideo($data,$id,$text."--",$select,$continue);
+        }
+    }
+}
+
  public static function dequyOptions2($data,$parent=0,$text="--",$select=0,$continue = null){
 	foreach($data as $k=>$value){
 		if($continue == $value->id) continue;
@@ -1168,12 +1173,28 @@ public static function phanquyen($idper)
 
         }//luuthongtin
 	public static  function DemSoNguoiXem(){
-         // $sql="select count(*) from sessions where idloai=$idloai 
-          //      or idloai in (select idloai from phanloaibai where idcha=$idloai)";
-         // $rs=$this->db->query($sql) or die($this ->db->error);
-         // $row= $rs->fetch_row();  $songuoi=$row[0];
-          $songuoi = Sessions::model()->count();
-          return $songuoi;
+      $songuoi = Sessions::model()->count();
+      return $songuoi;
+    }
+
+    /**
+     * Ham debug
+     */
+    public static function debug($data, $continue = false) {
+	    echo '<pre>';
+	    print_r($data);
+	    echo '<pre>';
+	    if($continue !== true) {
+	        exit;
         }
+    }
+
+    /**
+     * build url
+     */
+    public static function buildUrl($url)
+    {
+        return Yii::app()->request->baseUrl.$url.'.html';
+    }
 
 }
