@@ -25,10 +25,10 @@ class Custom extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Data', 'safe'),
+			array('data', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, Data', 'safe', 'on'=>'search'),
+			array('id, data', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -50,7 +50,7 @@ class Custom extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'Data' => 'Data',
+			'data' => 'Data',
 		);
 	}
 
@@ -73,7 +73,7 @@ class Custom extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('Data',$this->Data,true);
+		$criteria->compare('data',$this->data,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
