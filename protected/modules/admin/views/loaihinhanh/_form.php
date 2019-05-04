@@ -11,59 +11,44 @@
     ),
 )); ?>
 
+
 <div class="form-group" style="margin-bottom:0px">
-    <label class="col-sm-2 control-label form-label" for="input001">Loại cha:</label>
+    <label class="col-sm-2 control-label form-label" for="input001">Tên loại:</label>
     <div class="col-sm-6">
-        <select name='Loaikhachhang[Parent]'>
-        <option value="0"> Gốc </option>
-            <?php 
-   $criteria=new CDbCriteria();
-        $criteria->with=array("loaikhachhang_lang");
-       $data = Loaikhachhang::model()->findAll($criteria);
-echo Common::dequyOptions2($data,0,"--",$parent,$id);  ?>
-        </select>
-        <span class="help-block" id="helpBlock"><?php echo $form->error($model,'id'); ?></span> </div>
-</div>
- <div class="form-group" style="margin-bottom:0px">
-    <?php echo $form->labelEx($model, 'Active', array('class' => 'col-sm-2 control-label form-label')); ?>
-    <div class="col-sm-6">
-          <?php
-         
-          echo $form->dropDownList($model, 'Active',array("Không","Có"), array( 'class' => 'form-control ')); ?>
-        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'Active'); ?></span> </div>
-</div>
-<div class="tabngonngu">
-    <a class="active" href=""> Tiếng Việt </a>
-    <a  href=""> Tiếng Anh </a>
-</div>
- <div class="tt_tv">
-	<div class="form-group" style="margin-bottom:0px">
-	    <label class="col-sm-2 control-label form-label" for="input001">Tên loại:</label>
-	    <div class="col-sm-6">
-	        <?php echo $form->textField($lt,'Name',array('required'=>'required','size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
-	        <span class="help-block" id="helpBlock"><?php echo $form->error($lt,'Name',array("text"=>"aaa")); ?></span> </div>
-	</div>
-</div>
- <div class="tt_ta">
-	<div class="form-group" style="margin-bottom:0px">
-	    <label class="col-sm-2 control-label form-label" for="input001">Tên loại:</label>
-	    <div class="col-sm-6">
-	        <?php echo $form->textField($lt_,'Name',array('required'=>'required','name'=>'LoaikhachhangLang_[Name]','size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
-	        <span class="help-block" id="helpBlock"><?php echo $form->error($lt,'Name',array("text"=>"aaa")); ?></span> </div>
-	</div>
-</div>
-
-
-<!-- tab -->
-
-
-
-<div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-        <?php echo CHtml::submitButton($model->isNewRecord ? 'Thêm loại khách hàng' : 'Lưu loại khách hàng'); ?>
+        <?php echo $form->textField($model,'name',array('required'=>'required','size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model,'name',array("text"=>"aaa")); ?></span>
     </div>
 </div>
 
+<div class="form-group" style="margin-bottom:0px">
+    <?php echo $form->labelEx($model, 'active', array('class' => 'col-sm-2 control-label form-label')); ?>
+    <div class="col-sm-6">
+        <?php echo $form->dropDownList($model, 'active',array("Không","Có"), array( 'class' => 'form-control ')); ?>
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'Active'); ?></span>
+    </div>
+</div>
+
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <?php echo CHtml::submitButton($model->isNewRecord ? 'Thêm loại hình ảnh' : 'Lưu loại hình ảnh'); ?>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        var lt = $("#LoaiTin").val();
+        if(lt != 0)
+        {
+            $(".setmenu").hide();
+        }
+        $("#LoaiTin").change(function(){
+            var lt = $("#LoaiTin").val();
+            if(lt != 0)
+            {
+                $(".setmenu").hide();
+            }
+        });
+    })
+</script>
 <style type="text/css">
     .tabngonngu{
         width: 100%;
@@ -90,7 +75,7 @@ echo Common::dequyOptions2($data,0,"--",$parent,$id);  ?>
         box-shadow: none;
 
     }
-    
+
     .tabngonngu a:hover{
         background: white;
     }

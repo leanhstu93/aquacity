@@ -12,15 +12,28 @@ $form=$this->beginWidget('CActiveForm', array(
         'class'=>'form-horizontal',
     ),
 )); ?>
-<div class="form-group" style="margin-bottom:0px">
-    <?php echo $form->labelEx($model, 'Data', array('class' => 'col-sm-2 control-label form-label')); ?>
-    <div class="col-sm-6">
-        <?php echo $form->textField($model, 'dataBanner ', array('size' => 60, 'maxlength' => 100, 'class' => 'form-control Ta__js-image-value')); ?>
-        <input type="button" value="Chọn hình ảnh" class="Ta__js-select-image">
-        <img src="<?php echo Yii::app()->request->baseUrl ?>/images/demo.jpg" alt="Hiển thị hình ảnh" class="Ta__js-image-preview" height="100" width="100" style="margin-left: 10px;margin-top: 10px;">
-        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'Data'); ?></span> </div>
-</div>
 
+<?php foreach ($custom_image as $key_parent => $item){?>
+<div class="form-group" style="margin-bottom:0px">
+    <label class="col-sm-2 control-label form-label"><?php echo $item['name'] ?>:</label>
+    <div class="col-sm-6">
+        <select name="Custom[data][<?php echo $key_parent ?>][data]">
+            <?php
+            $criteria=new CDbCriteria();
+            $criteria->condition = "active = 1";
+            $loai_hinh_anh= Loaihinhanh::model()->findAll($criteria);
+            $listdata = CHtml::listData($loai_hinh_anh,'id','name');
+            foreach ($listdata as $key => $name){
+
+                $selected = $key == $item['data'] ? $selected = 'selected' : '';
+                ?>
+            <option <?php echo $selected ?> value="<?php echo $key ?>">  <?php echo $name ?> </option>
+            <?php } ?>
+        </select>
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model,'idCategory'); ?></span>
+    </div>
+</div>
+<?php } ?>
 <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
         <?php echo CHtml::submitButton($model->isNewRecord ? 'Thêm hình ảnh' : 'Lưu hình ảnh'); ?>

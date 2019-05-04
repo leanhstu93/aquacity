@@ -2,399 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0fcd73d-6327-444c-8756-c8829089bc84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/protected/config/settingTemplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/models/Custom.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/models/Footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/models/Hinhanh.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/models/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/models/SinglePage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/FooterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/SinglePageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/VideoCategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/VideoSettingController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/_search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/footer/_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/footer/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/footer/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/footer/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/footer/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/singlePage/_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/singlePage/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/singlePage/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/singlePage/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/videoSetting/_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/videoSetting/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/videoSetting/update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/views/site/home-ct2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/admin/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/admin/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/models/Loaihinhanh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/LoaihinhanhController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/filelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file/filelog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/ckeditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/ckeditor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/fckeditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/fckeditor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/php/ckeditor.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/php/ckeditor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/php/fckeditor.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/php/fckeditor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/php/popup.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/php/popup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/php/popups.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/php/popups.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/php/standalone.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/php/standalone.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/popups.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/popups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/public_api.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/public_api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/sample.css" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/sample.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/standalone.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/standalone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/_samples/standalone_v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/_samples/standalone_v1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/changelog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/ckfinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/ckfinder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/ckfinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/ckfinder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/ckfinder_v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/ckfinder_v1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/ckfinder_php5.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/ckfinder_php5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/connector.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/connector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/constants.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/error_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/bg.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/bg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/ca.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/ca.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/cs.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/cs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/cy.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/cy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/da.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/da.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/de.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/de.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/el.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/el.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/en.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/en.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/eo.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/eo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/es-mx.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/es-mx.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/es.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/es.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/et.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/et.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/fa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/fi.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/fi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/fr.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/fr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/gu.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/gu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/he.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/he.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/hi.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/hi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/hr.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/hr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/hu.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/hu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/it.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/it.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/ja.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/ja.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/lt.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/lt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/lv.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/lv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/nb.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/nb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/nl.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/nl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/nn.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/nn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/no.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/no.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/pl.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/pl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/pt-br.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/pt-br.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/ro.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/ro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/ru.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/ru.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/sk.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/sk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/sl.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/sl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/sr.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/sr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/sv.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/sv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/tr.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/tr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/vi.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/vi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/zh-cn.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/zh-cn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/lang/zh-tw.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/lang/zh-tw.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/CommandHandlerBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/CommandHandlerBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/CopyFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/CopyFiles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/CreateFolder.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/CreateFolder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/DeleteFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/DeleteFiles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/DeleteFolder.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/DeleteFolder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/DownloadFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/DownloadFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/FileUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/FileUpload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/GetFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/GetFiles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/GetFolders.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/GetFolders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/Init.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/Init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/LoadCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/LoadCookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/MoveFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/MoveFiles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/QuickUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/QuickUpload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/RenameFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/RenameFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/RenameFolder.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/RenameFolder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/Thumbnail.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/Thumbnail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/XmlCommandHandlerBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/CommandHandler/XmlCommandHandlerBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/AccessControlConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/AccessControlConfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Connector.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Connector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Factory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/FolderHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/FolderHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Hooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Hooks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/ImagesConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/ImagesConfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Registry.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Registry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/ResourceTypeConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/ResourceTypeConfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/ThumbnailsConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/ThumbnailsConfig.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Xml.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Core/Xml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/ErrorHandler/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/ErrorHandler/Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/ErrorHandler/FileUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/ErrorHandler/FileUpload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/ErrorHandler/Http.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/ErrorHandler/Http.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/ErrorHandler/QuickUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/ErrorHandler/QuickUpload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Utils/FileSystem.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Utils/FileSystem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Utils/Misc.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Utils/Misc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Utils/Security.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Utils/Security.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Utils/XmlNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/core/connector/php/php5/Utils/XmlNode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/help/cs/files/011.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/help/cs/files/011.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/help/en/files/011.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/help/en/files/011.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/help/es-mx/files/011.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/help/es-mx/files/011.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/help/es/files/011.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/help/es/files/011.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/help/fi/files/011.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/help/fi/files/011.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/help/files/other/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/help/files/other/help.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/help/lt/files/011.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/help/lt/files/011.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/install.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/install.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/eo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/es-mx.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/es-mx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/et.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/gu.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/gu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/hi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/lv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/nn.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/nn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/no.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/pt-br.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/sr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/lang/zh-tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/lang/zh-tw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/plugins/dummy/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/plugins/dummy/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/plugins/dummy/lang/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/plugins/dummy/lang/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/plugins/dummy/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/plugins/dummy/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/plugins/fileeditor/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/plugins/fileeditor/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/plugins/fileeditor/plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/plugins/fileeditor/plugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/plugins/flashupload/Uploader.html" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/plugins/flashupload/Uploader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/plugins/imageresize/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/plugins/imageresize/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/plugins/imageresize/plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/plugins/imageresize/plugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/plugins/watermark/plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/plugins/watermark/plugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/plugins/zip/plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/plugins/zip/plugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/skins/kama/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/skins/kama/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/skins/kama/host.css" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/skins/kama/host.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/skins/kama/richcombo.css" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/skins/kama/richcombo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/skins/kama/skin.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/skins/kama/skin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/skins/kama/uipanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/skins/kama/uipanel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/skins/v1/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/skins/v1/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/skins/v1/host.css" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/skins/v1/host.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/skins/v1/richcombo.css" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/skins/v1/richcombo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/skins/v1/skin.js" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/skins/v1/skin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/skins/v1/uipanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/skins/v1/uipanel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager/translations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager/translations.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/components/Common.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/components/Common.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/models/SanphamLang.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/SanphamLang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/models/Thongtinchung.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/Thongtinchung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/models/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/Video.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/LoaitinController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/LoaitinController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/SanphamController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/SanphamController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/TintucController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/TintucController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/sanpham/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/sanpham/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/config/settingTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/settingTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/models/Custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/Custom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/models/Hinhanh.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/Hinhanh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/_search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/book/_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/book/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/book/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/camnhankhachhang/_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/camnhankhachhang/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/camnhankhachhang/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/camnhankhachhang/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/custom/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/khachhang/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/khachhang/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/khachhang/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/khachhang/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/_search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/_form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/_search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/view.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/video/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/video/_form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/runtime/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/gii-1.1.14/CrudCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.14/CrudCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/gii-1.1.14/ModelCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/gii-1.1.14/ModelCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/loaiquangcao/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/loaiquangcao/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/_search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/loaiquangcao/_view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/loaiquangcao/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/loaiquangcao/create.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/loaiquangcao/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/loaiquangcao/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/loaiquangcao/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/admin/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/admin/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/slide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/008754352425_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/017042132539_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/11131739_10205233946227088_825878610_n-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/1455192448226_12166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/1478415871-147840697264482-img_3220.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/1478425718-ve-so.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/15073427_969893819810049_2280492450583456332_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/160713_112-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/174122990654_345x210(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/20120509-canh-dieu-tuoi-tho-0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/216645273364_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/23519239_413011119101914_3029758625365975640_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/375319963983_345x210 (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/375319963983_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/4-kich-thuoc-in-to-roi-pho-bien-nhat-1-420x315.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/548921906936_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/640797804544_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/641867440101_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/881634939187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/889673621312.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/ArtCollage-680x550.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/BIA 1(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/BIA 1(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/BIA 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/Davidoff-Program-002-1-680x550.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/Elle-3-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/Fiesta-Food-for-Cinco-de-Mayo-12-680x550(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/Fiesta-Food-for-Cinco-de-Mayo-12-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/Flyer-Gipsy-Kings-680x550.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/Flyers-Semana-Santa-Thursday-680x550.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/H_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/LSStatTrendCoverCrop-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/Merry-Christmas-Wteath.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/PeggyCosmo-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/QRC-From-Nelson-Mandela-Park-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/Stupa-and-buddhist-statues-at-Dambulla-copy-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/TOP-projects-by-Voa-Architecture-Navy-Pier-Chicago-680x550(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/TOP-projects-by-Voa-Architecture-Navy-Pier-Chicago-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/banner(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/banner(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/banner01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/banner02(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/banner02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/bukopandangelatin31-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/compare-iphone-7-201609.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/da-nang-tinh-nguoi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/da-nang-trong-toi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/decal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/dvh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/envy-beautynight.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/hop-gay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/huong-xu-ly-an-pham-co-in-so-dien-thoai-5-420x315.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-01(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-02(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-02(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-03(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-03(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-03(3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-04(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-05(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-05(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-05(3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-06(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-06(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/img-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/in-to-roi-bat-dong-san-420x315.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/jpd1445828367.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/kem-trong-in-an-la-gi-420x315.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/lalorca-yanbimrt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/leather_square-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/lich-tet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/liveshow-che-linh---banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/logo-02(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/logo-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/logo-moi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/max-tuanhung.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/minneapolisblue-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/news1(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/news1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/news45465465(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/news45465465(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/news45465465.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/qc1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/qc3(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/qc3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/qc4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/quang-nam-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/que-son-dat-me-an-tinh.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/rao-vat-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/stephan_kirk-680x550.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/tacorice1-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/tuÃ¡ÂºÂ¥n anh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/villa-radiante-pool-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/web1_Camping_NewsEngin-680x550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/yeu-cai-man-ma.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/BIA 1(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/BIA 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/008754352425_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/017042132539_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/174122990654_345x210(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/216645273364_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/375319963983_345x210 (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/375319963983_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/4-kich-thuoc-in-to-roi-pho-bien-nhat-1-420x315.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/548921906936_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/640797804544_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/641867440101_345x210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/881634939187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/889673621312.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/banner01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/banner02(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/banner02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/decal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/hop-gay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/huong-xu-ly-an-pham-co-in-so-dien-thoai-5-420x315.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/in-to-roi-bat-dong-san-420x315.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/jpd1445828367.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/kem-trong-in-an-la-gi-420x315.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/lich-tet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/logo-moi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/files/tracuumavungdienthoaicodinh2017-420x238.jpeg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -405,42 +69,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/admin/views/layouts/main.php">
+        <entry file="file://$PROJECT_DIR$/protected/config/settingTemplate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="166" column="94" selection-start-line="166" selection-start-column="94" selection-end-line="166" selection-end-column="94" />
+            <state relative-caret-position="187">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="35" column="110" selection-start-line="29" selection-start-column="4" selection-end-line="35" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+            <state relative-caret-position="170">
+              <caret line="185" column="42" selection-start-line="185" selection-start-column="42" selection-end-line="185" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config/settingTemplate.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/admin/css/style.css">
+        <entry file="file://$PROJECT_DIR$/themes/admin/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57456">
-              <caret line="382" column="1" selection-start-line="382" selection-start-column="1" selection-end-line="382" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/admin/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="461">
+              <caret line="92" column="97" selection-start-line="92" selection-start-column="97" selection-end-line="92" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -456,12 +142,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>components</find>
-      <find>timeZone1</find>
-      <find>cap-nhat-hinh-anh</find>
-      <find>ckf</find>
-      <find>.kns .menupc li.hd-dropdown-hover&gt;a</find>
-      <find>hd-dropdown-content</find>
       <find>model()-&gt;find</find>
       <find>:model()-&gt;find(</find>
       <find>unique</find>
@@ -486,6 +166,12 @@
       <find>sidebar</find>
       <find>.css</find>
       <find>class=&quot;cntt&quot;</find>
+      <find>Name</find>
+      <find>video</find>
+      <find>slide</find>
+      <find>sli</find>
+      <find>/custom</find>
+      <find>id_category</find>
     </findStrings>
     <replaceStrings>
       <replace>hd-dropdown-hover</replace>
@@ -501,22 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/update.php" />
-        <option value="$PROJECT_DIR$/protected/models/Custom.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php" />
-        <option value="$PROJECT_DIR$/protected/models/Hinhanh.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/ThongtinchungController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/update.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php" />
-        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" />
-        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/slide.php" />
-        <option value="$PROJECT_DIR$/protected/models/Sanpham.php" />
-        <option value="$PROJECT_DIR$/protected/models/SanphamLang.php" />
-        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/footer/update.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/footer/_form.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/FooterController.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/_form.php" />
@@ -530,7 +200,6 @@
         <option value="$PROJECT_DIR$/protected/components/Common.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/_form.php" />
         <option value="$PROJECT_DIR$/protected/models/Video.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/video/_form.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/VideoSettingController.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/videoSetting/update.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/videoSetting/_form.php" />
@@ -541,7 +210,6 @@
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/SanphamController.php" />
         <option value="$PROJECT_DIR$/protected/models/Router.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/VideoCategoryController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/singlePage/_form.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/SinglePageController.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/singlePage/admin.php" />
         <option value="$PROJECT_DIR$/protected/views/site/test.php" />
@@ -550,8 +218,26 @@
         <option value="$PROJECT_DIR$/protected/views/site/home-ct2.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/themes/admin/css/custom.css" />
-        <option value="$PROJECT_DIR$/themes/admin/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/admin.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/create.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/singlePage/_form.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/video/_form.php" />
+        <option value="$PROJECT_DIR$/protected/models/Loaihinhanh.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/LoaihinhanhController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/update.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/create.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/admin.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/_form.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/update.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php" />
+        <option value="$PROJECT_DIR$/protected/models/Hinhanh.php" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/themes/admin/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/protected/config/settingTemplate.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/update.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php" />
       </list>
     </option>
   </component>
@@ -583,12 +269,6 @@
               <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
               <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
               <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -609,35 +289,11 @@
             <path>
               <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
               <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="protected" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -656,14 +312,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\controllers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\views" />
       <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\views\hinhanh" />
       <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\views\custom" />
       <recent name="C:\xampp\htdocs\bacsisuamui\themes\frontend\views\layouts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -696,7 +352,7 @@
       <workItem from="1556532960220" duration="7607000" />
       <workItem from="1556550199468" duration="13739000" />
       <workItem from="1556591370657" duration="33417000" />
-      <workItem from="1556808411270" duration="2149000" />
+      <workItem from="1556808411270" duration="9999000" />
     </task>
     <task id="LOCAL-00001" summary="cm">
       <created>1556426344862</created>
@@ -733,17 +389,23 @@
       <option name="project" value="LOCAL" />
       <updated>1556474852262</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cm">
+      <created>1556810630675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556810630675</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65925000" />
+    <option name="totallyTimeSpent" value="73775000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17095116" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27142859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -816,120 +478,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/FooterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/footer/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/ThongtinchungController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1343">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Thongtinchung.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="121" column="38" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/sanpham/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="106" column="108" selection-start-line="106" selection-start-column="108" selection-end-line="106" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/[3170][SCODEWEB]/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/videoCategory/view.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/videoCategory/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="58" column="94" selection-start-line="58" selection-start-column="94" selection-end-line="58" selection-end-column="94" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/videoCategory/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="99" selection-start-line="28" selection-start-column="99" selection-end-line="28" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/videoCategory/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="468" column="28" selection-start-line="468" selection-start-column="19" selection-end-line="468" selection-end-column="28" />
-          <folding>
-            <element signature="n#sendphone#0;n#Common#0;n#!!top" />
-            <element signature="n#chuoingaunhien#0;n#Common#0;n#!!top" />
-            <element signature="n#phanquyen#0;n#Common#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="92" column="38" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/tintuc/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="62" selection-start-line="62" selection-end-line="82" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/videoSetting/view.php" />
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/VideoSettingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="97" column="46" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/videoSetting/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/videoCategory/_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -937,22 +485,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/video/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="49" column="90" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/update.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="113" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/videoSetting/_form.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -986,13 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="48" column="137" selection-start-line="48" selection-start-column="119" selection-end-line="48" selection-end-column="137" />
         </state>
       </provider>
     </entry>
@@ -1086,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/singlePage/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/yiilite.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -1142,20 +662,181 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="77" column="56" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2909">
+          <caret line="49" column="77" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/singlePage/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="87" selection-start-column="87" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/video/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="39" selection-start-line="39" selection-end-line="50" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/view.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Loaihinhanh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="468" column="28" selection-start-line="468" selection-start-column="19" selection-end-line="468" selection-end-column="28" />
+          <folding>
+            <element signature="n#sendphone#0;n#Common#0;n#!!top" />
+            <element signature="n#chuoingaunhien#0;n#Common#0;n#!!top" />
+            <element signature="n#phanquyen#0;n#Common#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/LoaihinhanhController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="97" selection-start-line="6" selection-start-column="97" selection-end-line="6" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="97" selection-start-line="6" selection-start-column="97" selection-end-line="6" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/slide/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="68" selection-start-line="68" selection-end-line="82" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="112" selection-start-line="6" selection-start-column="112" selection-end-line="6" selection-end-column="112" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Hinhanh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="185" column="42" selection-start-line="185" selection-start-column="42" selection-end-line="185" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/admin/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="166" column="94" selection-start-line="166" selection-start-column="94" selection-end-line="166" selection-end-column="94" />
+        <state relative-caret-position="461">
+          <caret line="92" column="97" selection-start-line="92" selection-start-column="97" selection-end-line="92" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="35" column="110" selection-start-line="29" selection-start-column="4" selection-end-line="35" selection-end-column="110" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/config/settingTemplate.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
         </state>
       </provider>
     </entry>

@@ -24,7 +24,7 @@
                     </ul>
                 </div>
                 <div class="panel-body">
-                    <?php $this->renderPartial('_form', array('model'=>$model)); ?>
+                    <?php $this->renderPartial('_form', array('model'=>$model,'custom_image' => $custom_image)); ?>
                 </div>
             </div>
         </div>

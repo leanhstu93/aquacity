@@ -183,6 +183,8 @@ return array(
 				'admin/them-loai-quang-cao' => 'admin/loaiquangcao/create',
 				'admin/sua-loai-quang-cao/<id>' => 'admin/loaiquangcao/update',
 
+                'admin/tuy-chinh-giao-dien' => 'admin/custom/update',
+
                 'admin/thiet-lap-video' => 'admin/videoSetting/update',
 
                 'admin/quan-ly-loai-video' => 'admin/videoCategory/admin',
@@ -191,7 +193,11 @@ return array(
 
                 'admin/quan-ly-hinh-anh' => 'admin/hinhanh/admin',
                 'admin/sua-hinh-anh/<id>' => 'admin/hinhanh/update',
-                'admin/them-hinh-anh/<id>' => 'admin/hinhanh/create',
+                'admin/them-hinh-anh' => 'admin/hinhanh/create',
+
+                'admin/quan-ly-loai-hinh-anh' => 'admin/loaihinhanh/admin',
+                'admin/sua-loai-hinh-anh/<id>' => 'admin/loaihinhanh/update',
+                'admin/them-loai-hinh-anh' => 'admin/loaihinhanh/create',
 
                 'admin/cap-nhat-footer' => 'admin/footer/update',
 

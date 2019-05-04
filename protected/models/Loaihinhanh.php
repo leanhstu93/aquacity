@@ -1,25 +1,21 @@
 <?php
 
 /**
- * This is the model class for table "hinhanh".
+ * This is the model class for table "loaihinhanh".
  *
- * The followings are the available columns in table 'hinhanh':
+ * The followings are the available columns in table 'loaihinhanh':
  * @property integer $id
- * @property integer $id_category
  * @property string $name
- * @property string $link
- * @property string $description
- * @property string $url_image
  * @property integer $active
  */
-class Hinhanh extends CActiveRecord
+class Loaihinhanh extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'hinhanh';
+		return 'loaihinhanh';
 	}
 
 	/**
@@ -30,13 +26,11 @@ class Hinhanh extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('url_image', 'required'),
-			array('id_category, active', 'numerical', 'integerOnly'=>true),
-			array('name, link, url_image', 'length', 'max'=>255),
-			array('description', 'safe'),
+			array('active', 'numerical', 'integerOnly'=>true),
+			array('name', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, id_category, name, link, description, url_image, active', 'safe', 'on'=>'search'),
+			array('id, name, active', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -58,11 +52,7 @@ class Hinhanh extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'id_category' => 'Danh mục',
 			'name' => 'Tiêu đề',
-			'link' => 'Đường dẫn',
-			'description' => 'Mô tả',
-			'url_image' => 'Hình ảnh',
 			'active' => 'Active',
 		);
 	}
@@ -86,11 +76,7 @@ class Hinhanh extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('id_category',$this->id_category);
 		$criteria->compare('name',$this->name,true);
-		$criteria->compare('link',$this->link,true);
-		$criteria->compare('description',$this->description,true);
-		$criteria->compare('url_image',$this->url_image,true);
 		$criteria->compare('active',$this->active);
 
 		return new CActiveDataProvider($this, array(
@@ -102,7 +88,7 @@ class Hinhanh extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Hinhanh the static model class
+	 * @return Loaihinhanh the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
