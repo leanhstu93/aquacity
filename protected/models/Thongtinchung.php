@@ -8,6 +8,8 @@
  * @property integer $idNgonNgu
  * @property string $Address
  * @property string $Company
+ * @property string $Favicon
+ * @property string $Slogan
  * @property string $Logo
  * @property string $Banner
  * @property string $Email
@@ -40,14 +42,14 @@ class Thongtinchung extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('idNgonNgu', 'numerical', 'integerOnly'=>true),
-			array('Company, Logo,Favicon, Banner, Email, Twitter, Google, Youtube, Pinterest, Tumblr', 'length', 'max'=>255),
+			array('Company, Logo,LogoMobile ,Slogan, Favicon, Banner, Email, Twitter, Google, Youtube, Pinterest, Tumblr', 'length', 'max'=>255),
 			array('Fax, Phone, Tel', 'length', 'max'=>50),
 			array('Facebook', 'length', 'max'=>100),
 			array('MessengerFB', 'length', 'max'=>255),
 			array('Address,DoiNguBacSi', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, idNgonNgu, Address,DoiNguBacSi, Company, Logo, Banner, Email, Fax, Phone, Tel, Facebook, Twitter, Google, Youtube, Pinterest, Tumblr,MessengerFB', 'safe', 'on'=>'search'),
+			array('id, idNgonNgu,LogoMobile , Address,DoiNguBacSi, Company, Logo, Banner, Email, Fax, Phone, Tel, Facebook, Twitter, Google, Youtube, Pinterest, Tumblr,MessengerFB', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -73,6 +75,8 @@ class Thongtinchung extends CActiveRecord
 			'Address' => 'Address',
 			'Company' => 'Company',
 			'Logo' => 'Logo',
+			'LogoMobile' => 'LogoMobile',
+			'Slogan' => 'Slogan',
 			'Favicon' => 'Favicon',
 			'Banner' => 'Hình ảnh công ty',
 			'Email' => 'Email',
@@ -112,8 +116,10 @@ class Thongtinchung extends CActiveRecord
 		$criteria->compare('idNgonNgu',$this->idNgonNgu);
 		$criteria->compare('Address',$this->Address,true);
 		$criteria->compare('Company',$this->Company,true);
-		$criteria->compare('Favicon',$this->Logo,true);
-		$criteria->compare('Logo',$this->Logo,true);
+		$criteria->compare('Favicon',$this->Favicon,true);
+		$criteria->compare('Slogan',$this->Slogan,true);
+        $criteria->compare('Logo',$this->Logo,true);
+        $criteria->compare('LogoMobile',$this->LogoMobile,true);
 		$criteria->compare('Banner',$this->Banner,true);
 		$criteria->compare('Email',$this->Email,true);
 		$criteria->compare('Fax',$this->Fax,true);

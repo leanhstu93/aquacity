@@ -1,19 +1,7 @@
 CKFinder Changelog
 ==================
 http://cksource.com/ckfinder
-Copyright (C) 2007-2015, CKSource - Frederico Knabben. All rights reserved.
-
-
-### Version 2.5
-- Fixed: Opening settings panel after opening/closing flashupload panel caused exception being thrown.
-- Fixed: Selection issues when double-clicking the file.
-- Fixed: getSelectedfiles no longer returns duplicated entries.
-- Added the possibility to access in selectActionFunction custom attributes passed in <File> elements returned by the GetFiles command.
-- Added the possibility to define custom plugins that provide additional toolbar buttons.
-- Added the possibility to pass extra parameters to popup methods with config.popupFeatures and config.popupTitle.
-- Added changes required by CKEditor 4.5.0.
-
-### Version 2.4.3
+Copyright (C) 2007-2014, CKSource - Frederico Knabben. All rights reserved.
 
 ### Version 2.4.2
 - Updated syntax highlighting component used in the fileeditor plugin. Added languages support: markdown, restructured text, java, less, sass, scss, perl, python, ruby and sql.

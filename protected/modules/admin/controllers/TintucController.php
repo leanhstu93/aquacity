@@ -101,6 +101,10 @@ class TintucController extends Controller
 				$tt->Alias = Common::bodau($tt->Name);
 				if($tt->save())
 				{
+                    //Xu ly node
+                    $insert_id = Yii::app()->db->getLastInsertID();
+                    Router::processRouter(['alias' => $tt->Alias, 'idObject' => $insert_id, 'type' =>Router::TYPE_NEWS]);
+                    //end xu ly node
 					$tt->Alias = $tt->Alias."-".$tt->id;
 					$tt->save();
 					$tt_ = new TintucLang;
@@ -114,6 +118,10 @@ class TintucController extends Controller
 					{
 						$tt_->Alias = $tt_->Alias."-".$tt_->id;
 						$tt_->save();
+                        //Xu ly node
+                        $insert_id = Yii::app()->db->getLastInsertID();
+                        Router::processRouter(['alias' => $tt_->Alias, 'idObject' => $insert_id, 'type' =>Router::TYPE_NEWS]);
+                        //end xu ly node
 						$this->redirect(array('admin'));
 					}
 				}
@@ -162,15 +170,6 @@ class TintucController extends Controller
 			$model->idTags = json_encode($model->idTags);
 			if($model->save())
 			{
-				/*if($model->UrlImage != '')
-				{
-					$file = basename($model->UrlImage);
-					Common::resizeform($file,58,58);
-					Common::resizeform($file,80,60);
-					Common::resizeform($file,90,70);
-					Common::resizeform($file,530,370);
-				}
-				*/
 				$tt = TintucLang::model()->find("idTinTuc = $id and idNgonNgu = 1");
 				$tt->attributes=$_POST['TintucLang'];
 				$tt->Alias = Common::bodau($tt->Name);

@@ -36,14 +36,14 @@ class SanphamLang extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Name, Alias', 'required'),
+			array('Name, NameShort, Alias', 'required'),
 			array('idSP, idNgonNgu', 'numerical', 'integerOnly'=>true),
 			array('BaoHanh', 'length', 'max'=>50),
-			array('Name, Alias, Youtube', 'length', 'max'=>255),
+			array('Name, NameShort, Alias, Youtube', 'length', 'max'=>255),
 			array('File, ThongTinDatHang, ThongSoKyThuat, HuongDanDatHang, MoTa, Content', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, idSP, idNgonNgu, BaoHanh, Name, Alias, Youtube, File, ThongTinDatHang, ThongSoKyThuat, HuongDanDatHang, MoTa, Content', 'safe', 'on'=>'search'),
+			array('id, idSP, NameShort, idNgonNgu, BaoHanh, Name, Alias, Youtube, File, ThongTinDatHang, ThongSoKyThuat, HuongDanDatHang, MoTa, Content', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -54,8 +54,9 @@ class SanphamLang extends CActiveRecord
 	{
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
-		return array(
-		);
+        return array(
+            'router =' => array(self::BELONGS_TO,'SanphamLang',array('id'=>'idObject')),
+        );
 	}
 
 	/**
@@ -69,6 +70,7 @@ class SanphamLang extends CActiveRecord
 			'idNgonNgu' => 'Ngôn ngữ',
 			'BaoHanh' => 'Bảo hành',
 			'Name' => 'Tên sản phẩm',
+			'NameShort' => 'Tên menu',
 			'Alias' => 'Alias',
 			'Youtube' => 'Youtube',
 			'File' => 'File',
@@ -97,12 +99,12 @@ class SanphamLang extends CActiveRecord
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
-
 		$criteria->compare('id',$this->id);
 		$criteria->compare('idSP',$this->idSP);
 		$criteria->compare('idNgonNgu',$this->idNgonNgu);
 		$criteria->compare('BaoHanh',$this->BaoHanh,true);
 		$criteria->compare('Name',$this->Name,true);
+        $criteria->compare('NameShort',$this->NameShort,true);
 		$criteria->compare('Alias',$this->Alias,true);
 		$criteria->compare('Youtube',$this->Youtube,true);
 		$criteria->compare('File',$this->File,true);

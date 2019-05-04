@@ -16,10 +16,11 @@ $form=$this->beginWidget('CActiveForm', array(
 <div class="form-group" style="margin-bottom:0px">
     <?php echo $form->labelEx($model, 'Favicon', array('class' => 'col-sm-2 control-label form-label')); ?>
     <div class="col-sm-6">
-        <?php echo $form->textField($model, 'Favicon', array('size' => 60, 'maxlength' => 100, 'class' => 'form-control')); ?>
-        <input type="button" value="Chọn hình ảnh" id="selectImages3">
-        <img src="<?php echo Yii::app()->request->baseUrl ?>/images/demo.jpg" alt="Hiển thị hình ảnh" id="previewHinh3" height="100" width="100" style="margin-left: 10px;margin-top: 10px;">
-        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'Favicon'); ?></span> </div>
+        <?php echo $form->textField($model, 'Favicon', array('size' => 60, 'maxlength' => 100, 'class' => 'form-control Ta__js-image-value')); ?>
+        <input type="button" value="Chọn hình ảnh" class="Ta__js-select-image">
+        <img src="<?php echo Yii::app()->request->baseUrl ?>/images/demo.jpg" alt="Hiển thị hình ảnh" class="Ta__js-image-preview" height="100" width="100" style="margin-left: 10px;margin-top: 10px;">
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'Favicon'); ?></span>
+    </div>
 </div>
 
 <div class="form-group" style="margin-bottom:0px">
@@ -28,26 +29,27 @@ $form=$this->beginWidget('CActiveForm', array(
         <?php echo $form->textField($model, 'Logo', array('size' => 60, 'maxlength' => 100, 'class' => 'form-control')); ?>
         <input type="button" value="Chọn hình ảnh" id="selectImages">
         <img src="<?php echo Yii::app()->request->baseUrl ?>/images/demo.jpg" alt="Hiển thị hình ảnh" id="previewHinh" height="100" width="100" style="margin-left: 10px;margin-top: 10px;">
-        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'Logo'); ?></span> </div>
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'Logo'); ?></span>
+    </div>
 </div>
 
 <div class="form-group" style="margin-bottom:0px">
-    <?php echo $form->labelEx($model, 'LogoMobile', array('class' => 'col-sm-2 control-label form-label')); ?>
+    <label class="col-sm-2 control-label form-label" for="input001">Logo footer</label>
     <div class="col-sm-6">
-        <?php echo $form->textField($model, 'LogoMobile', array('size' => 60, 'maxlength' => 100, 'class' => 'form-control')); ?>
-        <input type="button" value="Chọn hình ảnh" id="selectImages9">
-        <img src="<?php echo Yii::app()->request->baseUrl ?>/images/demo.jpg" alt="Hiển thị hình ảnh" id="previewHinh9" height="100" width="100" style="margin-left: 10px;margin-top: 10px;">
-        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'LogoMobile'); ?></span> </div>
+        <?php echo $form->textField($model, 'LogoMobile', array('size' => 60, 'maxlength' => 100, 'class' => 'form-control Ta__js-image-value')); ?>
+        <input type="button" value="Chọn hình ảnh" class="Ta__js-select-image">
+        <img src="<?php echo Yii::app()->request->baseUrl ?>/images/demo.jpg" alt="Hiển thị hình ảnh" class="Ta__js-image-preview" height="100" width="100" style="margin-left: 10px;margin-top: 10px;">
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'LogoMobile'); ?></span>
+    </div>
 </div>
 
 <div class="form-group" style="margin-bottom:0px">
-    <?php echo $form->labelEx($model, 'Banner', array('class' => 'col-sm-2 control-label form-label')); ?>
+    <?php echo $form->labelEx($model, 'Slogan', array('class' => 'col-sm-2 control-label form-label')); ?>
     <div class="col-sm-6">
-        <?php echo $form->textField($model, 'Banner', array('size' => 60, 'maxlength' => 100, 'class' => 'form-control', 'style'=>'width:80%;float:left')); ?>
-        <span style="font-size: 11px; width:20%;float: left;padding-top: 5px;color: #005f90"> ( ít nhất 200X200)</span>
-        <input type="button" value="Chọn hình ảnh" id="selectImages10">
-        <img src="<?php echo Yii::app()->request->baseUrl ?>/images/demo.jpg" alt="Hiển thị hình ảnh" id="previewHinh10" height="100" width="100" style="margin-left: 10px;margin-top: 10px;">
-        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'Banner'); ?></span> </div>
+        <?php echo $form->textField($model, 'Slogan', array('size' => 60, 'maxlength' => 100, 'class' => 'form-control Ta__js-image-value')); ?>
+        <input type="button" value="Chọn hình ảnh" class="Ta__js-select-image">
+        <img src="<?php echo Yii::app()->request->baseUrl ?>/images/demo.jpg" alt="Hiển thị hình ảnh" class="Ta__js-image-preview" height="100" width="100" style="margin-left: 10px;margin-top: 10px;">
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'Slogan'); ?></span> </div>
 </div>
 
 <!-- tab -->
@@ -145,53 +147,36 @@ $form=$this->beginWidget('CActiveForm', array(
         <?php echo CHtml::submitButton($model->isNewRecord ? 'Thêm loại sản phẩm' : 'Lưu thông tin chung'); ?>
     </div>
 </div>
+<!-- chon hinh -->
+<script type="text/javascript">
+    /*<![CDATA[*/
+    function setFileSlogan(){
+
+    }
+    jQuery(".Ta__js-select-image1").click(function(e){
+        e.preventDefault();
+        CKFinder.popup({basePath:"http://anhle93.com:93/filemanager",selectActionFunction:setFileSlogan});
+    });
+    /*]]>*/
+</script>
  <?php
 	$this->widget('ext.toan_ckfinder.Toan_ckfinder', array(
     'target' => '#selectImages',
     'function' => 'setFile',
 ));
  ?>
-  <?php
-    $this->widget('ext.toan_ckfinder.Toan_ckfinder', array(
-    'target' => '#selectImages3',
-    'function' => 'setFile3',
-));
- ?>
+
  <script>
- jQuery("#selectImages").click(function(e){
-                   e.preventDefault();
-                   CKFinder.popup({basePath:"<?php echo "http://".$_SERVER["HTTP_HOST"] ?>/filemanager",selectActionFunction:setFile});
-                });
-  jQuery("#selectImages10").click(function(e){
-                   e.preventDefault();
-                   CKFinder.popup({basePath:"<?php echo "http://".$_SERVER["HTTP_HOST"] ?>/filemanager",selectActionFunction:setFile10});
-                });
-  jQuery("#selectImages9").click(function(e){
-                   e.preventDefault();
-                   CKFinder.popup({basePath:"<?php echo "http://".$_SERVER["HTTP_HOST"] ?>/filemanager",selectActionFunction:setFile9});
-                });
- CKEDITOR.replace('Thongtinchung_DiaChi', {height: 300, });
     function setFile(url)
     {
         jQuery('#Thongtinchung_Logo').val(url);
         jQuery('#previewHinh').attr('src', url);
     }
-    function setFile9(url)
-    {
-        jQuery('#Thongtinchung_LogoMobile').val(url);
-        jQuery('#previewHinh9').attr('src', url);
-    }
-    function setFile10(url)
-    {
-        jQuery('#Thongtinchung_Banner').val(url);
-        jQuery('#previewHinh10').attr('src', url);
-    }
-    function setFile3(url)
-    {
-        jQuery('#Thongtinchung_Favicon').val(url);
-        jQuery('#previewHinh3').attr('src', url);
-    }
-   
+     function setFileSlogan(url)
+     {
+         jQuery('#Thongtinchung_Slogan').val(url);
+         jQuery('#previewHinhSlogan').attr('src', url);
+     }
      </script>
     <style type="text/css">
     .tabngonngu{

@@ -18,6 +18,12 @@
             <span class="help-block" id="helpBlock"><?php echo $form->error($spl,'Name',array("text"=>"aaa")); ?></span> </div>
 </div>
 <div class="form-group" style="margin-bottom:0px">
+    <label class="col-sm-2 control-label form-label" for="input001">Tên menu:</label>
+    <div class="col-sm-6">
+        <?php echo $form->textField($spl,'NameShort',array('size'=>60,'maxlength'=>100,'class'=>'form-control','required'=>'required')); ?>
+        <span class="help-block" id="helpBlock"><?php echo $form->error($spl,'NameShort',array("text"=>"aaa")); ?></span> </div>
+</div>
+<div class="form-group" style="margin-bottom:0px">
     <label class="col-sm-2 control-label form-label" for="input001">Loại sản phẩm:</label>
     <div class="col-sm-6"> <?php
         $criteria=new CDbCriteria();
@@ -84,9 +90,7 @@ function openKCFinder(textarea) {
 <div class="form-group" style="margin-bottom:0px">
     <?php echo $form->labelEx($model, 'SetHome', array('class' => 'col-sm-2 control-label form-label')); ?>
     <div class="col-sm-6">
-          <?php
-         
-          echo $form->dropDownList($model, 'SetHome',array("Không","Có"), array( 'class' => 'form-control ')); ?>
+          <?php echo $form->dropDownList($model, 'SetHome',array("Không","Có"), array( 'class' => 'form-control ')); ?>
         <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'SetHome'); ?></span> </div>
 </div>
 <div class="form-group" style="margin-bottom:0px">
@@ -97,13 +101,21 @@ function openKCFinder(textarea) {
         <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'Active'); ?></span> </div>
     </div>
 <div class="tt_tv">
-<div class="form-group" style="margin-bottom:0px">
-    <label class="col-sm-2 control-label form-label" for="input001">Mô tả </label>
-    <div class="col-sm-6">
-        <?php echo $form->textArea($spl,'MoTa',array('rows'=>6,'maxlength'=>100,'class'=>'form-control')); ?>
-        <span class="help-block" id="helpBlock"><?php echo $form->error($spl,'MoTa',array("text"=>"aaa")); ?></span> 
+    <div class="form-group" style="margin-bottom:0px">
+        <label class="col-sm-2 control-label form-label" for="input001">Mô tả </label>
+        <div class="col-sm-6">
+            <?php echo $form->textArea($spl,'MoTa',array('rows'=>3,'class'=>'form-control','resize' => false)); ?>
+            <span class="help-block" id="helpBlock"><?php echo $form->error($spl,'MoTa',array("text"=>"aaa")); ?></span>
+        </div>
     </div>
-</div>
+
+    <div class="form-group" style="margin-bottom:0px">
+        <label class="col-sm-2 control-label form-label" for="input001">Nội dung </label>
+        <div class="col-sm-6">
+            <?php echo $form->textArea($spl,'Content',array('rows'=>6,'maxlength'=>100,'class'=>'form-control')); ?>
+            <span class="help-block" id="helpBlock"><?php echo $form->error($spl,'Content',array("text"=>"aaa")); ?></span>
+        </div>
+    </div>
 <!-- end iteam -->
 
 </div>
@@ -112,7 +124,7 @@ function openKCFinder(textarea) {
     <label class="col-sm-2 control-label form-label" for="input001"> SEO</label>
 </div>
 <hr style="marin-top:0px">
-  <div class="form-group" style="margin-bottom:0px">
+    <div class="form-group" style="margin-bottom:0px">
         <label class="col-sm-2 control-label form-label" for="input001">Description:</label>
         <div class="col-sm-6">
             <?php echo $form->textField($model,'Description',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
@@ -137,7 +149,7 @@ function openKCFinder(textarea) {
 ));
  ?>
  <script>
-  CKEDITOR.replace('SanphamLang_MoTa', {height: 300, });
+  CKEDITOR.replace('SanphamLang_Content', {height: 300, });
     function setFile(url)
     {
         jQuery('#Sanpham_UrlImage').val(url);

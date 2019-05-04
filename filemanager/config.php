@@ -11,7 +11,7 @@
  * Other settings may be left with their default values, or used to control
  * advanced features of CKFinder.
  */
-global $url;
+
 /**
  * This function must check the user session to be sure that he/she is
  * authorized to upload and access files in the File Browser.
@@ -29,27 +29,14 @@ function CheckAuthentication()
 	// ... where $_SESSION['IsAuthorized'] is set to "true" as soon as the
 	// user logs in your system. To be able to use session variables don't
 	// forget to add session_start() at the top of this file.
-	///*$path = dirname(dirname(__FILE__));
-	//$yii = $path.'/framework/yii.php';
-	//$path = dirname(dirname(__FILE__));
-	//$yii = 'C:/xampp/htdocs/yii/framework/yii.php';
-	//$config = $path.'/protected/config/main.php';
-	
-	/*$config = $path.'/protected/config/main.php';
-	require_once($yii);
-	Yii::createWebApplication($config);
-	global $url;
-	$url = Yii::app()->getBaseUrl();
-	return Yii::app()->user->getState('isAuth');*/
+
 	return true;
 }
 
 // LicenseKey : Paste your license key here. If left blank, CKFinder will be
 // fully functional, in demo mode.
-$config['LicenseName'] = $_SERVER['HTTP_HOST'];
-$str_dom = strlen($_SERVER['HTTP_HOST']);
-$characters = "ZYXWVUTSRQPNMLKJHGFEDCBA987654321";
-$config['LicenseKey'] = "2".$characters[$str_dom % 33 + (int)($str_dom / 33)]."11EFGH1JK11NOPQRSTUVWXY41";
+$config['LicenseName'] = '';
+$config['LicenseKey'] = '';
 
 /*
  Uncomment lines below to enable PHP error reporting and displaying PHP errors.
@@ -209,7 +196,7 @@ $config['ResourceType'][] = Array(
 		'name' => 'Files',				// Single quotes not allowed
 		'url' => $baseUrl . 'files',
 		'directory' => $baseDir . 'files',
-		'maxSize' => "2M",
+		'maxSize' => "1M",
 		'allowedExtensions' => '7z,aiff,asf,avi,bmp,csv,doc,docx,fla,flv,gif,gz,gzip,jpeg,jpg,mid,mov,mp3,mp4,mpc,mpeg,mpg,ods,odt,pdf,png,ppt,pptx,pxd,qt,ram,rar,rm,rmi,rmvb,rtf,sdc,sitd,swf,sxc,sxw,tar,tgz,tif,tiff,txt,vsd,wav,wma,wmv,xls,xlsx,zip',
 		'deniedExtensions' => '');
 

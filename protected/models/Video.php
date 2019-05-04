@@ -31,12 +31,12 @@ class Video extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Active,Footer,Date', 'numerical', 'integerOnly'=>true),
+			array('Active,idCategory,Footer,Date', 'numerical', 'integerOnly'=>true),
 			array('Name, Alias, Link, UrlImage', 'length', 'max'=>255),
 			array('Description, SetHome', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, Name, Footer,Alias, Link, UrlImage, Description,Date, SetHome, Active', 'safe', 'on'=>'search'),
+			array('id, Name,idCategory Footer,Alias, Link, UrlImage, Description,Date, SetHome, Active', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -58,6 +58,7 @@ class Video extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
+			'idCategory' => 'idCategory',
 			'Name' => 'Tiêu đề',
 			'Alias' => 'Alias',
 			'Link' => 'Link',
@@ -89,6 +90,7 @@ class Video extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
+        $criteria->compare('idCategory',$this->idCategory);
 		$criteria->compare('Name',$this->Name,true);
 		$criteria->compare('Alias',$this->Alias,true);
 		$criteria->compare('Link',$this->Link,true);

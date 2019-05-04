@@ -66,6 +66,7 @@ class SanphamController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
+
 		if(isset($_POST['Sanpham']))
 		{
 			$model->attributes=$_POST['Sanpham'];
@@ -90,9 +91,12 @@ class SanphamController extends Controller
 				$spl->idNgonNgu = 1;
 				$spl->attributes = $_POST['SanphamLang'];
 				$spl->File = trim($spl->File, "/");
-				$insert_id = Yii::app()->db->getLastInsertID();
-				$spl->Alias = Common::bodau($spl->Name)."-".$insert_id;
+				$spl->Alias = Common::bodau($spl->Name);
 				$spl->save();
+                //xu ly node
+                $insert_id = Yii::app()->db->getLastInsertID();
+                Router::processRouter(['alias' => $spl->Alias, 'idObject' => $insert_id, 'type' =>Router::TYPE_PRODUCT]);
+                //end xu ly node
 				$this->redirect(array('admin'));
 			}
 		}
@@ -140,8 +144,8 @@ class SanphamController extends Controller
 				$spl->idNgonNgu = 1;
 				$spl->attributes = $_POST['SanphamLang'];
 				$spl->File = trim($spl->File, "/");
-				//$spl->Alias = Common::bodau($spl->Name)."-".$spl->id;
 				$spl->save();
+                // Router::processRouter(['alias' => Common::bodau($spl->Name), 'idObject' => $model->id, 'type' =>Router::TYPE_PRODUCT], 'update');
 				$this->redirect(array('admin'));
 			}
 		}
@@ -159,7 +163,20 @@ class SanphamController extends Controller
 	public function actionDelete($id)
 	{
 		$this->loadModel($id)->delete();
+        #xoa router
+        $criteria = new CDbCriteria();
+        $criteria->condition = "idSP = $id";
+        $spl = SanphamLang::model()->findAll($criteria);
+
+        if($spl != false) {
+            foreach ($spl as $value) {
+                Router::processRouter(['alias' => '', 'idObject' => $value->id, 'type' => Router::TYPE_PRODUCT], 'delete');
+            }
+        }
+        #End xoa router
+
 		SanphamLang::model()->deleteAll("idSP = $id");
+
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));

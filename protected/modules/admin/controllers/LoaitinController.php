@@ -84,6 +84,10 @@ class LoaitinController extends Controller
 				$ltl->idNgonNgu = 2;
 				$ltl->Alias = Common::bodau($ltl->Name);
 				$ltl->save();
+                //xu ly node
+                $insert_id = Yii::app()->db->getLastInsertID();
+                Router::processRouter(['alias' => $ltl->Alias, 'idObject' => $insert_id, 'type' =>Router::TYPE_NEWS_CATEGORY]);
+                //end xu ly node
 				$this->redirect(array('admin'));
 			}
 		}
