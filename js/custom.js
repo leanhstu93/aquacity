@@ -23,4 +23,25 @@ $(document).ready(function(){
         items:4,
         margin:20,
     });
+
+    $(".Ta__js-slider-kienthuc").owlCarousel({
+        autoplay:true,
+        smartSpeed : 900,
+        navigation : true, // Show next and prev buttons
+        paginationSpeed : 70000,
+        loop:true,
+        items:1,
+        dots: true,
+        margin:20,
+    });
+    //menu fix
+    jQuery(document).scroll( function(){
+        scoll_top = jQuery(document).scrollTop();
+        height_header= jQuery('.wrp-menu').height();
+        if( scoll_top >= height_header ){
+            jQuery(".wrp-menu").addClass("menufix");
+        }else{
+            jQuery(".wrp-menu").removeClass("menufix");
+        }
+    });
 });

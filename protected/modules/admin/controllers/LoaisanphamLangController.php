@@ -76,7 +76,11 @@ class LoaisanphamLangController extends Controller
 				$lsp->idLoai = $model->id;
 				$lsp->idNgonNgu = 1;
 				$lsp->Alias =  Common::bodau($lsp->Name);
-				$lsp->save();
+				if($lsp->save()) {
+                    $insert_id = Yii::app()->db->getLastInsertID();
+                    Router::processRouter(['alias' => $lsp->Alias, 'idObject' => $insert_id, 'type' => Router::TYPE_PRODUCT_CATEGORY]);
+                    //end xu ly node
+                }
 				$this->redirect(array('admin'));
 			}
 		}
@@ -130,6 +134,17 @@ class LoaisanphamLangController extends Controller
 		if($count > 0)
 			throw new CHttpException(404,'Không thể xóa loại sản phẩm này.');
 		Loaisanpham::model()->find("id=$id")->delete();
+        #xoa router
+        $criteria = new CDbCriteria();
+        $criteria->condition = "idLoai = $id";
+        $lsp = LoaisanphamLang::model()->findAll($criteria);
+
+        if($lsp != false) {
+            foreach ($lsp as $value) {
+                Router::processRouter(['alias' => '', 'idObject' => $value->id, 'type' => Router::TYPE_PRODUCT_CATEGORY], 'delete');
+            }
+        }
+        #End xoa router
 		LoaisanphamLang::model()->deleteAll("`idLoai` = :idl",array(":idl"=>$id));
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))

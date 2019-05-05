@@ -1,23 +1,1 @@
-<ul class="breadcrumb">
-	<li><a href="/"><?php echo $this->ngonngu[37] ?></a></li>
-	<?php
-	if(count($data)>1)
-	{
-	for($i = 1;$i < count($data);$i++) { ?>
-		<li><a href="<?php echo $data[$i]['Href'] ?>"> <span class="noi"> »</span>  <?php echo $data[$i]['Name'] ?></a></li>
-<?php }
-}
-	?>
-	
-	<li><span> <span class="noi"> »</span>  <?php echo $data[0]['Name'] ?></span></li>
-</ul>
-<style type="text/css">
-ul.breadcrumb li span{color: #737171;}
-ul.breadcrumb li:nth-child(1) a{color: #34090c;text-transform: uppercase;}
-ul.breadcrumb li a{    color: black;font-weight: bold}
-	ul.breadcrumb li{float: left;    text-transform: none;}
-	ul.breadcrumb li .noi{position: relative;    top: -1px; margin-right: 5px; margin-left: 5px;}
-	ul.breadcrumb{width: 100%;
-    float: left;
-    margin-bottom: 15px;padding-top: 1%}
-</style>
+<div class="kh-top">    <div class="top-link">        <div class="breadcrumb">            <p id="breadcrumbs">                <span>                    <span>                        <a href="https://nangmuidep.vn/" target="_blank">Home</a> »                        <span>                            <?php                            if(count($data)>1)                            {                                for($i = 1;$i < count($data);$i++) { ?>                                    <a href="<?php echo $data[$i]['Href'] ?>" target="_blank"> <?php echo $data[$i]['Name'] ?></a> »                            <?php                                }                            }                            ?>                            <span class="breadcrumb_last"><?php echo $data[0]['Name'] ?></span>                        </span>                    </span>                </span>            </p>        </div>    </div></div>

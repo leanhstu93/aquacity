@@ -21,6 +21,22 @@
 </div>
 
 <div class="form-group" style="margin-bottom:0px">
+    <?php echo $form->labelEx($model, 'link', array('class' => 'col-sm-2 control-label form-label')); ?>
+    <div class="col-sm-6">
+        <?php echo $form->textField($model,'link',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model,'link',array("text"=>"aaa")); ?></span>
+    </div>
+</div>
+
+<div class="form-group" style="margin-bottom:0px">
+    <?php echo $form->labelEx($model, 'description', array('class' => 'col-sm-2 control-label form-label')); ?>
+    <div class="col-sm-6">
+        <?php echo $form->textArea($model,'description',array('class'=>'form-control')); ?>
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model,'description',array("text"=>"aaa")); ?></span>
+    </div>
+</div>
+
+<div class="form-group" style="margin-bottom:0px">
     <?php echo $form->labelEx($model, 'active', array('class' => 'col-sm-2 control-label form-label')); ?>
     <div class="col-sm-6">
         <?php echo $form->dropDownList($model, 'active',array("Không","Có"), array( 'class' => 'form-control ')); ?>

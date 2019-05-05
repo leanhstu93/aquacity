@@ -1,7 +1,7 @@
 <?php
 $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
 ?>
-<div class='page3'>
+<div class='page3 w100'>
     <div class='hd-container '>
         <div class="hd-row">
             <div class="hd-col m12">
@@ -134,15 +134,17 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
         </div>
         <?php
         $posts = Loaitin::getDataByCustomSetting('home_kien_thuc');
+
         $hinhanh = Hinhanh::getDataByCustomSetting('home_kien_thuc');
         ?>
         <div class='hd-row'>
-            <div class="pagett pagett-sub"><?php echo $data->category->name ?></div>
+            <div class="pagett pagett-sub"><?php echo $hinhanh->category->name ?></div>
+            <?php if(!empty($hinhanh)){ ?>
             <div class='hd-col m6'>
                 <figure>
                     <div class="flexslider page3-slide">
                         <div class="flex-viewport">
-                            <ul class="slides">
+                            <ul class="slides Ta__js-slider-kienthuc slide">
                                 <?php
                                 foreach ($hinhanh->hinhanh as $item){
                                 ?>
@@ -157,16 +159,20 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
                             </ul>
                         </div>
                     </div>
-                    <p><?php echo $data->category->loaitin_lang->description ?></p>
+                    <p><?php echo $hinhanh->category->description ?></p>
                     <div class="btn-lk">
-                        <a class="hd-btn" href="https://nangmuidep.vn/hinh-anh"  rel="nofollow">Xem thêm >></a>
+                        <a class="hd-btn" href="<?php echo $hinhanh->category->link ?>"  rel="nofollow">Xem thêm >></a>
                     </div>
                 </figure>
             </div>
+            <?php } ?>
+            <?php if(!empty($posts) && !empty($posts->post)){ ?>
             <div class='hd-col m6'>
                 <?php
-                    foreach ($posts->post as $item){
-                        $router = Router::model()->find("idObject = ". $item->tintuc_lang->id ." AND type = ".Router::TYPE_NEWS);
+                $routerCateNews = Router::model()->find("idObject = ". $posts->category->loaitin_lang->id ." AND type = ".Router::TYPE_NEWS_CATEGORY);
+
+                foreach ($posts->post as $item){
+                    $router = Router::model()->find("idObject = ". $item->tintuc_lang->id ." AND type = ".Router::TYPE_NEWS);
                 ?>
                 <article>
                     <a class="pic"
@@ -181,9 +187,10 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
                 </article>
                 <?php } ?>
                 <div class='btn-lk'>
-                    <a rel="nofollow" class='hd-btn' href='https://nangmuidep.vn/tin-tuc'>Xem thêm >></a>
+                    <a rel="nofollow" class='hd-btn' href='<?php echo $routerCateNews->alias ?>'>Xem thêm >></a>
                 </div>
             </div>
+            <?php } ?>
         </div>
     </div>
 </div>

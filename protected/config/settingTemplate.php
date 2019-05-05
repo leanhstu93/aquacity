@@ -39,8 +39,28 @@
                 'data' => 7,
                 'limit' => 5,
                 'note' => '',
-            ]
+            ],
+            'home_bg_cau_hoi' =>[
+                'name' => 'Background tư vấn nâng mũi',
+                'data' => 8,
+                'limit' => 1,
+                'note' => '',
+            ],
+            'home_banner_trang_con' =>[
+                'name' => 'Banner trang con',
+                'data' => 9,
+                'limit' => 1,
+                'note' => '',
+            ],
+            'home_banner_bottom_post' =>[
+                'name' => 'Banner cuối bài viết',
+                'data' => 10,
+                'limit' => 1,
+                'note' => '',
+            ],
+
         ],
+        #END setting image
         # cấu hình trang đơn
         'CUSTOM_SINGLE_PAGE' =>[
             'list_doctor' =>[
@@ -50,6 +70,7 @@
                 'limit' => 0
             ],
         ],
+        #END setting trang don
         # cấu hình danh muc bai viet
         'CUSTOM_NEWS_CATEGORY' =>[
             'home_kien_thuc' =>[
@@ -58,5 +79,12 @@
                 'note' => '',
                 'limit' => 4
             ],
+            'home_cau_hoi' =>[
+                'name' => 'Tư vấn nâng mũi',
+                'data' => 2,
+                'limit' => 4,
+                'note' => '',
+            ]
         ]
+        #END setting danh muc bai viet
     ];

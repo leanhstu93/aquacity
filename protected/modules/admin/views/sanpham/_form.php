@@ -20,8 +20,9 @@
 <div class="form-group" style="margin-bottom:0px">
     <label class="col-sm-2 control-label form-label" for="input001">Tên menu:</label>
     <div class="col-sm-6">
-        <?php echo $form->textField($spl,'NameShort',array('size'=>60,'maxlength'=>100,'class'=>'form-control','required'=>'required')); ?>
-        <span class="help-block" id="helpBlock"><?php echo $form->error($spl,'NameShort',array("text"=>"aaa")); ?></span> </div>
+        <?php echo $form->textField($spl,'NameShort',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
+        <span class="help-block" id="helpBlock"><?php echo $form->error($spl,'NameShort',array("text"=>"aaa")); ?></span>
+    </div>
 </div>
 <div class="form-group" style="margin-bottom:0px">
     <label class="col-sm-2 control-label form-label" for="input001">Loại sản phẩm:</label>

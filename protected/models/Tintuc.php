@@ -34,7 +34,7 @@ class Tintuc extends CActiveRecord
 		return array(
 			array('UrlImage', 'required','message'=>'{attribute} không thể trống'),
 			array('idLoaiTin,Date, SetHome, Active,idNguoiDang, ViewCount', 'numerical', 'integerOnly'=>true),
-			array('UrlImage, NguoiDang,idTags', 'length', 'max'=>255),
+			array('UrlImage, NguoiDang,idTags,mo_rong', 'length', 'max'=>255),
 			array('Seo_Keywords, Seo_Description', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -73,6 +73,7 @@ class Tintuc extends CActiveRecord
 			'ViewCount' => 'Lượt xem',
 			'Seo_Keywords' => 'Seo Keywords',
 			'Seo_Description' => 'Seo Description',
+			'mo_rong' => 'Mở rộng',
 			'Active' => 'Hiển thị',
 		);
 	}
@@ -103,6 +104,7 @@ class Tintuc extends CActiveRecord
 		$criteria->compare('Date',$this->Date);
 		$criteria->compare('SetHome',$this->SetHome);
 		$criteria->compare('ViewCount',$this->ViewCount);
+        $criteria->compare('mo_rong',$this->mo_rong);
 		$criteria->compare('Seo_Keywords',$this->Seo_Keywords,true);
 		$criteria->compare('Seo_Description',$this->Seo_Description,true);
 		$criteria->compare('tintuc_lang.Name',Yii::app()->request->getParam('Name'),true);

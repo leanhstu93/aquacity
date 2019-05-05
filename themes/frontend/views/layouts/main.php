@@ -46,7 +46,5 @@
     <?php $this->renderPartial("//layouts/nav-bottom"); ?>
     <?php $this->renderPartial("//layouts/messengerFB"); ?>
  </div>
- </div>
-
 </body>
 </html>

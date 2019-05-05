@@ -64,7 +64,7 @@ class SinglePage extends CActiveRecord
 			'set_home' => 'Set Home',
 			'set_menu' => 'Set Menu',
 			'name' => 'Name',
-			'urlImage' => 'Url Image',
+			'urlImage' => 'Hình ảnh',
 			'description' => 'Description',
 			'content' => 'Content',
 			'seo_description' => 'Seo Description',

@@ -20,7 +20,12 @@
                             $data= SinglePage::model()->findAll($criteria);
                             $listdata = CHtml::listData($data,'id','name');
                             foreach ($listdata as $key => $name){
-                                $selected = in_array($key, $item['data'])  ? $selected = 'selected' : '';
+                                if(is_array($item['data']) ) {
+                                    $selected = in_array($key, $item['data'])  ? $selected = 'selected' : '';
+                                } else {
+                                    $selected = '';
+                                }
+
                                 ?>
                                 <option <?php echo $selected ?> value="<?php echo $key ?>">  <?php echo $name ?> </option>
                             <?php } ?>

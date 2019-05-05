@@ -26,6 +26,12 @@ html,body{
     line-height: 1.5;
 }
 *{ margin:0px;padding:0px;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;box-sizing:border-box;}
+body{
+    font-size: 14px;
+}
+figure {
+    margin: 1em 40px;
+}
 img{max-width: 100%}
 .fix-scroll{position: fixed;max-width: 1350px;top: 0px;left: 0px;z-index: 988}
 a{cursor: pointer;}
@@ -510,6 +516,258 @@ a{text-decoration:none;color:#000}
     font-weight: bold;
     line-height: 20px;
 }
+.kns .page3 .pagett-sub {
+    text-align: left;
+    font-size: 18px;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: table;
+    width: 526px;
+}
+.kns .page3 .pagett-sub::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    border-bottom: 3px solid #00597e;
+    width: 90px;
+}
+.kns .page3 article {
+    display: table;
+    width: 100%;
+    margin: 10px 0 0;
+}
+.kns .page3 article .pic {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+.kns .page3 article .pic img {
+    max-width: 100%;
+    min-height: 80px;
+    border-radius: 4px;
+    margin: 0;
+}
+.kns .page3 .btn-lk a {
+    margin: 0 auto;
+}
+.kns .page3 figure {
+    margin: 0;
+    width: 90%;
+}
+.page3 p{
+    margin: 10px 0;
+}
+.kns .page4 {
+    background: url(../images/home/page4.jpg) center 0 no-repeat;
+    min-height: 482px;
+}
+.kns .page4 figure {
+    width: 50%;
+    float: right;
+}
+.kns .page4 figure .pagett {
+    text-align: left;
+    color: #515151;
+    padding: 15px 0;
+    margin: 0 0 20px;
+    position: relative;
+    font-size: 18px;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+    width: 80%;
+}
+.kns .page4 figure .pagett .btn-lk2 {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    padding: 20px;
+}
+.kns .btn-lk2 a {
+    background: #f26649;
+    display: block;
+    height: 35px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 19px;
+}
+.kns .page4 figure .pagett .btn-lk2 {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    padding: 20px;
+}
+.kns .page4 figure ul {
+    padding: 0;
+}
+.kns .page4 figure ul li {
+    list-style: none;
+    margin: 20px 0 0;
+}
+.kns .page4 figure ul li a{
+    margin-bottom: 10px;
+    display: block;
+}
+.kns .page4 figure ul li .button {
+    background: linear-gradient(#f26649, #d3332f);
+    padding: 5px 23px;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+}
+.kns .page4 figure ul li i {
+    display: block;
+    color: #666;
+}
+.kns .page4 figure .pagett .btn-lk2 {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    padding: 20px;
+}
+.kns .page4 figure .pagett::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    border-bottom: 3px solid #00597e;
+    width: 90px;
+}
+.kns .page4 figure .pagett {
+    text-align: left;
+    color: #515151;
+    padding: 15px 0;
+    margin: 0 0 20px;
+    position: relative;
+    font-size: 18px;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+    width: 80%;
+}
+.kns .page4 figure .pagett h5{
+    font-weight: normal;
+    margin: 10px 0;
+    font-size: 17px;
+}
+.kns .page4 .btn-lk2 a{
+    color: white;
+}
+.kns .btn-lk2 {
+    margin: 20px 0;
+}
+.kns .ht-seo {
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 30px 0;
+}
+.kns .ht-seo .hd-container {
+    padding: 0;
+}
+.kns .ht-seo ul {
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+.kns .ht-seo li {
+    word-spacing: 2px;
+    padding: 6px 20px 6px 0;
+}
+.kns .menufix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+.kns main {
+    width: 100%;
+    padding: 40px 0 30px;
+    display: table;
+}
+.kns main .mainpage {
+    float: left;
+    vertical-align: top;
+    width: 73%;
+}
+.kns .kh-top {
+    height: auto;
+    margin: 0px 0 15px;
+    background: #d6edf7;
+}
+.kns .kh-top .top-link {
+    position: inherit;
+    width: 100%;
+    height: auto;
+    background: #04668e;
+    padding: 10px 0 10px 30px;
+}
+.kns main .mainpage .breadcrumb {
+    background: #00597d;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 13px;
+}
+.kns .kh-top .top-link .breadcrumb span {
+    color: #fff;
+}
+.kns main .mainpage .breadcrumb .breadcrumb_last {
+
+}
+.kns .kh-top .top-link .breadcrumb {
+    background: none;
+    padding: 0;
+}
+.breadcrumb a{
+    color: white;
+}
+
+.kns main .mainpage .detail .title {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    padding-top: 15px;
+    padding: 0;
+    margin: 0;
+}
+.kns main .mainpage .detail .title {
+    margin-top: 20px;
+}
+.cmName {
+    padding-top: 20px !important;
+}
+.sapo {
+    border: 1px solid #bcd7e1;
+    background: #e6eef1;
+    padding: 10px 20px;
+    margin: 20px 0;
+    line-height: 30px;
+    font-size: 16px;
+}
+.kns main .mainpage .detail .box, .kns main .mainpage .detail h2 {
+    border: none;
+    background: none;
+    padding: 5px 0px;
+    margin: 0;
+    line-height: 30px;
+    font-size: 18px;
+}
+.kns main .mainpage .detail .detailct img{
+    max-width: 100%;
+    height: auto !important;
+}
+.kns main .mainpage .detail .detailct{
+    line-height: 24px;
+}
+.kns main .mainpage .detail p {
+    margin: 20px 0;
+}
 @media only screen and (min-width: 601px) {
     .hd-col.m4, .hd-third {
         width: 33.33333%;
@@ -519,6 +777,9 @@ a{text-decoration:none;color:#000}
     }
     .hd-col.m4, .hd-third {
         width: 33.33333%;
+    }
+    .hd-col.m6, .hd-half {
+        width: 49.99999%;
     }
 }
 @media only screen and (min-width: 601px){

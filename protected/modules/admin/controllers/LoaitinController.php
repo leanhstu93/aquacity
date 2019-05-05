@@ -77,17 +77,23 @@ class LoaitinController extends Controller
 				$ltl->idLoaiTin = $model->id;
 				$ltl->idNgonNgu = 1;
 				$ltl->Alias = Common::bodau($ltl->Name);
-				$ltl->save();
+				if($ltl->save()) {
+                    //xu ly node
+                    $insert_id = Yii::app()->db->getLastInsertID();
+                    Router::processRouter(['alias' => $ltl->Alias, 'idObject' => $insert_id, 'type' => Router::TYPE_NEWS_CATEGORY]);
+                    //end xu ly node
+                }
 				$ltl = new LoaitinLang;
 				$ltl->attributes=$_POST['LoaitinLang_'];
 				$ltl->idLoaiTin = $model->id;
 				$ltl->idNgonNgu = 2;
 				$ltl->Alias = Common::bodau($ltl->Name);
-				$ltl->save();
-                //xu ly node
-                $insert_id = Yii::app()->db->getLastInsertID();
-                Router::processRouter(['alias' => $ltl->Alias, 'idObject' => $insert_id, 'type' =>Router::TYPE_NEWS_CATEGORY]);
-                //end xu ly node
+				if($ltl->save()) {
+                    //xu ly node
+                    $insert_id = Yii::app()->db->getLastInsertID();
+                    Router::processRouter(['alias' => $ltl->Alias, 'idObject' => $insert_id, 'type' => Router::TYPE_NEWS_CATEGORY]);
+                    //end xu ly node
+                }
 				$this->redirect(array('admin'));
 			}
 		}
@@ -151,7 +157,21 @@ class LoaitinController extends Controller
 		if($count > 0)
 			throw new CHttpException(404,'Không thể xóa loại tin tức này.');
 		$this->loadModel($id)->delete();
-		LoaitinLang::model()->deleteAll("`idLoaiTin` = :idl",array(":idl"=>$id));
+
+        #xoa router
+        $criteria = new CDbCriteria();
+        $criteria->condition = "idLoaiTin = $id";
+        $data = LoaitinLang::model()->findAll($criteria);
+        foreach ($data as $item) {
+            #xu ly router
+            Router::processRouter(['alias' => '', 'idObject' => $item->id, 'type' => Router::TYPE_NEWS_CATEGORY], 'delete');
+            #End xu ly router
+        }
+        #END xoa router
+
+        $data = LoaitinLang::model()->deleteAll("`idLoaiTin` = :idl",array(":idl"=>$id));
+        echo $id;
+        Common::debug($data);
 		
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))

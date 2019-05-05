@@ -4,7 +4,7 @@
             <?php
             $videoSetting = videoSetting::model()->find('id=1');
             ?>
-            <a href="/video.html">
+            <a href="">
                 <img load="step1" src="<?php echo $videoSetting->urlImage ?>" alt="<?php echo $videoSetting->name ?>">
 
                 <div class="faded">
@@ -50,6 +50,7 @@
                         <p class="tt"><?php echo $single_page->name ?> </p>
                     </div>
                 </a>
+            </div>
         <?php } ?>
     </div>
     <div class="btn-lk w100">
