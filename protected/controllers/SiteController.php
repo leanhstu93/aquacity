@@ -48,6 +48,8 @@ class SiteController extends Controller {
         $this->hinhanh = Hinhanh::model()->find("id=1");
         $this->ch = Cauhinh::model()->find("id = 1 ");
         $this->footer = Footer::model()->find("id = 1 ");
+        # lấy dữ liệu theo cấu hình setting
+        $custom = Custom::model()->find('id = 1');
         Yii::app()->clientScript->registerMetaTag( $this->ch->Title, '', null, array('property' => 'og:title'), 'meta_og_title');
             Yii::app()->clientScript->registerMetaTag("http://".$_SERVER["HTTP_HOST"].$this->ch->ImageCompany, '', null, array('property' => 'og:image'), 'meta_og_image');
         Yii::app()->clientScript->registerMetaTag($_SERVER["REQUEST_URI"], '', null, array('property' => 'og:url'), 'meta_og_site_name');

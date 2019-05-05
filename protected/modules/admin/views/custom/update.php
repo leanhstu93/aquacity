@@ -12,25 +12,7 @@
 <!-- //////////////////////////////////////////////////////////////////////////// -->
 <!-- START CONTAINER -->
 <div class="container-widget">
-
-    <!-- Start Fourth Row -->
-    <div class="row">
-        <div class="col-md-12">
-            <div class="panel panel-default">
-                <div class="panel-title">
-                    <h1>Cập nhật hình ảnh</h1>
-                    <ul class="panel-tools">
-                        <li><a class="icon expand-tool"><i class="fa fa-expand"></i></a></li>
-                    </ul>
-                </div>
-                <div class="panel-body">
-                    <?php $this->renderPartial('_form', array('model'=>$model,'custom_image' => $custom_image)); ?>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Fourth Row -->
-
+    <?php $this->renderPartial('_form', array('model'=>$model,'custom' => $custom)); ?>
 </div>
 <!-- END CONTAINER -->
 <!-- //////////////////////////////////////////////////////////////////////////// -->

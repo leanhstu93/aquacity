@@ -9,6 +9,9 @@
  */
 class Custom extends CActiveRecord
 {
+    const KEY_IMAGE = 'CUSTOM_IMAGE';
+    const KEY_SINGLE_PAGE = 'CUSTOM_SINGLE_PAGE';
+    const KEY_NEWS_CATEGORY = 'CUSTOM_NEWS_CATEGORY';
 	/**
 	 * @return string the associated database table name
 	 */
@@ -90,4 +93,18 @@ class Custom extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	/**
+     * lấy dữ liệu setting
+     */
+	public static function getSettingcustom()
+    {
+        $custom = Yii::app()->params['settingTemplate'];
+        $model=Custom::model()->findByPk(1);
+
+        if(!empty(json_decode($model->data))) {
+            $custom = array_replace_recursive($custom, json_decode($model->data,true));
+        }
+        return $custom;
+    }
 }

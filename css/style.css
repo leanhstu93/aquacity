@@ -338,7 +338,185 @@ a{text-decoration:none;color:#000}
     display: table;
     clear: both;
 }
+.kns .page1 .ct3 {
+    display: table;
+    width: 100%;
+    margin: 80px 0 110px;
+}
+.kns .page1 .city {
+    display: none;
+}
+.kns .page1 .city2 {
+    display: block;
+}
+.kns .page1 .city .text {
+    width: 50%;
+    float: right;
+    position: relative;
+    font-family: slabr;
+    color: #00597d;
+}
+.kns .page1 .city .text .tt {
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.kns .page1 .city .text .tt b {
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.kns .page1 .city .text .ct {
+    background: #1575af;
+    color: #fff;
+    padding: 15px;
+}
+.kns .page1 .city .text .img {
+    position: absolute;
+    top: 0;
+    left: -380px;
+}
+.kns .page1 .ct3 .tabname li {
+    float: left;
+    width: 20%;
+    list-style: none;
+    text-align: center;
+}
+.kns .page1 .ct3 .tabname li .tablink {
+    background: none;
+    outline: none;
+    padding: 0;
+}
+.kns .page1 .ct3 .tabname li img {
+    width: 82px;
+    height: 82px;
+    border-radius: 100%;
+    border: 2px solid #ccc;
+    opacity: 0.8;
+}
+.kns .page1 .button .tabname {
+    width: 50%;
+    float: right;
+}
+.kns .page1 .button {
+    clear: both;
+}
+.kns .page1 .tab1, .kns .page1 .tab2, .kns .page1 .tab3, .kns .page1 .tab4, .kns .page1 .tab5 {
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 100%;
+}
+.kns .page1 .button ul{
+    margin: 30px 0;
+}
+.kns .page1 .ct2 {
+    width: 100%;
+    text-align: center;
+}
+.kns .page1 .ct3 .tabname li .tablink.active img {
+    opacity: 1;
+    border-color: #1575af;
+}
+.kns .page2 {
+    background: url(../images/home/page2.jpg) center 0 no-repeat;
+    min-height: 498px;
+    padding: 30px 0 0;
+}
+.kns .hd-container {
+    max-width: 1201px;
+    margin: 0 auto;
+}
+.kns .page2 .pagett {
+    color: #fff;
+}
+.hd-container:after, .hd-row:after, .hd-row-padding:after, .hd-topnav:after, .hd-clear:after, .hd-btn-group:before, .hd-btn-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.kns .page2 .page2-slide {
+    background: none;
+}
+.kns .page2 .page2-slide .slides li{
+    list-style: none;
+}
+.kns .line2::before {
+    border-color: #fff;
+}
+.kns .page2 figure {
+    border-radius: 4px;
+    background: #fff;
+    text-align: center;
+    margin: 1em 11px;
+    font-size: 16px;
+    border-bottom: 2px solid #e34e3d;
+    text-transform: uppercase;
+    transition: 0.2s;
+    overflow: hidden;
+}
+.kns .page2 .slides  figure p {
+    padding: 14px 5px;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.kns .page2 .slides .owl-nav{
+    text-align: center;
+}
+.kns .page2 .slides .owl-nav .owl-prev,.kns .page2 .slides .owl-nav .owl-next{
+    display: inline-block;
+    vertical-align: middle;
+    color: transparent;
+
+}
+.kns .page2 .slides .owl-nav .owl-next:before{
+    content: "\f054";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: white;
+    font-size: 20px;
+}
+.kns .page2 .slides .owl-nav .owl-prev:before{
+    content: "\f053";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: white;
+    font-size: 20px;
+}
+.kns .page3 {
+    padding: 20px 0;
+}
+.kns .page3 .hd-row .cckh .hd-col.m4 .img, .kns .page3 .hd-row .cckh .hd-col.m2 .img {
+    position: relative;
+    overflow: hidden;
+}
+.kns .page3 .hd-row .cckh .hd-col.m4 .img .faded, .kns .page3 .hd-row .cckh .hd-col.m2 .img .faded {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 10px 15px;
+    background: rgba(0,0,0,0.6);
+    transition: 0.5s;
+    opacity: 1;
+    bottom: 0;
+}
+.cckh .img img{
+    width: 100%;
+}
+.kns .page3 .hd-row .cckh .hd-col.m4 .img .faded .tt, .kns .page3 .hd-row .cckh .hd-col.m2 .img .faded .tt {
+    margin: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 20px;
+}
 @media only screen and (min-width: 601px) {
+    .hd-col.m4, .hd-third {
+        width: 33.33333%;
+    }
+    .hd-col.m2 {
+        width: 16.66666%;
+    }
     .hd-col.m4, .hd-third {
         width: 33.33333%;
     }

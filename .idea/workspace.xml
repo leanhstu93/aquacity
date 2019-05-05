@@ -2,63 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0fcd73d-6327-444c-8756-c8829089bc84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/protected/models/Loaihinhanh.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/LoaihinhanhController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-news-category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-single-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/views/site/home-page2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/views/site/home-page3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/components/Common.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/components/Common.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/config/settingTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/settingTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/models/Custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/Custom.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/models/Hinhanh.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/Hinhanh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/models/Loaitin.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/Loaitin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/models/Raovat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/models/SinglePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/SinglePage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/_search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/_view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/create.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/baogia/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/_search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/create.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/binhluan/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/book/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/book/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/book/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/camnhankhachhang/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/camnhankhachhang/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/camnhankhachhang/create.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/camnhankhachhang/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/custom/_search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/custom/_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/custom/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/custom/create.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/custom/index.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/custom/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/custom/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/khachhang/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/khachhang/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/khachhang/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/khachhang/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/_search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/_view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/create.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaikhachhang/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/_search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/_view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaiquangcao/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/video/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/video/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/custom/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/runtime/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/home-ct2.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/home-ct2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/admin/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/admin/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/slide.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,62 +47,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/config/settingTemplate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="408">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/home-page3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="372">
+              <caret line="159" column="63" selection-start-line="159" selection-start-column="63" selection-end-line="159" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php">
+        <entry file="file://$PROJECT_DIR$/protected/models/LoaitinLang.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+            <state relative-caret-position="187">
+              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/update.php">
+        <entry file="file://$PROJECT_DIR$/protected/models/Tintuc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="21" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php">
+        <entry file="file://$PROJECT_DIR$/protected/models/Router.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="35" column="110" selection-start-line="29" selection-start-column="4" selection-end-line="35" selection-end-column="110" />
+            <state relative-caret-position="272">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="185" column="42" selection-start-line="185" selection-start-column="42" selection-end-line="185" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/admin/views/layouts/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="92" column="97" selection-start-line="92" selection-start-column="97" selection-end-line="92" selection-end-column="97" />
+            <state relative-caret-position="272">
+              <caret line="16" column="137" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="137" />
             </state>
           </provider>
         </entry>
@@ -142,14 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>model()-&gt;find</find>
-      <find>:model()-&gt;find(</find>
-      <find>unique</find>
-      <find>const TYPE_PRO</find>
-      <find>router</find>
-      <find>getDescription</find>
-      <find>$lt</find>
-      <find>loại tin</find>
       <find>Loaivideo</find>
       <find>Parent</find>
       <find>vide</find>
@@ -168,10 +127,18 @@
       <find>class=&quot;cntt&quot;</find>
       <find>Name</find>
       <find>video</find>
-      <find>slide</find>
       <find>sli</find>
       <find>/custom</find>
       <find>id_category</find>
+      <find>TYPE_PRODUCT_CATEGORY</find>
+      <find>TYPE_VIDEO_CATEGORY</find>
+      <find>slide</find>
+      <find>getImageByCustomSetting</find>
+      <find>.kns .page1 .city .text .tt</find>
+      <find>openCity</find>
+      <find>getDataByCustomSetting</find>
+      <find>.kns .page2 figure</find>
+      <find>loaitin</find>
     </findStrings>
     <replaceStrings>
       <replace>hd-dropdown-hover</replace>
@@ -187,23 +154,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/FooterController.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/_form.php" />
-        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/protected/models/Thongtinchung.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/sanpham/_form.php" />
-        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/create.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/admin.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/update.php" />
-        <option value="$PROJECT_DIR$/protected/components/Common.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/videoCategory/_form.php" />
-        <option value="$PROJECT_DIR$/protected/models/Video.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/VideoSettingController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/videoSetting/update.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/videoSetting/_form.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/LoaitinController.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/TintucController.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/singlePage/create.php" />
@@ -215,10 +166,7 @@
         <option value="$PROJECT_DIR$/protected/views/site/test.php" />
         <option value="$PROJECT_DIR$/framework/web/CController.php" />
         <option value="$PROJECT_DIR$/filemanager/config.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/home-ct2.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/themes/admin/css/custom.css" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/admin.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/create.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/singlePage/_form.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/video/_form.php" />
@@ -231,13 +179,32 @@
         <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/update.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php" />
-        <option value="$PROJECT_DIR$/protected/models/Hinhanh.php" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
-        <option value="$PROJECT_DIR$/themes/admin/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/config/settingTemplate.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/update.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/admin.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-single-page.php" />
+        <option value="$PROJECT_DIR$/protected/models/SinglePage.php" />
+        <option value="$PROJECT_DIR$/themes/admin/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" />
+        <option value="$PROJECT_DIR$/protected/models/Hinhanh.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/home-ct2.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/slide.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/js/custom.js" />
+        <option value="$PROJECT_DIR$/protected/views/site/home-page2.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-image.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-news-category.php" />
+        <option value="$PROJECT_DIR$/protected/components/Common.php" />
+        <option value="$PROJECT_DIR$/protected/models/Custom.php" />
+        <option value="$PROJECT_DIR$/protected/models/Loaitin.php" />
+        <option value="$PROJECT_DIR$/protected/config/settingTemplate.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/home-page3.php" />
       </list>
     </option>
   </component>
@@ -269,31 +236,7 @@
               <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
               <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
               <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,21 +248,22 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/protected/modules/admin/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/protected/modules/admin/views/custom" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\views" />
-      <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\views\hinhanh" />
-      <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\views\custom" />
-      <recent name="C:\xampp\htdocs\bacsisuamui\themes\frontend\views\layouts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\views\custom" />
+      <recent name="C:\xampp\htdocs\bacsisuamui\protected\views\site" />
+      <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\views" />
+      <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\views\hinhanh" />
+      <recent name="C:\xampp\htdocs\bacsisuamui\themes\frontend\views\layouts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,6 +297,9 @@
       <workItem from="1556550199468" duration="13739000" />
       <workItem from="1556591370657" duration="33417000" />
       <workItem from="1556808411270" duration="9999000" />
+      <workItem from="1556945189169" duration="914000" />
+      <workItem from="1556977683024" duration="22259000" />
+      <workItem from="1557042134049" duration="1944000" />
     </task>
     <task id="LOCAL-00001" summary="cm">
       <created>1556426344862</created>
@@ -396,16 +343,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556810630675</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cm">
+      <created>1556945524983</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556945524983</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73775000" />
+    <option name="totallyTimeSpent" value="98892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27142859" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20308483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -426,7 +381,7 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16902314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27892032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -478,176 +433,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/videoCategory/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="10" lean-forward="true" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/update.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/videoSetting/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="113" selection-start-column="113" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="339" column="1" selection-start-line="339" selection-start-column="1" selection-end-line="339" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-782">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/LoaitinController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="88" column="124" selection-start-line="88" selection-start-column="124" selection-end-line="88" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/singlePage/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Sanpham.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1155">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/SinglePage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/VideoCategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="77" column="120" selection-start-line="77" selection-start-column="120" selection-end-line="77" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/VideoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/TintucController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1618">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/SanphamController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1190">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/singlePage/_form.php" />
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/SinglePageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/singlePage/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/web/CController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="587" column="60" lean-forward="true" selection-start-line="587" selection-start-column="60" selection-end-line="587" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filemanager/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/yiilite.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="3391" column="20" selection-start-line="3391" selection-start-column="20" selection-end-line="3391" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/home-ct2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/admin/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57456">
@@ -659,18 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="77" column="56" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,18 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="468" column="28" selection-start-line="468" selection-start-column="19" selection-end-line="468" selection-end-column="28" />
-          <folding>
-            <element signature="n#sendphone#0;n#Common#0;n#!!top" />
-            <element signature="n#chuoingaunhien#0;n#Common#0;n#!!top" />
-            <element signature="n#phanquyen#0;n#Common#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,59 +545,251 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Hinhanh.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        <state relative-caret-position="595">
+          <caret line="35" column="110" selection-start-line="29" selection-start-column="4" selection-end-line="35" selection-end-column="110" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="3145">
           <caret line="185" column="42" selection-start-line="185" selection-start-column="42" selection-end-line="185" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/admin/views/layouts/main.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/index.php" />
+    <entry file="file://$PROJECT_DIR$/framework/web/helpers/CHtml.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="92" column="97" selection-start-line="92" selection-start-column="97" selection-end-line="92" selection-end-column="97" />
+        <state relative-caret-position="239">
+          <caret line="496" column="27" selection-start-line="496" selection-start-column="27" selection-end-line="496" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="35" column="110" selection-start-line="29" selection-start-column="4" selection-end-line="35" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/settingTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/create.php" />
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+        <state relative-caret-position="238">
+          <caret line="14" column="87" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Sanpham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="43" column="126" selection-start-line="43" selection-start-column="126" selection-end-line="43" selection-end-column="126" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/tintuc/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="118" column="57" selection-start-line="118" selection-start-column="57" selection-end-line="118" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/CustomController.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-single-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/SinglePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="139" column="47" selection-start-line="139" selection-start-column="47" selection-end-line="139" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/admin/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="103" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/home-ct2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="91" selection-start-line="3" selection-start-column="82" selection-end-line="3" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/slide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/home-page2.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="503" column="15" selection-start-line="503" selection-start-column="15" selection-end-line="503" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/_form.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-news-category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/tintuc/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+          <caret line="78" column="105" selection-start-line="68" selection-start-column="8" selection-end-line="78" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="1171" column="18" selection-start-line="1171" selection-start-column="18" selection-end-line="1171" selection-end-column="18" />
+          <folding>
+            <element signature="n#sendphone#0;n#Common#0;n#!!top" />
+            <element signature="n#chuoingaunhien#0;n#Common#0;n#!!top" />
+            <element signature="n#phanquyen#0;n#Common#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="266" column="58" selection-start-line="266" selection-start-column="12" selection-end-line="266" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Hinhanh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="128" column="29" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Loaitin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="126" column="38" selection-start-line="126" selection-start-column="38" selection-end-line="126" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Tintuc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="137" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/settingTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/home-page3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="159" column="63" selection-start-line="159" selection-start-column="63" selection-end-line="159" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/LoaitinLang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
         </state>
       </provider>
     </entry>

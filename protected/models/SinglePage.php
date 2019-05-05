@@ -117,4 +117,32 @@ class SinglePage extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+    /**
+     * Lấy dữ liệu trang đơn theo setting
+     * @param $key
+     * @return array|mixed|null
+     */
+
+    public static function getDataByCustomSetting($key)
+    {
+        $custom = Custom::getSettingcustom();
+        $custom_image =  (object)$custom[Custom::KEY_SINGLE_PAGE][$key];
+
+        if(!empty($custom_image->data)) {
+            $data = implode(',',$custom_image->data);
+            if($custom_image->limit == 1) {
+                return self::model()->find('id IN ('.$data .') AND active = 1');
+            } elseif ($custom_image->limit == 0) {
+                return self::model()->findAll('id IN ('.$data . ') AND active = 1');
+            } else {
+                $criteria = new CDbCriteria();
+                $criteria->condition = 'id IN ('.$data . ') AND active = 1';
+                $criteria->order = "id";
+                $criteria->limit = $custom_image->limit;
+                return self::model()->findAll($criteria);
+            }
+        }
+
+    }
 }
