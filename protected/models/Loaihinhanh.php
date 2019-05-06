@@ -27,10 +27,11 @@ class Loaihinhanh extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('active', 'numerical', 'integerOnly'=>true),
-			array('name', 'length', 'max'=>255),
+			array('name, link', 'length', 'max'=>255),
 			// The following rule is used by search().
+            array('description', 'safe'),
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, active', 'safe', 'on'=>'search'),
+			array('id, name, link, description,active', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -53,6 +54,8 @@ class Loaihinhanh extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'name' => 'Tiêu đề',
+			'link' =>'Dường dẫn',
+			'description' => 'Mô tả',
 			'active' => 'Active',
 		);
 	}
@@ -77,6 +80,8 @@ class Loaihinhanh extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('name',$this->name,true);
+        $criteria->compare('link',$this->link,true);
+        $criteria->compare('description',$this->description,true);
 		$criteria->compare('active',$this->active);
 
 		return new CActiveDataProvider($this, array(

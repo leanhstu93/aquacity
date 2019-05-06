@@ -13,31 +13,20 @@ $form=$this->beginWidget('CActiveForm', array(
     ),
 )); ?>
 
-<?php foreach ($custom_image as $key_parent => $item){?>
-<div class="form-group" style="margin-bottom:0px">
-    <label class="col-sm-2 control-label form-label"><?php echo $item['name'] ?>:</label>
-    <div class="col-sm-6">
-        <select name="Custom[data][<?php echo $key_parent ?>][data]">
-            <?php
-            $criteria=new CDbCriteria();
-            $criteria->condition = "active = 1";
-            $loai_hinh_anh= Loaihinhanh::model()->findAll($criteria);
-            $listdata = CHtml::listData($loai_hinh_anh,'id','name');
-            foreach ($listdata as $key => $name){
+<!-- Start Fourth Row -->
+<div class="row">
+    <?php if(!empty($custom['CUSTOM_IMAGE'])){ ?>
+        <?php $this->renderPartial('block-setting-image', array('data'=>$custom['CUSTOM_IMAGE'], 'form' => $form)); ?>
+    <?php } ?>
 
-                $selected = $key == $item['data'] ? $selected = 'selected' : '';
-                ?>
-            <option <?php echo $selected ?> value="<?php echo $key ?>">  <?php echo $name ?> </option>
-            <?php } ?>
-        </select>
-        <span class="help-block" id="helpBlock"><?php echo $form->error($model,'idCategory'); ?></span>
-    </div>
+    <?php if(!empty($custom['CUSTOM_SINGLE_PAGE'])){ ?>
+        <?php $this->renderPartial('block-setting-single-page', array('data'=>$custom['CUSTOM_SINGLE_PAGE'], 'form' => $form)); ?>
+    <?php } ?>
+
+    <?php if(!empty($custom['CUSTOM_NEWS_CATEGORY'])){ ?>
+        <?php $this->renderPartial('block-setting-news-category', array('data'=>$custom['CUSTOM_NEWS_CATEGORY'], 'form' => $form)); ?>
+    <?php } ?>
 </div>
-<?php } ?>
-<div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-        <?php echo CHtml::submitButton($model->isNewRecord ? 'Thêm hình ảnh' : 'Lưu hình ảnh'); ?>
-    </div>
-</div>
+<!-- End Fourth Row -->
 
 <?php $this->endWidget(); ?>

@@ -48,6 +48,7 @@ class Hinhanh extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+            'loaihinhanh' => array(self::BELONGS_TO,'Loaihinhanh',array('id_category'=>'id')),
 		);
 	}
 
@@ -84,10 +85,11 @@ class Hinhanh extends CActiveRecord
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
-
+        $criteria->with =array("loaihinhanh");
 		$criteria->compare('id',$this->id);
 		$criteria->compare('id_category',$this->id_category);
 		$criteria->compare('name',$this->name,true);
+        $criteria->compare('loaihinhanh.name',Yii::app()->request->getParam('loaihinhanh'),true);
 		$criteria->compare('link',$this->link,true);
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('url_image',$this->url_image,true);
@@ -108,4 +110,38 @@ class Hinhanh extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+    /**
+     * Lấy dữ liệu hình ảnh theo setting
+     * @param $key
+     * @return array|mixed|null
+     */
+    public static function getDataByCustomSetting($key)
+    {
+        $custom = Custom::getSettingcustom();
+        $custom_image =  (object)$custom[Custom::KEY_IMAGE][$key];
+        $result = [
+            'hinhanh' => null,
+            'category' => null
+        ];
+        $result = (object) $result;
+        if(!empty($custom_image->data)) {
+            $result->category = Loaihinhanh::model()->find('id = '.$custom_image->data.' AND active = 1');
+            if($custom_image->limit == 1) {
+                $result->hinhanh = self::model()->find('id_category = '.$custom_image->data . ' AND active = 1');
+            } elseif ($custom_image->limit == 0) {
+                $result->hinhanh = self::model()->findAll('id_category = '.$custom_image->data . ' AND active = 1');
+            } else {
+                $criteria = new CDbCriteria();
+                $criteria->condition = 'id_category = '.$custom_image->data . ' AND active = 1';
+                $criteria->order = "id";
+                $criteria->limit = $custom_image->limit;
+                $result->hinhanh = self::model()->findAll($criteria);
+            }
+
+            return $result;
+        }
+
+    }
+
 }

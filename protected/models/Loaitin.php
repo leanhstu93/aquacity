@@ -105,4 +105,47 @@ class Loaitin extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+    /**
+     * Lấy dữ liệu hình ảnh theo setting
+     * @param $key
+     * @return array|mixed|null
+     */
+    public static function getDataByCustomSetting($key)
+    {
+        $custom = Custom::getSettingcustom();
+        $custom_image =  (object)$custom[Custom::KEY_NEWS_CATEGORY][$key];
+        $result = [
+            'posts' => null,
+            'category' => null
+        ];
+
+        $result = (object) $result;
+        if(!empty($custom_image->data)) {
+            $criteria = new CDbCriteria();
+            $criteria->with = "loaitin_lang";
+            $criteria->condition = "t.id = ".$custom_image->data."  AND Active = 1";
+            $result->category = Loaitin::model()->find($criteria);
+
+            $criteria = new CDbCriteria();
+            $criteria->with = "tintuc_lang";
+            $criteria->condition = "idNgonNgu = 1 and Active = 1";
+            $criteria->order = "t.id desc";
+            $data_id = [];
+            Common::getloaicon($result->category->id,"Loaitin",$data_id);
+            $criteria->addInCondition("idLoaiTin",$data_id);
+
+            if($custom_image->limit == 1) {
+                $result->post = Tintuc::model()->find($criteria);
+            } elseif ($custom_image->limit == 0) {
+                $result->post = Tintuc::model()->findAll($criteria);
+            } else {
+                $criteria->limit = $custom_image->limit;
+                $result->post = Tintuc::model()->findAll($criteria);
+            }
+
+            return $result;
+        }
+
+    }
 }

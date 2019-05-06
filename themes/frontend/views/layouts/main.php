@@ -24,6 +24,9 @@
    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl ?>/css/animate.css">
   <script src="<?php echo Yii::app()->request->baseUrl ?>/js/jquery.js"></script>
    <script src="<?php echo Yii::app()->request->baseUrl ?>/js/animatescroll.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl ?>/js/custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/carousel/owl.carousel.css">
+    <script type="text/javascript" src="/js/carousel/owl.carousel.min.js"></script>
    <script type="text/javascript">
      $(function(){$(".alert button").click(function(event) {/* Act on the event */ $(this).parent().hide("fast"); }); })
    </script>
@@ -43,7 +46,5 @@
     <?php $this->renderPartial("//layouts/nav-bottom"); ?>
     <?php $this->renderPartial("//layouts/messengerFB"); ?>
  </div>
- </div>
-
 </body>
 </html>

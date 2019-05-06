@@ -48,10 +48,29 @@ class SiteController extends Controller {
         $this->hinhanh = Hinhanh::model()->find("id=1");
         $this->ch = Cauhinh::model()->find("id = 1 ");
         $this->footer = Footer::model()->find("id = 1 ");
+        # lấy dữ liệu theo cấu hình setting
+        $custom = Custom::model()->find('id = 1');
         Yii::app()->clientScript->registerMetaTag( $this->ch->Title, '', null, array('property' => 'og:title'), 'meta_og_title');
             Yii::app()->clientScript->registerMetaTag("http://".$_SERVER["HTTP_HOST"].$this->ch->ImageCompany, '', null, array('property' => 'og:image'), 'meta_og_image');
         Yii::app()->clientScript->registerMetaTag($_SERVER["REQUEST_URI"], '', null, array('property' => 'og:url'), 'meta_og_site_name');
         Yii::app()->clientScript->registerMetaTag($this->ch->Description, '', null, array('property' => 'og:description'), 'meta_og_description');
+    }
+
+    public function actionRewriteUrl($alias = '')
+    {
+        $criteria = new CDbCriteria();
+        $criteria->condition = "alias = '$alias'";
+        $model = Router::model()->find($criteria);
+        if(!empty($model)) {
+            switch ($model->type){
+                case Router::TYPE_PRODUCT:
+                    $this->actionSanpham($model->idObject);
+                break;
+                case Router::TYPE_NEWS :
+                    $this->actionChitiet($model->idObject);
+                break;
+            }
+        }
     }
 
     /**
@@ -421,67 +440,8 @@ class SiteController extends Controller {
         }
 
       }
-      public function actionXemraovat($alias)
-      {
-      	$model = Common::get_cache("raovat_".$alias);
-      	if($model == false)
-      	{
-        	$model = Raovat::model()->find("Active = 1 and Alias = '$alias'");
-        	Common::set_cache("raovat_".$alias,$model);
-        }
-        if($model != false)
-        {
-            $this->pageTitle = $model->Name;
-            $criteria = new CDbCriteria();
-            $criteria->condition = " id != $model->id and Active =1 and SetHome = 1";
-            $criteria->order = "id desc";
-            $criteria->limit = 10;
-            $hot = Common::get_cache("raovathot_".$model->id);
-            if($hot == false)
-            {
-            	$hot = Raovat::model()->findAll($criteria);
-            	Common::set_cache("raovathot_".$model->id,$hot);
-            }
-            $this->render('xemraovat',array('model'=>$model,'hot'=>$hot));
-        }
-        else{
-            $this->pageTitle = "404 Page Not Found";
-            $this->render('404');
-        }
-        
-      }
-      public function actionRaovat()
-      {
-         $criteria = new CDbCriteria();
-         $criteria->condition ="Active = 1" ;
-         $criteria->order = "id desc";
-         $count = Raovat::model()->count($criteria);
-        $pages = new CPagination($count);
-        $pages->pageSize = 9;
-        $pages->applyLimit($criteria);
-        $c_json = json_encode($criteria);
-        $model = Common::get_cache("raovat_".$c_json);
-        if($model== false)
-        {
-         	$model = Raovat::model()->findAll($criteria);
-         	Common::set_cache("raovat_".$c_json,$model);
-        }
-        $this->pageTitle = "Rao vặt";
-        Yii::app()->clientScript->registerMetaTag( "Rao vặt", '', null, array('property' => 'og:title'), 'meta_og_title');
-       // Yii::app()->clientScript->registerMetaTag("http://".$_SERVER["HTTP_HOST"].$video->UrlImage, '', null, array('property' => 'og:image'), 'meta_og_image');
-       Yii::app()->clientScript->registerMetaTag(Common::curPageURLY(), '', null, array('property' => 'og:url'), 'meta_og_site_name');
-        Yii::app()->clientScript->registerMetaTag("Xem rao vặt", '', null, array('property' => 'og:description'), 'meta_og_description');
-         $criteria = new CDbCriteria();
-         $criteria->condition ="Active = 1 and SetHome = 1";
-         $criteria->order = "id desc";
-        $hot = Common::get_cache("raovathot");
-        if($hot == false)
-        {
-        	$hot = Raovat::model()->findAll($criteria);
-        	Common::set_cache("raovathot",$hot);
-        }
-        $this->render('raovat',array( 'data'=>$model,'pages'=>$pages, 'hot'=>$hot));
-      }
+
+
       public function actionVideo()
       {
          $criteria = new CDbCriteria();
@@ -675,22 +635,24 @@ class SiteController extends Controller {
     Yii::app()->user->setFlash('error', 'Yêu cầu thất bại!');
     $this->redirect(Yii::app()->request->urlReferrer);
    }
-   public function actionSanpham($alias)
+   public function actionSanpham($id)
     {
         $criteria = new CDbCriteria();
-        $criteria->with = "sanpham_lang";
-        $criteria->condition = "Alias = '$alias'" ;
-        $sp = Sanpham::model()->find($criteria);
+        $criteria->with = "sanpham";
+        $criteria->condition = "t.id = $id" ;
+        $sp = SanphamLang::model()->find($criteria);
+
+       // lay danh muc
         $criteria = new CDbCriteria();
         $criteria->with = "loaisanpham_lang";
-        $criteria->condition = "t.id = $sp->idLoai and idNgonNgu = $this->lang";
+        $criteria->condition = "t.id = ".$sp->sanpham->idLoai." and idNgonNgu = $this->lang";
         $lsp = Loaisanpham::model()->find($criteria);
-        $idsp = $sp->sanpham_lang->idSP;
-        $this->pageTitle = $sp->sanpham_lang->Name;
-        Yii::app()->clientScript->registerMetaTag(strip_tags($sp->sanpham_lang->Name), '', null, array('property' => 'og:title'), 'meta_og_title');
-        Yii::app()->clientScript->registerMetaTag("http://".$_SERVER["HTTP_HOST"].$sp->UrlImage, '', null, array('property' => 'og:image'), 'meta_og_image');
+        $idsp = $sp->idSP;
+        $this->pageTitle = $sp->Name;
+        Yii::app()->clientScript->registerMetaTag(strip_tags($sp->Name), '', null, array('property' => 'og:title'), 'meta_og_title');
+        Yii::app()->clientScript->registerMetaTag("http://".$_SERVER["HTTP_HOST"].$sp->sanpham->UrlImage, '', null, array('property' => 'og:image'), 'meta_og_image');
         Yii::app()->clientScript->registerMetaTag($_SERVER["REQUEST_URI"], '', null, array('property' => 'og:url'), 'meta_og_site_name');
-        Yii::app()->clientScript->registerMetaTag(strip_tags($sp->sanpham_lang->MoTa), '', null, array('property' => 'og:description'), 'meta_og_description');
+        Yii::app()->clientScript->registerMetaTag(strip_tags($sp->MoTa), '', null, array('property' => 'og:description'), 'meta_og_description');
         $this->render("sanpham",array("model"=>$sp,"lsp"=>$lsp));
 
     }

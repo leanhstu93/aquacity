@@ -87,30 +87,22 @@ class CustomController extends Controller
 	 */
 	public function actionUpdate($id = 1)
 	{
-        $id = 1;
-        $custom_image = Yii::app()->params['settingTemplate']['CUSTOM_IMAGE'];
-		$model=$this->loadModel($id);
+        $custom = Custom::getSettingcustom();
+        $model=Custom::model()->findByPk(1);
 
-		if(!empty(json_decode($model->data))) {
-
-            $custom_image = array_replace_recursive($custom_image, json_decode($model->data,true));
-        }
 		if(isset($_POST['Custom']))
 		{
-			$model->attributes=$_POST['Custom'];
-			if(!empty($model->data)) {
+			if(!empty($_POST['Custom'])) {
 
-                $model->data = json_encode($model->data,JSON_UNESCAPED_UNICODE );
+                $model->data = json_encode($_POST['Custom'],JSON_UNESCAPED_UNICODE );
             }
 			if($model->save())
 				$this->redirect(array('update'));
 		}
 
-
-
 		$this->render('update',array(
 			'model'=>$model ,
-            'custom_image' => $custom_image
+            'custom' => $custom
 		));
 	}
 

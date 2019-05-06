@@ -6,12 +6,85 @@
                 'data' => 1,
                 'type' => 'list',
                 'note' => '',
+                'limit' => 0
             ],
             'header' =>[
                 'name' => 'Header',
                 'data' => 2,
                 'type' => 'image',
+                'limit' => 1,
+                'note' => '',
+            ],
+            'home_bg_phuong_phap' =>[
+                'name' => 'Background phương pháp nâng mũi',
+                'data' => 3,
+                'type' => 'image',
+                'limit' => 1,
+                'note' => '',
+            ],
+            'home_phuong_phap' =>[
+                'name' => 'Các phương pháp nâng mũi',
+                'data' => 4,
+                'limit' => 0,
+                'note' => '',
+            ],
+            'home_kinh_nghiem' =>[
+                'name' => 'Chia sẻ kinh nghiệm',
+                'data' => 5,
+                'limit' => 6,
+                'note' => '',
+            ],
+            'home_kien_thuc' =>[
+                'name' => 'Kiến thức nâng mũi đẹp',
+                'data' => 7,
+                'limit' => 5,
+                'note' => '',
+            ],
+            'home_bg_cau_hoi' =>[
+                'name' => 'Background tư vấn nâng mũi',
+                'data' => 8,
+                'limit' => 1,
+                'note' => '',
+            ],
+            'home_banner_trang_con' =>[
+                'name' => 'Banner trang con',
+                'data' => 9,
+                'limit' => 1,
+                'note' => '',
+            ],
+            'home_banner_bottom_post' =>[
+                'name' => 'Banner cuối bài viết',
+                'data' => 10,
+                'limit' => 1,
+                'note' => '',
+            ],
+
+        ],
+        #END setting image
+        # cấu hình trang đơn
+        'CUSTOM_SINGLE_PAGE' =>[
+            'list_doctor' =>[
+                'name' => 'Danh sách bác sĩ',
+                'data' => 1,
+                'note' => '',
+                'limit' => 0
+            ],
+        ],
+        #END setting trang don
+        # cấu hình danh muc bai viet
+        'CUSTOM_NEWS_CATEGORY' =>[
+            'home_kien_thuc' =>[
+                'name' => 'Kiến thức nâng mũi đẹp',
+                'data' => 1,
+                'note' => '',
+                'limit' => 4
+            ],
+            'home_cau_hoi' =>[
+                'name' => 'Tư vấn nâng mũi',
+                'data' => 2,
+                'limit' => 4,
                 'note' => '',
             ]
         ]
+        #END setting danh muc bai viet
     ];

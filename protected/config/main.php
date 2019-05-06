@@ -97,8 +97,6 @@ return array(
             'showScriptName' => false,
             'urlSuffix' => '.html',
 			'rules'=>array(
-
-
 				'loai-tin/<alias>' => 'site/loaitin',
 				'tags/<alias>' => 'site/tags',
 				'authrender/<id>/<mangaunhien>' => 'site/AuthRender',
@@ -239,6 +237,7 @@ return array(
 				'admin/sua-loai-khach-hang/<id>' => 'admin/loaikhachhang/update',
 				'admin/them-loai-khach-hang' =>'admin/loaikhachhang/create',
 				'dang-xuat'=>'site/logout',
+				'<alias>' => 'site/RewriteUrl',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

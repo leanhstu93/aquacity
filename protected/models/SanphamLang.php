@@ -36,9 +36,9 @@ class SanphamLang extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Name, NameShort, Alias', 'required'),
+			array('Name, Alias', 'required'),
 			array('idSP, idNgonNgu', 'numerical', 'integerOnly'=>true),
-			array('BaoHanh', 'length', 'max'=>50),
+			array('BaoHanh, NameShort', 'length', 'max'=>50),
 			array('Name, NameShort, Alias, Youtube', 'length', 'max'=>255),
 			array('File, ThongTinDatHang, ThongSoKyThuat, HuongDanDatHang, MoTa, Content', 'safe'),
 			// The following rule is used by search().
@@ -56,6 +56,7 @@ class SanphamLang extends CActiveRecord
 		// class name for the relations automatically generated below.
         return array(
             'router =' => array(self::BELONGS_TO,'SanphamLang',array('id'=>'idObject')),
+            'sanpham' => array(self::BELONGS_TO,'Sanpham',array('idSP'=>'id')),
         );
 	}
 

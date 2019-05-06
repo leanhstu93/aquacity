@@ -3793,3 +3793,6 @@ font-weight: bold;
 margin: 0;
 }
 .table > thead > tr > th{color: #399bff;}
+.Ta__select-image {
+    margin-left: 17px;
+}

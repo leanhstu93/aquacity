@@ -69,6 +69,8 @@ class SanphamController extends Controller
 
 		if(isset($_POST['Sanpham']))
 		{
+
+
 			$model->attributes=$_POST['Sanpham'];
 			if($model->save())
 			{
@@ -92,11 +94,12 @@ class SanphamController extends Controller
 				$spl->attributes = $_POST['SanphamLang'];
 				$spl->File = trim($spl->File, "/");
 				$spl->Alias = Common::bodau($spl->Name);
-				$spl->save();
-                //xu ly node
-                $insert_id = Yii::app()->db->getLastInsertID();
-                Router::processRouter(['alias' => $spl->Alias, 'idObject' => $insert_id, 'type' =>Router::TYPE_PRODUCT]);
-                //end xu ly node
+                if($spl->save()) {
+                    //xu ly node
+                    $insert_id = Yii::app()->db->getLastInsertID();
+                    Router::processRouter(['alias' => $spl->Alias, 'idObject' => $insert_id, 'type' => Router::TYPE_PRODUCT]);
+                    //end xu ly node
+                }
 				$this->redirect(array('admin'));
 			}
 		}

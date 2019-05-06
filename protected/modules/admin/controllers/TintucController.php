@@ -101,12 +101,12 @@ class TintucController extends Controller
 				$tt->Alias = Common::bodau($tt->Name);
 				if($tt->save())
 				{
+					$tt->Alias = $tt->Alias."-".$tt->id;
                     //Xu ly node
                     $insert_id = Yii::app()->db->getLastInsertID();
                     Router::processRouter(['alias' => $tt->Alias, 'idObject' => $insert_id, 'type' =>Router::TYPE_NEWS]);
                     //end xu ly node
-					$tt->Alias = $tt->Alias."-".$tt->id;
-					$tt->save();
+
 					$tt_ = new TintucLang;
 					$tt_->attributes=$_POST['TintucLang_'];
 					$tt_->Name = trim($tt_->Name);
@@ -116,8 +116,6 @@ class TintucController extends Controller
 					$tt_->Alias = Common::bodau($tt_->Name);
 					if($tt_->save())
 					{
-						$tt_->Alias = $tt_->Alias."-".$tt_->id;
-						$tt_->save();
                         //Xu ly node
                         $insert_id = Yii::app()->db->getLastInsertID();
                         Router::processRouter(['alias' => $tt_->Alias, 'idObject' => $insert_id, 'type' =>Router::TYPE_NEWS]);
@@ -204,6 +202,16 @@ class TintucController extends Controller
 	public function actionDelete($id)
 	{
 		$this->loadModel($id)->delete();
+        #xoa router
+        $criteria = new CDbCriteria();
+        $criteria->condition = "idTinTuc = $id";
+        $data = TintucLang::model()->findAll($criteria);
+        foreach ($data as $item) {
+            #xu ly router
+            Router::processRouter(['alias' => '', 'idObject' => $item->id, 'type' => Router::TYPE_NEWS], 'delete');
+            #End xu ly router
+        }
+        #END xoa router
 		TintucLang::model()->deleteAll("idTinTuc = $id");
 		TagsTintuc::model()->deleteAll("idTinTuc = $id");
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
