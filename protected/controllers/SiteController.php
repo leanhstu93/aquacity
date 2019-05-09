@@ -232,11 +232,9 @@ class SiteController extends Controller {
         $message->addTo($ttc->Email);
         $message->from = $ttc->Email;
         $kq = Yii::app()->mail->send($message);
-       // if ($kq) echo "OK"; 
-       // else echo "0 OK"; 
-
     }
-       public function actionLienhe()
+
+    public function actionLienhe()
     {
 
         $this->pageTitle = $this->ngonngu[46];

@@ -27,6 +27,8 @@
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl ?>/js/custom.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/carousel/owl.carousel.css">
     <script type="text/javascript" src="/js/carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/libs/fancybox/jquery.fancybox-1.3.4.js"></script>
+    <link rel="stylesheet" type="text/css" href="/libs/fancybox/carousel/jquery.fancybox-1.3.4.css">
    <script type="text/javascript">
      $(function(){$(".alert button").click(function(event) {/* Act on the event */ $(this).parent().hide("fast"); }); })
    </script>

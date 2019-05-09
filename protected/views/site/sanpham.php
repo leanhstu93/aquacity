@@ -46,13 +46,14 @@
                     </div>
                     <div class="banner">
                         <div id="polyad_ads_zone4">
-                            <a target="_blank" href="https://benhvienthammykangnam.vn/tham-my-mui/khuyen-mai-mui/">
-                                <img src="https://nangmuidep.vn/wp-content/uploads/2019/05/02/728x90.jpg">
+                            <a target="_blank" href="<?php echo $hinhanh->hinhanh->link ?>">
+                                <img src="<?php echo $hinhanh->hinhanh->url_image ?>">
                             </a>
                         </div>
                     </div>
                 </section>
             </div>
         </div>
+    <?php $this->renderPartial('sidebar'); ?>
     </div>
 </main>

@@ -47374,3 +47374,1468 @@ Stack trace:
 REQUEST_URI=/images/arrowbottom.png
 HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
 ---
+2019/05/06 02:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 20:40:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/
+---
+2019/05/08 21:37:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/
+---
+2019/05/08 21:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/08 21:48:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/08 21:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 21:49:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 21:49:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/login/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/login/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/login/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/login/css/font-awesome.min.css
+---
+2019/05/08 21:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 21:50:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://bacsisuamui.com:93/admin
+---
+2019/05/08 21:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 21:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index/index".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index/ind...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://bacsisuamui.com:93/admin
+---
+2019/05/08 22:16:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index/index".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index/ind...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+HTTP_REFERER=http://bacsisuamui.com:93/admin
+---
+2019/05/08 22:16:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index/index".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index/ind...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2019/05/08 22:17:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/08 22:17:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/index".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2019/05/08 22:17:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/index".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2019/05/08 22:17:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/index".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2019/05/08 22:18:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/index".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2019/05/08 22:18:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/index".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2019/05/08 22:18:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "default/index".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('default/index')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2019/05/08 22:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:18:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:19:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:19:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:20:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:22:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/08 22:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/08 22:40:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/08 22:40:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/08 22:41:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/08 22:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/08 22:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/08 22:46:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:47:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:49:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:49:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:49:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:50:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:51:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:51:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:51:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 22:54:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 23:04:00 [error] [exception.CException] exception 'CException' with message 'Property "LoaisanphamLang.name" is not defined.' in C:\xampp\htdocs\bacsisuamui\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php(15): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): CController->renderPartial('sidebar')
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): CController->renderPartial('sanpham', Array, true)
+#10 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(656): CController->render('sanpham', Array)
+#11 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham('31')
+#12 [internal function]: SiteController->actionRewriteUrl('NANG-MUI-L-LINE...')
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): CController->run('RewriteUrl')
+#19 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('site/RewriteUrl')
+#20 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+HTTP_REFERER=http://bacsisuamui.com:93/
+---
+2019/05/08 23:04:23 [error] [exception.CException] exception 'CException' with message 'Property "LoaisanphamLang.name" is not defined.' in C:\xampp\htdocs\bacsisuamui\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php(15): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): CController->renderPartial('sidebar')
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): CController->renderPartial('sanpham', Array, true)
+#10 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(656): CController->render('sanpham', Array)
+#11 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham('31')
+#12 [internal function]: SiteController->actionRewriteUrl('NANG-MUI-L-LINE...')
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): CController->run('RewriteUrl')
+#19 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('site/RewriteUrl')
+#20 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+HTTP_REFERER=http://bacsisuamui.com:93/
+---
+2019/05/08 23:04:32 [error] [exception.CException] exception 'CException' with message 'Property "LoaisanphamLang.name" is not defined.' in C:\xampp\htdocs\bacsisuamui\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php(15): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): CController->renderPartial('sidebar')
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): CController->renderPartial('sanpham', Array, true)
+#10 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(656): CController->render('sanpham', Array)
+#11 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham('31')
+#12 [internal function]: SiteController->actionRewriteUrl('NANG-MUI-L-LINE...')
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): CController->run('RewriteUrl')
+#19 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('site/RewriteUrl')
+#20 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+HTTP_REFERER=http://bacsisuamui.com:93/
+---
+2019/05/08 23:04:47 [error] [exception.CException] exception 'CException' with message 'Property "LoaisanphamLang.name" is not defined.' in C:\xampp\htdocs\bacsisuamui\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php(15): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): CController->renderPartial('sidebar')
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): CController->renderPartial('sanpham', Array, true)
+#10 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(656): CController->render('sanpham', Array)
+#11 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham('31')
+#12 [internal function]: SiteController->actionRewriteUrl('NANG-MUI-L-LINE...')
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): CController->run('RewriteUrl')
+#19 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('site/RewriteUrl')
+#20 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+HTTP_REFERER=http://bacsisuamui.com:93/
+---
+2019/05/08 23:05:36 [error] [exception.CException] exception 'CException' with message 'Property "LoaisanphamLang.name" is not defined.' in C:\xampp\htdocs\bacsisuamui\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php(15): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): CController->renderPartial('sidebar')
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): CController->renderPartial('sanpham', Array, true)
+#10 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(656): CController->render('sanpham', Array)
+#11 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham('31')
+#12 [internal function]: SiteController->actionRewriteUrl('NANG-MUI-L-LINE...')
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): CController->run('RewriteUrl')
+#19 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('site/RewriteUrl')
+#20 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+HTTP_REFERER=http://bacsisuamui.com:93/
+---
+2019/05/08 23:05:37 [error] [exception.CException] exception 'CException' with message 'Property "LoaisanphamLang.name" is not defined.' in C:\xampp\htdocs\bacsisuamui\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php(15): CActiveRecord->__get('name')
+#2 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): CController->renderPartial('sidebar')
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): CController->renderPartial('sanpham', Array, true)
+#10 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(656): CController->render('sanpham', Array)
+#11 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham('31')
+#12 [internal function]: SiteController->actionRewriteUrl('NANG-MUI-L-LINE...')
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): CController->run('RewriteUrl')
+#19 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('site/RewriteUrl')
+#20 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+HTTP_REFERER=http://bacsisuamui.com:93/
+---
+2019/05/08 23:07:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/08 23:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 23:20:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 23:31:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 23:31:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 23:31:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 23:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 23:32:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 23:32:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 23:32:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/08 23:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 01:52:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://anhle93.com:93/
+---
+2019/05/10 02:35:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/
+---
+2019/05/10 02:36:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "loai-tin/images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('loai-tin/images...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/loai-tin/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/loai-tin/Tin-tuc.html
+---
+2019/05/10 02:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "loai-tin/images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('loai-tin/images...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/loai-tin/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/loai-tin/PHAU-THUAT-NANG-MUI-S-LINE-HAN-QUOC-CHUAN-TY-LE-VANG
+---
+2019/05/10 02:36:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "loai-tin/images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('loai-tin/images...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/loai-tin/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/loai-tin/PHAU-THUAT-NANG-MUI-S-LINE-HAN-QUOC-CHUAN-TY-LE-VANG
+---
+2019/05/10 02:36:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "loai-tin/images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('loai-tin/images...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/loai-tin/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/loai-tin/NANG-MUI-CAU-TRUC-4D-%E2%80%93-GIAI-PHAP-CHINH-HINH-MUI-DEP-TOAN-DIEN
+---
+2019/05/10 02:36:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "loai-tin/images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('loai-tin/images...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/loai-tin/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/loai-tin/NANG-MUI-CAU-TRUC-4D-NANOFORM--TAO-HINH-MUI-BEN-DEP-VINH-VIEN
+---
+2019/05/10 02:36:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/
+---
+2019/05/10 02:36:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 02:37:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/login/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/login/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/login/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/login/css/font-awesome.min.css
+---
+2019/05/10 02:37:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:37:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:44:17 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php:135)
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): SiteController->renderPartial()
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(654): SiteController->render()
+#8 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham()
+#9 unknown(0): SiteController->actionRewriteUrl()
+#10 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#11 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\bacsisuamui\index.php(13): CWebApplication->run()
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+in C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php (135)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php (46)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php (57)
+2019/05/10 02:45:35 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php:135)
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): SiteController->renderPartial()
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(654): SiteController->render()
+#8 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham()
+#9 unknown(0): SiteController->actionRewriteUrl()
+#10 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#11 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\bacsisuamui\index.php(13): CWebApplication->run()
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+in C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php (135)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php (46)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php (57)
+2019/05/10 02:45:35 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php:135)
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): SiteController->renderPartial()
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(654): SiteController->render()
+#8 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham()
+#9 unknown(0): SiteController->actionRewriteUrl()
+#10 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#11 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\bacsisuamui\index.php(13): CWebApplication->run()
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+in C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php (135)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php (46)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php (57)
+2019/05/10 02:45:36 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php:135)
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): SiteController->renderPartial()
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(654): SiteController->render()
+#8 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham()
+#9 unknown(0): SiteController->actionRewriteUrl()
+#10 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#11 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\bacsisuamui\index.php(13): CWebApplication->run()
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+in C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php (135)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php (46)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php (57)
+2019/05/10 02:45:36 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php:135)
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): SiteController->renderPartial()
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(654): SiteController->render()
+#8 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham()
+#9 unknown(0): SiteController->actionRewriteUrl()
+#10 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#11 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\bacsisuamui\index.php(13): CWebApplication->run()
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+in C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php (135)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php (46)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php (57)
+2019/05/10 02:45:36 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php:135)
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): SiteController->renderPartial()
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(654): SiteController->render()
+#8 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham()
+#9 unknown(0): SiteController->actionRewriteUrl()
+#10 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#11 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\bacsisuamui\index.php(13): CWebApplication->run()
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+in C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php (135)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php (46)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php (57)
+2019/05/10 02:45:36 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php:135)
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): SiteController->renderPartial()
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(654): SiteController->render()
+#8 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham()
+#9 unknown(0): SiteController->actionRewriteUrl()
+#10 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#11 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): SiteController->runAction()
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): SiteController->run()
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\bacsisuamui\index.php(13): CWebApplication->run()
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+in C:\xampp\htdocs\bacsisuamui\protected\models\Loaitin.php (135)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php (46)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php (57)
+2019/05/10 02:45:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:45:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 02:46:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 02:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 02:47:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 02:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 02:50:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 02:52:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:54:51 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php:81)
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): SiteController->renderPartial()
+#2 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#5 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): SiteController->renderPartial()
+#6 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(654): SiteController->render()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham()
+#8 unknown(0): SiteController->actionRewriteUrl()
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#10 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\bacsisuamui\index.php(13): CWebApplication->run()
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php (81)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php (57)
+in C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php (654)
+2019/05/10 02:55:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 02:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:55:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:55:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:56:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:56:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 02:56:53 [error] [exception.CException] exception 'CException' with message 'Property "Hinhanh.Name" is not defined.' in C:\xampp\htdocs\bacsisuamui\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Name')
+#1 C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php(82): CActiveRecord->__get('Name')
+#2 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): CController->renderPartial('sidebar')
+#6 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): CController->renderPartial('sanpham', Array, true)
+#10 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(654): CController->render('sanpham', Array)
+#11 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham('31')
+#12 [internal function]: SiteController->actionRewriteUrl('NANG-MUI-L-LINE...')
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): CController->run('RewriteUrl')
+#19 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('site/RewriteUrl')
+#20 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+HTTP_REFERER=http://bacsisuamui.com:93/
+---
+2019/05/10 02:57:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 02:58:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:00:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 03:00:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 03:00:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 03:01:14 [error] [php] Undefined property: stdClass::$name (C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php:82)
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php(57): SiteController->renderPartial()
+#2 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\bacsisuamui\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(869): SiteController->renderFile()
+#5 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(782): SiteController->renderPartial()
+#6 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(654): SiteController->render()
+#7 C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php(67): SiteController->actionSanpham()
+#8 unknown(0): SiteController->actionRewriteUrl()
+#9 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#10 C:\xampp\htdocs\bacsisuamui\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\bacsisuamui\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\bacsisuamui\index.php(13): CWebApplication->run()
+REQUEST_URI=/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sidebar.php (82)
+in C:\xampp\htdocs\bacsisuamui\protected\views\site\sanpham.php (57)
+in C:\xampp\htdocs\bacsisuamui\protected\controllers\SiteController.php (654)
+2019/05/10 03:01:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:04:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:04:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 03:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 03:04:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://bacsisuamui.com:93/themes/admin/css/font-awesome.min.css
+---
+2019/05/10 03:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:05:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:10:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fancybox/carousel/jquery.fancybox-1.3.4.css".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/fancybox/c...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fancybox/carousel/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:10:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:10:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fancybox/carousel/jquery.fancybox-1.3.4.css".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/fancybox/c...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fancybox/carousel/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:10:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fancybox/carousel/jquery.fancybox-1.3.4.css".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/fancybox/c...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fancybox/carousel/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:10:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fancybox/carousel/jquery.fancybox-1.3.4.css".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/fancybox/c...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fancybox/carousel/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fancybox/carousel/jquery.fancybox-1.3.4.css".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/fancybox/c...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fancybox/carousel/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fancybox/carousel/jquery.fancybox-1.3.4.css".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/fancybox/c...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fancybox/carousel/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:10:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fancybox/carousel/jquery.fancybox-1.3.4.css".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/fancybox/c...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fancybox/carousel/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "libs/fancybox/carousel/jquery.fancybox-1.3.4.css".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/fancybox/c...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/fancybox/carousel/jquery.fancybox-1.3.4.css
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---
+2019/05/10 03:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/arrowbottom.png".' in C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\bacsisuamui\framework\web\CWebApplication.php(141): CWebApplication->runController('images/arrowbot...')
+#1 C:\xampp\htdocs\bacsisuamui\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bacsisuamui\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/arrowbottom.png
+HTTP_REFERER=http://bacsisuamui.com:93/NANG-MUI-L-LINE-%E2%80%93-XU-HUONG-LAM-DEP-MUI-MOI-NHAT-HIEN-NAY.html
+---

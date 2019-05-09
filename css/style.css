@@ -768,6 +768,98 @@ a{text-decoration:none;color:#000}
 .kns main .mainpage .detail p {
     margin: 20px 0;
 }
+.kns main aside section .title {
+    color: #636363;
+    text-transform: uppercase;
+    height: 45px;
+    padding: 0 0 10px 0;
+    font-size: 17px;
+    border-bottom: 1px solid #04668E;
+    position: relative;
+}
+.kns main aside section .boxct {
+    padding: 10px 0 10px 0;
+}
+.kns main aside section .service_list {
+    padding: 0;
+    margin: 0 5px;
+}
+.kns main aside section .service_list li {
+    list-style: none;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    font-size: 15px;
+    margin: 0;
+}
+.kns main aside section .service_list li a:hover {
+    color: #E8674C;
+}
+.kns main aside section .sb_new {
+    padding: 0;
+    margin: 0;
+}
+.kns main aside section .sb_new li {
+    list-style: none;
+    display: table;
+    width: 100%;
+    margin: 10px 0 15px;
+}
+.kns main aside section .sb_new li a {
+    font-size: 14px;
+    color: #2f2f2f;
+}
+.kns main aside section .sb_new li img {
+    float: left;
+    margin-right: 15px;
+    width: 66px;
+    height: 66px;
+}
+.kns main aside {
+    width: 25%;
+    float: right;
+    vertical-align: top;
+}
+.kns main aside section .title::after {
+    content: "";
+    border-bottom: 3px solid #04668E;
+    width: 80px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    display: block;
+}
+.kns main aside section .sb_consult {
+    padding: 0;
+}
+.kns main aside section .sb_consult li {
+    margin: 10px 0 15px;
+    list-style: inside;
+}
+ul#recentcomments {
+    padding-left: 0;
+}
+li.recentcomments {
+    list-style: none;
+    border-bottom: 1px #ccc solid;
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+span.comment-content {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    font-style: italic;
+}
+.more-comment {
+    color: #20847f;
+    float: right;
+    font-size: 12px;
+    font-style: initial;
+    width: 100%;
+    text-align: right;
+    margin-top: 5px;
+}
 @media only screen and (min-width: 601px) {
     .hd-col.m4, .hd-third {
         width: 33.33333%;

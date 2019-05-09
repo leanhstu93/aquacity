@@ -58,6 +58,12 @@
                 'limit' => 1,
                 'note' => '',
             ],
+            'trang_con_banner_video_sidebar' =>[
+                'name' => 'Banner sidebar video',
+                'data' => 11,
+                'limit' => 1,
+                'note' => '',
+            ],
 
         ],
         #END setting image
@@ -69,6 +75,12 @@
                 'note' => '',
                 'limit' => 0
             ],
+            'list_comment' => [
+                'name' => 'Danh sách bình luận',
+                'data' => 2,
+                'note' => '',
+                'limit' => 0,
+            ]
         ],
         #END setting trang don
         # cấu hình danh muc bai viet
@@ -84,7 +96,14 @@
                 'data' => 2,
                 'limit' => 4,
                 'note' => '',
-            ]
+            ],
+            'list_care' =>[
+                'name' => 'Bài viết liên quan',
+                'data' => 3,
+                'limit' => 4,
+                'note' => '',
+            ],
+
         ]
         #END setting danh muc bai viet
     ];
