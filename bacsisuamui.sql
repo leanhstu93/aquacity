@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 09, 2019 at 10:14 PM
+-- Generation Time: May 12, 2019 at 11:37 PM
 -- Server version: 5.6.26
 -- PHP Version: 5.6.12
 
@@ -7112,7 +7112,7 @@ CREATE TABLE IF NOT EXISTS `counttruycap` (
 --
 
 INSERT INTO `counttruycap` (`id`, `Count`) VALUES
-(1, 76444);
+(1, 76448);
 
 -- --------------------------------------------------------
 
@@ -7130,7 +7130,7 @@ CREATE TABLE IF NOT EXISTS `custom` (
 --
 
 INSERT INTO `custom` (`id`, `data`) VALUES
-(1, '{"CUSTOM_IMAGE":{"slide":{"data":"1"},"header":{"data":"3"},"home_bg_phuong_phap":{"data":"5"},"home_phuong_phap":{"data":"4"},"home_kinh_nghiem":{"data":"6"},"home_kien_thuc":{"data":"7"},"home_bg_cau_hoi":{"data":"9"},"home_banner_trang_con":{"data":"10"},"home_banner_bottom_post":{"data":"10"}},"CUSTOM_SINGLE_PAGE":{"list_doctor":{"data":["2","3"]},"list_comment":{"data":["4","5","6","7","8"]}},"CUSTOM_NEWS_CATEGORY":{"home_kien_thuc":{"data":"17"},"home_cau_hoi":{"data":"7"},"list_care":{"data":"17"}}}');
+(1, '{"CUSTOM_IMAGE":{"slide":{"data":"1"},"header":{"data":"3"},"home_bg_phuong_phap":{"data":"5"},"home_phuong_phap":{"data":"4"},"home_kinh_nghiem":{"data":"6"},"home_kien_thuc":{"data":"7"},"home_bg_cau_hoi":{"data":"9"},"home_banner_trang_con":{"data":"10"},"home_banner_bottom_post":{"data":"10"},"trang_con_banner_video_sidebar":{"data":"11"},"trang_con_banner_truoc_sau_nang_mui":{"data":"12"}},"CUSTOM_SINGLE_PAGE":{"list_doctor":{"data":["2","3"]}},"CUSTOM_NEWS_CATEGORY":{"home_kien_thuc":{"data":"17"},"home_cau_hoi":{"data":"7"},"list_care":{"data":"17"},"list_comment":{"data":"7"},"list_xem_nhieu":{"data":"7"},"list_lien_quan":{"data":"7"}}}');
 
 -- --------------------------------------------------------
 
@@ -7213,7 +7213,7 @@ CREATE TABLE IF NOT EXISTS `hinhanh` (
   `description` text CHARACTER SET utf8,
   `url_image` varchar(255) CHARACTER SET utf8 NOT NULL,
   `active` tinyint(1) DEFAULT '1'
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `hinhanh`
@@ -7240,7 +7240,8 @@ INSERT INTO `hinhanh` (`id`, `id_category`, `name`, `link`, `description`, `url_
 (20, 7, '', '', '', '/uploads/images/kienthuc/quang-loc-1.jpg', 1),
 (21, 9, '', '', '', '/uploads/images/page4.jpg', 1),
 (22, 10, '', '', '', '/uploads/images/728x90.jpg', 1),
-(23, 11, 'VIDEO SỬA MŨI CẤU TRÚC', 'https://www.youtube.com/watch?v=1re07YFkIk8', 'VIDEO SỬA MŨI CẤU TRÚC', '/uploads/images/nang-mui-tai-kangnam-2.jpg', 1);
+(23, 11, 'VIDEO SỬA MŨI CẤU TRÚC', 'https://www.youtube.com/watch?v=1re07YFkIk8', 'VIDEO SỬA MŨI CẤU TRÚC', '/uploads/images/nang-mui-tai-kangnam-2.jpg', 1),
+(24, 12, 'Ablum trước và sau nâng mũi', '', '', '/uploads/images/nang-mui-tai-kangnam.jpg', 1);
 
 -- --------------------------------------------------------
 
@@ -7254,7 +7255,7 @@ CREATE TABLE IF NOT EXISTS `loaihinhanh` (
   `link` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `description` text CHARACTER SET utf8,
   `active` int(11) DEFAULT '1'
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `loaihinhanh`
@@ -7271,7 +7272,8 @@ INSERT INTO `loaihinhanh` (`id`, `name`, `link`, `description`, `active`) VALUES
 (8, 'Banner cuối bài viết', '', 'Banner cuối bài viết', 1),
 (9, 'Background tư vấn nâng mũi', '', '', 1),
 (10, 'Banner trang con', '', '', 1),
-(11, 'Banner video sidebar', '', '', 1);
+(11, 'Banner video sidebar', '', '', 1),
+(12, 'Hình ảnh trước và sau nâng mũi', '', '', 1);
 
 -- --------------------------------------------------------
 
@@ -7690,8 +7692,8 @@ INSERT INTO `sanpham` (`id`, `idLoai`, `Gia`, `UrlImage`, `HangSanXuat`, `Descri
 (41, 28, 0, '/uploads/images/dichvu/thu-gon-canh-mui-3-300x200.jpg', NULL, '', '', NULL, 0, 0, 1),
 (42, 28, 0, '/uploads/images/dichvu/thu-gon-canh-mui-3-300x200.jpg', NULL, '', '', NULL, 0, 0, 1),
 (43, 28, 0, '/uploads/images/dichvu/thu-gon-canh-mui-3-300x200.jpg', NULL, '', '', NULL, 0, 0, 1),
-(44, 28, 0, '/uploads/images/dichvu/thu-gon-canh-mui-3-300x200.jpg', NULL, '', '', NULL, 0, 0, 1),
-(45, 28, 0, '/uploads/images/dichvu/thu-gon-canh-mui-3-300x200.jpg', NULL, '', '', NULL, 0, 0, 1);
+(44, 28, 0, '/uploads/images/dichvu/thu-gon-canh-mui-3-300x200.jpg', NULL, '', '', NULL, 1, 0, 1),
+(45, 28, 0, '/uploads/images/dichvu/thu-gon-canh-mui-3-300x200.jpg', NULL, '', '', NULL, 1, 0, 1);
 
 -- --------------------------------------------------------
 
@@ -7749,14 +7751,14 @@ CREATE TABLE IF NOT EXISTS `sessions` (
   `lastVisit` int(14) NOT NULL,
   `session_start` int(14) NOT NULL,
   `userAgent` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=33236 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=33240 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `sessions`
 --
 
 INSERT INTO `sessions` (`id`, `idSession`, `username`, `ipAddress`, `idloai`, `lastVisit`, `session_start`, `userAgent`) VALUES
-(33235, 'eo5ugpv4rev9cne4smumg8gcg7', NULL, '127.0.0.1', NULL, 1557432662, 1557431153, 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/79.0.108 Chrome/73.0.3683.108 Safari/537.36');
+(33239, 'svv5nvebuo603d4o8641dqih04', NULL, '127.0.0.1', NULL, 1557696987, 1557690743, 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/79.0.108 Chrome/73.0.3683.108 Safari/537.36');
 
 -- --------------------------------------------------------
 
@@ -8044,12 +8046,12 @@ CREATE TABLE IF NOT EXISTS `video` (
 --
 
 INSERT INTO `video` (`id`, `idCategory`, `Name`, `Alias`, `Link`, `Date`, `UrlImage`, `Description`, `SetHome`, `Footer`, `Active`) VALUES
-(10, 0, 'NHỮNG CA KHÚC VỀ QUẢNG NAM', 'NHUNG-CA-KHUC-VE-QUANG-NAM', '<iframe width="560" height="315" src="https://www.youtube.com/embed/y_TZ-WsJ6h0" frameborder="0" allowfullscreen></iframe>', 1511006402, '/uploads/files/quang-nam-1.png', 'Quảng Nam quê hương tôi', '1', 0, 1),
-(18, 0, 'ĐÀ NẴNG TÌNH NGƯỜI', 'DA-NANG-TINH-NGUOI', '<iframe width="560" height="315" src="https://www.youtube.com/embed/4-0fSbKy5q0" frameborder="0" allowfullscreen></iframe>', 1511181873, '/uploads/files/da-nang-tinh-nguoi.jpg', 'Đà Nẵng thành phố tôi yêu....﻿', '1', 1, 1),
-(19, 0, 'ĐÀ NẴNG TRONG TÔI', 'DA-NANG-TRONG-TOI', '<iframe width="560" height="315" src="https://www.youtube.com/embed/YwHHsdsmydo" frameborder="0" allowfullscreen></iframe>', 1511182251, '/uploads/files/da-nang-trong-toi.jpg', 'Bao nhiêu năm ngược xuôi con về...', '1', 1, 1),
-(20, 0, 'QUẾ SƠN ĐẤT MẸ ÂN TÌNH', 'QUE-SON-DAT-ME-AN-TINH', '<iframe width="560" height="315" src="https://www.youtube.com/embed/tstS2WvdB1Y" frameborder="0" allowfullscreen></iframe>', 1511183778, '/uploads/files/que-son-dat-me-an-tinh.JPG', 'Quế Sơn quê mình ruộng kề chân núi/ Lí ly sông đầy tình em bắc qua/ Đèo Le đêm trăng vọng lời mẹ hát/ Câu hát ngàn năm mãi ru lòng tôi/ Ngàn năm khắc sâu tình đất tình người/ Hòn Tàu, thác Reo chùm sim chín mọng/ Đồng lúa Quế Xuân, con đò Trung Phước/ Bao nước mắt mồ hôi thấm trên đất này/ Hò ơ...hò ơ...ớ ơ... / Bấy lâu cách xa để lòng mong nhớ/ Biết mấy yêu thương hôm nay trở về/ Nghe xôn xao dòng sông câu hát/ Lay động tâm hồn ánh trăng làng quê/ Đất mẹ ân tình Quế Sơn của tôi./. Đất xưa chiến trường đạn bom cày xới/ Máu xương đêm ngày chồng lên máu xương/ Còn đây câu ca một thời chiến đấu/ Sớm nắng chiều mưa dễ chi mờ phai/ Hòn Chiên, cấm Dơi còn mãi ngàn đời/ Sử vàng chiến công làng quê đánh giặc/ Một tấc không đi lời thề son sắc/ Nhớ nhắc đời sau chớ quên đất này/ Hò ơ... hò ơ... ớ ơ... / Bấy lâu cách xa để lòng mong nhớ/ Biết mấy yêu thương hôm nay trở về/ Nghe xôn xao dòng sông câu hát/ Lay động tâm hồn ánh trăng làng quê/ Đất mẹ ân tình Quế Sơn của tôi./.', '1', 1, 1),
-(21, 0, 'YÊU CÁI MẶN MÀ', 'YEU-CAI-MAN-MA', '<iframe width="560" height="315" src="https://www.youtube.com/embed/aGjEhx4rtts" frameborder="0" gesture="media" allowfullscreen></iframe>', 1511257740, '/uploads/files/yeu-cai-man-ma.jpg', '<p><strong>T&aacute;c giả</strong>: Trần Quế Sơn&nbsp;</p>\r\n\r\n<hr />\r\n<p>Nếu em y&ecirc;u c&aacute;i mặn m&agrave; th&igrave; về Quảng Nam qu&ecirc;n anh&nbsp;<br />\r\nNếu em ưa c&aacute;i nồng cay th&igrave; về Quảng Nam &acirc;n t&igrave;nh&nbsp;<br />\r\nNgười ở miền trung kh&ocirc;ng ngại mưa ngại gi&oacute;&nbsp;<br />\r\nNgười ở miền trung em về anh sẽ thương&nbsp;<br />\r\n<br />\r\nNếu em y&ecirc;u những ch&ugrave;a chiền th&igrave; về Hội An anh xem&nbsp;<br />\r\nNếu em ưa đến trời xanh th&igrave; về l&atilde;ng du Ngũ H&agrave;nh&nbsp;<br />\r\nRồi về H&ograve;a Vang nghe m&ugrave;i x&ocirc;i nếp mới&nbsp;<br />\r\nRồi về l&agrave;ng anh em l&agrave;m d&acirc;u nh&agrave; anh&nbsp;<br />\r\n<br />\r\n&Ocirc;i nghe y&ecirc;u sao c&aacute;i chi chi m&agrave; rứa rứa&nbsp;<br />\r\n&Ocirc;i nghe thương sao c&aacute;i b&ecirc;n ni vẹn t&igrave;nh&nbsp;<br />\r\n<br />\r\nĐất Quảng &acirc;n t&igrave;nh nu&ocirc;i anh từ thuở b&eacute;&nbsp;<br />\r\nĐất quảng &acirc;n t&igrave;nh cho anh một d&aacute;ng h&igrave;nh&nbsp;<br />\r\nV&agrave; cho anh những bước ch&acirc;n phong trần&nbsp;<br />\r\nAnh mới gặp được em&nbsp;<br />\r\n<br />\r\nNếu em y&ecirc;u c&aacute;i bềnh bồng th&igrave; dạo thuyền tr&ecirc;n s&ocirc;ng Thu&nbsp;<br />\r\nNếu em y&ecirc;u th&aacute;nh địa linh th&igrave; về Mỹ Sơn anh nh&igrave;n&nbsp;<br />\r\nRồi chờ h&egrave; sang nghe từng cơn gi&oacute; n&oacute;ng&nbsp;<br />\r\nRồi ngồi thềm trăng nghe mẹ anh h&ograve; khoan&nbsp;<br />\r\n<br />\r\nNếu em y&ecirc;u những ch&ugrave;a chiền th&igrave; về Hội An anh xem&nbsp;<br />\r\nNếu em ưa đến trời xanh th&igrave; về l&atilde;ng du Ngũ H&agrave;nh&nbsp;<br />\r\nRồi về H&ograve;a Vang nghe m&ugrave;i x&ocirc;i nếp mới&nbsp;<br />\r\nRồi về l&agrave;ng anh em l&agrave;m d&acirc;u nh&agrave; anh&nbsp;<br />\r\n<br />\r\n&Ocirc;i nghe y&ecirc;u sao c&aacute;i chi răng m&agrave; rứa ri&nbsp;<br />\r\n&Ocirc;i nghe thương sao c&aacute;i chu choa&nbsp;<br />\r\nĐất Quảng &acirc;n t&igrave;nh anh y&ecirc;u từ thuở b&eacute;&nbsp;<br />\r\nĐất Quảng &acirc;n t&igrave;nh anh y&ecirc;u từng x&oacute;m l&agrave;ng&nbsp;<br />\r\nV&agrave; y&ecirc;u sao những nh&aacute;nh s&ocirc;ng d&acirc;n m&igrave;nh&nbsp;<br />\r\nCho tr&aacute;i ngọt đồng xanh&nbsp;<br />\r\n<br />\r\nNếu em y&ecirc;u c&aacute;i bềnh bồng th&igrave; dạo thuyền tr&ecirc;n s&ocirc;ng Thu&nbsp;<br />\r\nNếu em y&ecirc;u th&aacute;nh địa linh th&igrave; về Mỹ Sơn anh nh&igrave;n&nbsp;<br />\r\nRồi chờ h&egrave; sang nghe từng cơn gi&oacute; n&oacute;ng&nbsp;<br />\r\nRồi ngồi thềm trăng nghe mẹ anh h&ograve; khoan&nbsp;<br />\r\n<br />\r\nNếu em y&ecirc;u c&aacute;i mặn m&agrave; th&igrave; về Quảng Nam qu&ecirc;n anh&nbsp;<br />\r\nNếu em y&ecirc;u c&aacute;i mặn nồng th&igrave; l&agrave;m n&agrave;ng d&acirc;u qu&ecirc; anh.</p>\r\n', '1', 1, 1),
-(22, 2, 'HỘI ĐỒNG HƯƠNG QUẢNG NAM TRAO QUÀ HỖ TRỢ BÀ CON BỊ THIỆT HẠI DO LŨ LỤT TẠI HUYỆN BẮC TRÀ MY', 'HOI-DONG-HUONG-QUANG-NAM-TRAO-QUA-HO-TRO-BA-CON-BI-THIET-HAI-DO-LU-LUT-TAI-HUYEN-BAC-TRA-MY', '<iframe src="https://drive.google.com/file/d/12mLNr0b3kXyQTALwaIwJretn3chHfHga/preview" width="640" height="480"></iframe>', 1556637384, '/uploads/files/23519239_413011119101914_3029758625365975640_n.jpg', '<p>Hội đồng hương Quảng Nam trao qu&agrave; đợt 1 hỗ trợ cho c&aacute;c gia đ&igrave;nh c&oacute; người chết, bị thương v&agrave; nh&agrave; sập ho&agrave;n to&agrave;n với số tiền tr&ecirc;n 300 triệu đồng.</p>\r\n', '1', 1, 1);
+(10, 1, 'NHỮNG CA KHÚC VỀ QUẢNG NAM', 'NHUNG-CA-KHUC-VE-QUANG-NAM', 'https://www.youtube.com/watch?v=i2fK13QDSss', 1557690905, '/uploads/images/NANG-MUI-5-01.jpg', '<p>Quảng Nam qu&ecirc; hương t&ocirc;i</p>\r\n', '1', 0, 1),
+(18, 1, 'ĐÀ NẴNG TÌNH NGƯỜI', 'DA-NANG-TINH-NGUOI', 'https://www.youtube.com/watch?v=i2fK13QDSss', 1557690917, '/uploads/images/mui-noi-bat-1.jpg', '<p>Đ&agrave; Nẵng th&agrave;nh phố t&ocirc;i y&ecirc;u....﻿</p>\r\n', '1', 1, 1),
+(19, 1, 'ĐÀ NẴNG TRONG TÔI', 'DA-NANG-TRONG-TOI', 'https://www.youtube.com/watch?v=i2fK13QDSss', 1557690509, '/uploads/images/dichvu/thu-gon-canh-mui-3-300x200.jpg', '<p>Bao nhi&ecirc;u năm ngược xu&ocirc;i con về...</p>\r\n', '1', 1, 1),
+(20, 1, 'QUẾ SƠN ĐẤT MẸ ÂN TÌNH', 'QUE-SON-DAT-ME-AN-TINH', 'https://www.youtube.com/watch?v=i2fK13QDSss', 1557690418, '/uploads/images/NANG-MUI-5-01.jpg', '<p>Quế Sơn qu&ecirc; m&igrave;nh ruộng kề ch&acirc;n n&uacute;i/ L&iacute; ly s&ocirc;ng đầy t&igrave;nh em bắc qua/ Đ&egrave;o Le đ&ecirc;m trăng vọng lời mẹ h&aacute;t/ C&acirc;u h&aacute;t ng&agrave;n năm m&atilde;i ru l&ograve;ng t&ocirc;i/ Ng&agrave;n năm khắc s&acirc;u t&igrave;nh đất t&igrave;nh người/ H&ograve;n T&agrave;u, th&aacute;c Reo ch&ugrave;m sim ch&iacute;n mọng/ Đồng l&uacute;a Quế Xu&acirc;n, con đ&ograve; Trung Phước/ Bao nước mắt mồ h&ocirc;i thấm tr&ecirc;n đất n&agrave;y/ H&ograve; ơ...h&ograve; ơ...ớ ơ... / Bấy l&acirc;u c&aacute;ch xa để l&ograve;ng mong nhớ/ Biết mấy y&ecirc;u thương h&ocirc;m nay trở về/ Nghe x&ocirc;n xao d&ograve;ng s&ocirc;ng c&acirc;u h&aacute;t/ Lay động t&acirc;m hồn &aacute;nh trăng l&agrave;ng qu&ecirc;/ Đất mẹ &acirc;n t&igrave;nh Quế Sơn của t&ocirc;i./. Đất xưa chiến trường đạn bom c&agrave;y xới/ M&aacute;u xương đ&ecirc;m ng&agrave;y chồng l&ecirc;n m&aacute;u xương/ C&ograve;n đ&acirc;y c&acirc;u ca một thời chiến đấu/ Sớm nắng chiều mưa dễ chi mờ phai/ H&ograve;n Chi&ecirc;n, cấm Dơi c&ograve;n m&atilde;i ng&agrave;n đời/ Sử v&agrave;ng chiến c&ocirc;ng l&agrave;ng qu&ecirc; đ&aacute;nh giặc/ Một tấc kh&ocirc;ng đi lời thề son sắc/ Nhớ nhắc đời sau chớ qu&ecirc;n đất n&agrave;y/ H&ograve; ơ... h&ograve; ơ... ớ ơ... / Bấy l&acirc;u c&aacute;ch xa để l&ograve;ng mong nhớ/ Biết mấy y&ecirc;u thương h&ocirc;m nay trở về/ Nghe x&ocirc;n xao d&ograve;ng s&ocirc;ng c&acirc;u h&aacute;t/ Lay động t&acirc;m hồn &aacute;nh trăng l&agrave;ng qu&ecirc;/ Đất mẹ &acirc;n t&igrave;nh Quế Sơn của t&ocirc;i./.</p>\r\n', '1', 1, 1),
+(21, 1, 'YÊU CÁI MẶN MÀ', 'YEU-CAI-MAN-MA', 'https://www.youtube.com/watch?v=i2fK13QDSss', 1557690090, '/uploads/images/NANG-MUI-5-01.jpg', '<p><strong>T&aacute;c giả</strong>: Trần Quế Sơn&nbsp;</p>\r\n\r\n<hr />\r\n<p>Nếu em y&ecirc;u c&aacute;i mặn m&agrave; th&igrave; về Quảng Nam qu&ecirc;n anh&nbsp;<br />\r\nNếu em ưa c&aacute;i nồng cay th&igrave; về Quảng Nam &acirc;n t&igrave;nh&nbsp;<br />\r\nNgười ở miền trung kh&ocirc;ng ngại mưa ngại gi&oacute;&nbsp;<br />\r\nNgười ở miền trung em về anh sẽ thương&nbsp;<br />\r\n<br />\r\nNếu em y&ecirc;u những ch&ugrave;a chiền th&igrave; về Hội An anh xem&nbsp;<br />\r\nNếu em ưa đến trời xanh th&igrave; về l&atilde;ng du Ngũ H&agrave;nh&nbsp;<br />\r\nRồi về H&ograve;a Vang nghe m&ugrave;i x&ocirc;i nếp mới&nbsp;<br />\r\nRồi về l&agrave;ng anh em l&agrave;m d&acirc;u nh&agrave; anh&nbsp;<br />\r\n<br />\r\n&Ocirc;i nghe y&ecirc;u sao c&aacute;i chi chi m&agrave; rứa rứa&nbsp;<br />\r\n&Ocirc;i nghe thương sao c&aacute;i b&ecirc;n ni vẹn t&igrave;nh&nbsp;<br />\r\n<br />\r\nĐất Quảng &acirc;n t&igrave;nh nu&ocirc;i anh từ thuở b&eacute;&nbsp;<br />\r\nĐất quảng &acirc;n t&igrave;nh cho anh một d&aacute;ng h&igrave;nh&nbsp;<br />\r\nV&agrave; cho anh những bước ch&acirc;n phong trần&nbsp;<br />\r\nAnh mới gặp được em&nbsp;<br />\r\n<br />\r\nNếu em y&ecirc;u c&aacute;i bềnh bồng th&igrave; dạo thuyền tr&ecirc;n s&ocirc;ng Thu&nbsp;<br />\r\nNếu em y&ecirc;u th&aacute;nh địa linh th&igrave; về Mỹ Sơn anh nh&igrave;n&nbsp;<br />\r\nRồi chờ h&egrave; sang nghe từng cơn gi&oacute; n&oacute;ng&nbsp;<br />\r\nRồi ngồi thềm trăng nghe mẹ anh h&ograve; khoan&nbsp;<br />\r\n<br />\r\nNếu em y&ecirc;u những ch&ugrave;a chiền th&igrave; về Hội An anh xem&nbsp;<br />\r\nNếu em ưa đến trời xanh th&igrave; về l&atilde;ng du Ngũ H&agrave;nh&nbsp;<br />\r\nRồi về H&ograve;a Vang nghe m&ugrave;i x&ocirc;i nếp mới&nbsp;<br />\r\nRồi về l&agrave;ng anh em l&agrave;m d&acirc;u nh&agrave; anh&nbsp;<br />\r\n<br />\r\n&Ocirc;i nghe y&ecirc;u sao c&aacute;i chi răng m&agrave; rứa ri&nbsp;<br />\r\n&Ocirc;i nghe thương sao c&aacute;i chu choa&nbsp;<br />\r\nĐất Quảng &acirc;n t&igrave;nh anh y&ecirc;u từ thuở b&eacute;&nbsp;<br />\r\nĐất Quảng &acirc;n t&igrave;nh anh y&ecirc;u từng x&oacute;m l&agrave;ng&nbsp;<br />\r\nV&agrave; y&ecirc;u sao những nh&aacute;nh s&ocirc;ng d&acirc;n m&igrave;nh&nbsp;<br />\r\nCho tr&aacute;i ngọt đồng xanh&nbsp;<br />\r\n<br />\r\nNếu em y&ecirc;u c&aacute;i bềnh bồng th&igrave; dạo thuyền tr&ecirc;n s&ocirc;ng Thu&nbsp;<br />\r\nNếu em y&ecirc;u th&aacute;nh địa linh th&igrave; về Mỹ Sơn anh nh&igrave;n&nbsp;<br />\r\nRồi chờ h&egrave; sang nghe từng cơn gi&oacute; n&oacute;ng&nbsp;<br />\r\nRồi ngồi thềm trăng nghe mẹ anh h&ograve; khoan&nbsp;<br />\r\n<br />\r\nNếu em y&ecirc;u c&aacute;i mặn m&agrave; th&igrave; về Quảng Nam qu&ecirc;n anh&nbsp;<br />\r\nNếu em y&ecirc;u c&aacute;i mặn nồng th&igrave; l&agrave;m n&agrave;ng d&acirc;u qu&ecirc; anh.</p>\r\n', '1', 1, 1),
+(22, 2, 'HỘI ĐỒNG HƯƠNG QUẢNG NAM TRAO QUÀ HỖ TRỢ BÀ CON BỊ THIỆT HẠI DO LŨ LỤT TẠI HUYỆN BẮC TRÀ MY', 'HOI-DONG-HUONG-QUANG-NAM-TRAO-QUA-HO-TRO-BA-CON-BI-THIET-HAI-DO-LU-LUT-TAI-HUYEN-BAC-TRA-MY', 'https://www.youtube.com/watch?v=i2fK13QDSss', 1557690100, '/uploads/images/NANG-MUI-5-01.jpg', '<p>Hội đồng hương Quảng Nam trao qu&agrave; đợt 1 hỗ trợ cho c&aacute;c gia đ&igrave;nh c&oacute; người chết, bị thương v&agrave; nh&agrave; sập ho&agrave;n to&agrave;n với số tiền tr&ecirc;n 300 triệu đồng.</p>\r\n', '1', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -8397,12 +8399,12 @@ ALTER TABLE `gioithieu_lang`
 -- AUTO_INCREMENT for table `hinhanh`
 --
 ALTER TABLE `hinhanh`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=25;
 --
 -- AUTO_INCREMENT for table `loaihinhanh`
 --
 ALTER TABLE `loaihinhanh`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=12;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT for table `loaiquangcao`
 --
@@ -8477,7 +8479,7 @@ ALTER TABLE `sanpham_lang`
 -- AUTO_INCREMENT for table `sessions`
 --
 ALTER TABLE `sessions`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=33236;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=33240;
 --
 -- AUTO_INCREMENT for table `single_page`
 --
