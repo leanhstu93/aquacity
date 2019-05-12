@@ -210,6 +210,7 @@ public static function menudacap2($id,$model ="Loaisanpham",$idnn)
 	$criteria->with = "loaitin_lang";
 	$criteria->order = "t.Order ";
 	$data = $model::model()->find($criteria);
+    $router = Router::model()->find("idObject = ". $data->loaitin_lang->id ." AND type = ".Router::TYPE_NEWS_CATEGORY);
 	$count = $model::model()->count($criteria);
 	$ul_open = '<ul class="dropdown-menu">';
 	$ul_close = "</ul>";
@@ -229,7 +230,7 @@ public static function menudacap2($id,$model ="Loaisanpham",$idnn)
 				echo $li_open;
 			else
 				echo $li_open_;
-			echo '<a href="'.Yii::app()->request->baseUrl.'/loai-tin/'.$data->loaitin_lang->Alias.'.html">'.$data->loaitin_lang->Name.'</a>';
+			echo '<a href="'.Yii::app()->request->baseUrl.'/'.$router->alias.'.html">'.$data->loaitin_lang->Name.'</a>';
 			//kiem tra co menu con hay k, neu co thi goi lai
 			
 			if($count > 0)
@@ -301,6 +302,7 @@ public static function menutintuc($id,$model ="Loaitin",$idnn)
 	$criteria->condition = "Active = 1 and t.id = $id and idNgonNgu = $idnn";
 	$criteria->with = "loaitin_lang";
 	$data = $model::model()->find($criteria);
+    $router = Router::model()->find("idObject = ". $data->loaitin_lang->id ." AND type = ".Router::TYPE_NEWS_CATEGORY);
 	$count = $model::model()->count($criteria);
 	$ul_open = '<ul class="dropdown-menu">';
 	$ul_close = "</ul>";
@@ -319,7 +321,7 @@ public static function menutintuc($id,$model ="Loaitin",$idnn)
 				echo $li_open;
 			else
 				echo $li_open_;
-			echo '<a href="'.Yii::app()->request->baseUrl.'/loai-tin/'.$data->loaitin_lang->Alias.'.html">'.$data->loaitin_lang->Name.'</a>';
+			echo '<a href="'.Yii::app()->request->baseUrl.'/'.$router->alias.'.html">'.$data->loaitin_lang->Name.'</a>';
 			//kiem tra co menu con hay k, neu co thi goi lai
 			
 			if($count > 0)

@@ -61,6 +61,7 @@ class SiteController extends Controller {
         $criteria = new CDbCriteria();
         $criteria->condition = "alias = '$alias'";
         $model = Router::model()->find($criteria);
+
         if(!empty($model)) {
             switch ($model->type){
                 case Router::TYPE_PRODUCT:
@@ -68,6 +69,10 @@ class SiteController extends Controller {
                 break;
                 case Router::TYPE_NEWS :
                     $this->actionChitiet($model->idObject);
+                case Router::TYPE_NEWS_CATEGORY :
+                    $this->actionLoaitin($model->idObject);
+                case 'video' :
+                    $this->actionVideo();
                 break;
             }
         }
@@ -260,39 +265,6 @@ class SiteController extends Controller {
        $this->redirect("".Yii::app()->request->urlReferrer."");
     }
 
-	public function actionLoaitin($alias)
-  	{
-        $criteria = new CDbCriteria();
-        $criteria->with = "loaitin_lang";
-        $criteria->condition = "Alias = '$alias'";
-        $model = Loaitin::model()->find($criteria);
-        if($model != false) {
-            $criteria = new CDbCriteria();
-            $criteria->with = "tintuc_lang";
-            $criteria->condition = "idNgonNgu = $this->lang and Active = 1";
-            $criteria->order = "t.id desc";
-            $this->arridloai = array();
-            $this->getloaicon($model->id,"Loaitin");
-            $criteria->addInCondition("idLoaiTin",$this->arridloai);
-            
-            $count = Tintuc::model()->count($criteria);
-            $pages = new CPagination($count);
-            $pages->pageSize = 20;
-            $pages->applyLimit($criteria);                      
-            $tintuc = Tintuc::model()->findAll($criteria);
-           
-            $this->loaitin = $model->id;
-            //meta
-             // loai cha
-        $this->arridloai = array();
-        $this->getloaicha($model->Parent,"Loaitin");
-            Yii::app()->clientScript->registerMetaTag($model->loaitin_lang->Name, '', null, array('property' => 'og:title'), 'meta_og_title');
-            $this->pageTitle = $model->loaitin_lang->Name;
-            $this->render("cat",array("data"=>$tintuc,'pages'=>$pages, 'lt'=>$model));
-        }
-        else
-            $this->render("404");
-  }
   public function actionTags($alias)
   {
         $tag = Tags::model()->find("Active = 1 and Alias ='$alias'");
@@ -360,24 +332,41 @@ class SiteController extends Controller {
         }
     }
   }
-      public function actionChitiet($alias)
+
+    public function getloaichaLoaiTin($parent,$name = "Loaisanpham")
+    {
+        if($parent != 0)
+        {
+            array_push($this->arridloai, $parent);
+            $lsp = $name::model()->findAll("id = $parent and Active = 1");
+            foreach ($lsp as $key => $value) {
+                # code...
+                if($lsp != NULL )
+                {
+                    $this->getloaicha($value->loaitin->Parent,$name);
+                }
+            }
+        }
+    }
+
+      public function actionChitiet($id)
       {
         $criteria = new CDbCriteria();
-        $criteria->condition = "Alias = '$alias' and idNgonNgu = $this->lang";
-        $criteria->with = "tintuc_lang";
-        $model = Common::get_cache("tin_".$alias);
+        $criteria->condition = "t.id = $id";
+        $criteria->with = "tintuc";
+        $model = Common::get_cache("tin_".$id);
         if($model == false)
         {
-        	$model = Tintuc::model()->find($criteria);
-        	Common::set_cache("tin_".$alias,$model);
+        	$model = TintucLang::model()->find($criteria);
+        	Common::set_cache("tin_".$id,$model);
         }
         $count = count($model);
         if($count != 0)
         {
-            Common::viewcount($model->id);
-            $this->pageTitle = $model->tintuc_lang->Name;
+            Common::viewcount($model->tintuc->id);
+            $this->pageTitle = $model->Name;
             $criteria = new CDbCriteria();
-            $criteria->condition = "t.id = $model->idLoaiTin and idNgonNgu = $this->lang";
+            $criteria->condition = "t.id = ".$model->tintuc->idLoaiTin." and idNgonNgu = $this->lang";
             $criteria->with = "loaitin_lang";
             $c_json = json_encode($criteria);
             $data = Common::get_cache("tin_".$c_json);
@@ -386,10 +375,10 @@ class SiteController extends Controller {
             	$data = Loaitin::model()->find($criteria);
             	Common::set_cache("tin_".$c_json,$data);
             }
-            Yii::app()->clientScript->registerMetaTag( $model->tintuc_lang->Name, '', null, array('property' => 'og:title'), 'meta_og_title');
-            Yii::app()->clientScript->registerMetaTag("http://".$_SERVER["HTTP_HOST"].$model->UrlImage, '', null, array('property' => 'og:image'), 'meta_og_image');
+            Yii::app()->clientScript->registerMetaTag( $model->Name, '', null, array('property' => 'og:title'), 'meta_og_title');
+            Yii::app()->clientScript->registerMetaTag("http://".$_SERVER["HTTP_HOST"].$model->tintuc->UrlImage, '', null, array('property' => 'og:image'), 'meta_og_image');
            Yii::app()->clientScript->registerMetaTag(Common::curPageURLY(), '', null, array('property' => 'og:url'), 'meta_og_site_name');
-            Yii::app()->clientScript->registerMetaTag($model->tintuc_lang->Description, '', null, array('property' => 'og:description'), 'meta_og_description');
+            Yii::app()->clientScript->registerMetaTag($model->Description, '', null, array('property' => 'og:description'), 'meta_og_description');
             $this->loaitin = $data->id;
              //meta
             if(isset($model->Seo_Keywords))
@@ -408,6 +397,7 @@ class SiteController extends Controller {
         }
     
       }
+
       public function actionViewclip($alias)
       {
         $model = Video::model()->find("Alias = '$alias' and Active = 1");
@@ -445,18 +435,18 @@ class SiteController extends Controller {
          $criteria = new CDbCriteria();
          $criteria->condition ="Active = 1" ;
          $criteria->order = "id desc";
-         $count = Video::model()->count($criteria);
+        $count = VideoCategory::model()->count($criteria);
         $pages = new CPagination($count);
         $pages->pageSize = 9;
         $pages->applyLimit($criteria);
         $c_json = json_encode($criteria);
-    	$model = Video::model()->findAll($criteria);
-         $this->pageTitle = "Video";
+    	$model = VideoCategory::model()->findAll($criteria);
+        $video = Video::model()->findAll("SetHome = 1 AND Active = 1");
+        $this->pageTitle = "Video";
         Yii::app()->clientScript->registerMetaTag( "video", '', null, array('property' => 'og:title'), 'meta_og_title');
-       // Yii::app()->clientScript->registerMetaTag("http://".$_SERVER["HTTP_HOST"].$video->UrlImage, '', null, array('property' => 'og:image'), 'meta_og_image');
-       Yii::app()->clientScript->registerMetaTag(Common::curPageURLY(), '', null, array('property' => 'og:url'), 'meta_og_site_name');
+        Yii::app()->clientScript->registerMetaTag(Common::curPageURLY(), '', null, array('property' => 'og:url'), 'meta_og_site_name');
         Yii::app()->clientScript->registerMetaTag("Xem clip mới nhất", '', null, array('property' => 'og:description'), 'meta_og_description');
-        $this->render('video',array( 'data'=>$model,'pages'=>$pages));
+        $this->render('video',array( 'data'=>$model,'pages'=>$pages, 'video' => $video));
       }
         public function actionMaxacthuc()
         {
@@ -653,6 +643,41 @@ class SiteController extends Controller {
         Yii::app()->clientScript->registerMetaTag(strip_tags($sp->MoTa), '', null, array('property' => 'og:description'), 'meta_og_description');
         $this->render("sanpham",array("model"=>$sp,"lsp"=>$lsp));
 
+    }
+    public function actionLoaitin($id)
+    {
+        $criteria = new CDbCriteria();
+        $criteria->with = "loaitin";
+        $criteria->condition = "t.id = $id";
+        $model = LoaitinLang::model()->find($criteria);
+
+        if($model != false) {
+            $criteria = new CDbCriteria();
+            $criteria->with = "tintuc_lang";
+            $criteria->condition = "idNgonNgu = $this->lang and Active = 1";
+            $criteria->order = "t.id desc";
+            $this->arridloai = array();
+            $this->getloaicon($model->loaitin->id,"Loaitin");
+            $criteria->addInCondition("idLoaiTin",$this->arridloai);
+
+            $count = Tintuc::model()->count($criteria);
+            $pages = new CPagination($count);
+            $pages->pageSize = 2;
+            $pages->applyLimit($criteria);
+            $tintuc = Tintuc::model()->findAll($criteria);
+
+            $this->loaitin = $model->loaitin->id;
+            //meta
+            // loai cha
+            $this->arridloai = array();
+            $this->getloaichaLoaiTin($model->loaitin->Parent,"Loaitin");
+            Yii::app()->clientScript->registerMetaTag($model->Name, '', null, array('property' => 'og:title'), 'meta_og_title');
+            $this->pageTitle = $model->Name;
+
+            $this->render("cat",array("data"=>$tintuc,'pages'=>$pages, 'model'=>$model));
+        }
+        else
+            $this->render("404");
     }
      public function actionLoaisp($alias = null)
     {

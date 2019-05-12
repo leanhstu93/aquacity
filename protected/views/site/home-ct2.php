@@ -6,10 +6,8 @@
             ?>
             <a href="">
                 <img load="step1" src="<?php echo $videoSetting->urlImage ?>" alt="<?php echo $videoSetting->name ?>">
-
                 <div class="faded">
                     <p class="tt"><?php echo $videoSetting->name ?></p>
-
                 </div>
             </a>
         </div>

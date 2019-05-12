@@ -13,12 +13,6 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
 }
 $(document).ready(function(){
-    $(".fancybox").fancybox({
-        'overlayShow'	: false,
-        'transitionIn'	: 'elastic',
-        'transitionOut'	: 'elastic'
-    });
-
 
     $(".Ta__js-slider-pp").owlCarousel({
         autoplay:true,

@@ -9,7 +9,8 @@
             </ul>
         </div>
         <div class="panel-body">
-            <?php foreach ($data as $key_parent => $item){?>
+            <?php
+            foreach ($data as $key_parent => $item){?>
                 <div class="form-group">
                     <label class="col-sm-4 control-label form-label"><?php echo $item['name'] ?>:</label>
                     <div class="col-sm-8">
@@ -19,11 +20,11 @@
                             $criteria->condition = "active = 1";
                             $data= SinglePage::model()->findAll($criteria);
                             $listdata = CHtml::listData($data,'id','name');
+                           // Common::debug($listdata);
                             foreach ($listdata as $key => $name){
+                                $selected = '';
                                 if(is_array($item['data']) ) {
                                     $selected = in_array($key, $item['data'])  ? $selected = 'selected' : '';
-                                } else {
-                                    $selected = '';
                                 }
 
                                 ?>
