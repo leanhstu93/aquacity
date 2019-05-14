@@ -4,7 +4,7 @@
             <?php
             $videoSetting = videoSetting::model()->find('id=1');
             ?>
-            <a href="">
+            <a href="/video.html">
                 <img load="step1" src="<?php echo $videoSetting->urlImage ?>" alt="<?php echo $videoSetting->name ?>">
                 <div class="faded">
                     <p class="tt"><?php echo $videoSetting->name ?></p>
@@ -20,10 +20,9 @@
         $tintuc = Tintuc::model()->findAll($criteria);
         if($tintuc != false){
             foreach ($tintuc as $value) {
-                $router = Router::model()->find("idObject = " . $value->tintuc_lang->id . " AND type = " . Router::TYPE_NEWS);
                 ?>
                 <div class="hd-col m3">
-                    <a href="<?php echo Common::buildUrl($router->alias) ?>">
+                    <a href="<?php echo Common::buildUrl($value->tintuc_lang->id, Router::TYPE_NEWS) ?>">
                         <img load="step1" src="<?php echo $value->UrlImage ?>"
                              alt="<?php echo $value->tintuc_lang->Name ?>">
                         <div class="faded">
@@ -38,11 +37,10 @@
 
         <?php
             $single_page = SinglePage::model()->find('active = 1 AND set_home = 1');
-            if($single_page != false) {
-                $router = Router::model()->find("idObject = ". $single_page->id ." AND type = ".Router::TYPE_SINGLE_PAGE);
+            if($single_page != false){
         ?>
             <div class="hd-col m3">
-                <a href="<?php echo Common::buildUrl($router->alias) ?>">
+                <a href="<?php echo Common::buildUrl($single_page->id,Router::TYPE_SINGLE_PAGE) ?>">
                     <img load="step1" src="<?php echo $single_page->urlImage ?>" alt="<?php echo $single_page->name ?>">
                     <div class="faded">
                         <p class="tt"><?php echo $single_page->name ?> </p>
@@ -52,7 +50,7 @@
         <?php } ?>
     </div>
     <div class="btn-lk w100">
-        <a class="hd-btn" href="<?php echo Common::buildUrl($router_sp_home->alias) ?>">Xem thêm &gt;&gt;</a>
+        <a class="hd-btn" href="<?php echo $router_sp_home ?>">Xem thêm &gt;&gt;</a>
     </div>
     <div class="ct3 w100">
         <div class="content slideanim">

@@ -30,7 +30,7 @@ class Baogia extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Name', 'required'),
+			array('Phone', 'required'),
 			array('Date, Active', 'numerical', 'integerOnly'=>true),
 			array('Name, Phone, Email', 'length', 'max'=>255),
 			array('Description', 'safe'),

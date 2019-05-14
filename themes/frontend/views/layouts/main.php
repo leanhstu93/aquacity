@@ -51,7 +51,7 @@
       <?php $this->renderPartial("//layouts/header"); ?>
     <?php echo $content ?>
       <?php $this->renderPartial("//layouts/footer"); ?>
-    <?php $this->renderPartial("//layouts/nav-bottom"); ?>
+    <?php // $this->renderPartial("//layouts/nav-bottom"); ?>
     <?php $this->renderPartial("//layouts/messengerFB"); ?>
       <?php $this->renderPartial("//layouts/tu-van-mien-phi"); ?>
  </div>

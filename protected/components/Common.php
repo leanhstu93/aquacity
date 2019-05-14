@@ -1194,9 +1194,15 @@ public static function phanquyen($idper)
     /**
      * build url
      */
-    public static function buildUrl($url)
+    public static function buildUrl($id_object,$type)
     {
-        return Yii::app()->request->baseUrl.$url.'.html';
+        $data = Router::model()->find("idObject = ". $id_object ." AND type = ".$type);
+        if(!empty($data)) {
+
+            return '/' . $data->alias . '.html';
+        } else {
+            return 'javascript:;';
+        }
     }
 
     public function getloaicon($id,$name = "Loaisanpham",&$data)
