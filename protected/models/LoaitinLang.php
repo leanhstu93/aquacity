@@ -44,6 +44,7 @@ class LoaitinLang extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+            'loaitin' => array(self::BELONGS_TO,'Loaitin',array('idLoaiTin'=>'id')),
 		);
 	}
 

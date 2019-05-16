@@ -58,6 +58,18 @@
                 'limit' => 1,
                 'note' => '',
             ],
+            'trang_con_banner_video_sidebar' =>[
+                'name' => 'Banner sidebar video',
+                'data' => 11,
+                'limit' => 1,
+                'note' => '',
+            ],
+            'trang_con_banner_truoc_sau_nang_mui' =>[
+                'name' => 'Banner sidebar trước và sau nâng mũi',
+                'data' => 12,
+                'limit' => 1,
+                'note' => '',
+            ],
 
         ],
         #END setting image
@@ -84,6 +96,30 @@
                 'data' => 2,
                 'limit' => 4,
                 'note' => '',
+            ],
+            'list_care' =>[
+                'name' => 'Bài viết liên quan',
+                'data' => 3,
+                'limit' => 4,
+                'note' => '',
+            ],
+            'list_comment' => [
+                'name' => 'Danh sách bình luận',
+                'data' => 5 ,
+                'note' => '',
+                'limit' => 0,
+            ],
+            'list_xem_nhieu' => [
+                'name' => 'Danh sách bài viết xem nhiều',
+                'data' => 6,
+                'note' => '',
+                'limit' => 5,
+            ],
+            'list_lien_quan' => [
+                'name' => 'Danh sách bài viết liên quan',
+                'data' => 7,
+                'note' => '',
+                'limit' => 12,
             ]
         ]
         #END setting danh muc bai viet

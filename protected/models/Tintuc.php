@@ -33,12 +33,12 @@ class Tintuc extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('UrlImage', 'required','message'=>'{attribute} không thể trống'),
-			array('idLoaiTin,Date, SetHome, Active,idNguoiDang, ViewCount', 'numerical', 'integerOnly'=>true),
+			array('idLoaiTin,Date, SetHome, set_care, Active,idNguoiDang, ViewCount', 'numerical', 'integerOnly'=>true),
 			array('UrlImage, NguoiDang,idTags,mo_rong', 'length', 'max'=>255),
 			array('Seo_Keywords, Seo_Description', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, idLoaiTin, idTags,idNguoiDang,UrlImage, ViewCount,NguoiDang, Date, SetHome, Seo_Keywords, Seo_Description, Active', 'safe', 'on'=>'search'),
+			array('id, idLoaiTin, idTags,idNguoiDang,UrlImage, set_care, ViewCount,NguoiDang, Date, SetHome, Seo_Keywords, Seo_Description, Active', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -70,6 +70,7 @@ class Tintuc extends CActiveRecord
 			'NguoiDang' => 'Nguoi Dang',
 			'Date' => 'Date',
 			'SetHome' => 'Tin nổi bật',
+			'set_care' => 'Quan tâm',
 			'ViewCount' => 'Lượt xem',
 			'Seo_Keywords' => 'Seo Keywords',
 			'Seo_Description' => 'Seo Description',
@@ -103,6 +104,7 @@ class Tintuc extends CActiveRecord
 		$criteria->compare('NguoiDang',$this->NguoiDang,true);
 		$criteria->compare('Date',$this->Date);
 		$criteria->compare('SetHome',$this->SetHome);
+        $criteria->compare('set_care',$this->set_care);
 		$criteria->compare('ViewCount',$this->ViewCount);
         $criteria->compare('mo_rong',$this->mo_rong);
 		$criteria->compare('Seo_Keywords',$this->Seo_Keywords,true);

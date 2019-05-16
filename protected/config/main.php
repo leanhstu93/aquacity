@@ -120,7 +120,9 @@ return array(
 				'lien-he' =>'site/lienhe',
 				'Languagechange/<lang>' => 'site/languagechange',
 
-				'admin/them-slide' =>'admin/slide/create',
+                'admin/them-slide' =>'admin/slide/create',
+
+                'admin' =>'admin/index/index',
 				'admin/quan-ly-slide' =>'admin/slide/admin',
 				'admin/sua-slide' =>'admin/slide/update',
 
@@ -237,6 +239,7 @@ return array(
 				'admin/sua-loai-khach-hang/<id>' => 'admin/loaikhachhang/update',
 				'admin/them-loai-khach-hang' =>'admin/loaikhachhang/create',
 				'dang-xuat'=>'site/logout',
+				'admin' => 'admin/default/index',
 				'<alias>' => 'site/RewriteUrl',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',

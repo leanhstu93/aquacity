@@ -169,25 +169,23 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
             <?php if(!empty($posts) && !empty($posts->post)){ ?>
             <div class='hd-col m6'>
                 <?php
-                $routerCateNews = Router::model()->find("idObject = ". $posts->category->loaitin_lang->id ." AND type = ".Router::TYPE_NEWS_CATEGORY);
-
                 foreach ($posts->post as $item){
-                    $router = Router::model()->find("idObject = ". $item->tintuc_lang->id ." AND type = ".Router::TYPE_NEWS);
                 ?>
                 <article>
                     <a class="pic"
                        title="<?php echo $item->tintuc_lang->Name ?>"
-                       href="<?php echo $router->alias ?>">
+                       href="<?php echo Common::buildUrl($item->tintuc_lang->id,Router::TYPE_NEWS) ?>">
                         <img src="<?php echo $item->UrlImage ?>" alt="<?php echo $item->tintuc_lang->Name ?>">
                     </a>
                     <a title="<?php echo $item->tintuc_lang->Name ?>"
-                       href="<?php echo $router->alias ?>">
+                       href="<?php echo Common::buildUrl($item->tintuc_lang->id,Router::TYPE_NEWS) ?>">
                         <strong><?php echo $item->tintuc_lang->Name ?></strong>
                     </a>
                 </article>
                 <?php } ?>
                 <div class='btn-lk'>
-                    <a rel="nofollow" class='hd-btn' href='<?php echo $routerCateNews->alias ?>'>Xem thêm >></a>
+                    <a rel="nofollow" class='hd-btn'
+                       href='<?php echo Common::buildUrl($posts->category->loaitin_lang->id,Router::TYPE_NEWS_CATEGORY) ?>'>Xem thêm >></a>
                 </div>
             </div>
             <?php } ?>

@@ -19,7 +19,7 @@
                         <a title='<?php echo $item->tintuc_lang->Name ?>'
                            href='<?php echo $router->alias ?>'>
                             <b><?php echo $item->tintuc_lang->Name ?></b><i><?php echo $item->mo_rong ?></i> </a>
-                        <a href='<?php echo $router->alias ?>' class='button' rel='nofollow'>Trả
+                        <a href='<?php echo $router->alias ?>.html' class='button' rel='nofollow'>Trả
                             lời</a>
                     </li>
                     <?php

@@ -27,6 +27,14 @@
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl ?>/js/custom.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/carousel/owl.carousel.css">
     <script type="text/javascript" src="/js/carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/libs/fancybox/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="/libs/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="/libs/bootstrap-modal/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/libs/bootstrap-modal/bootstrap-modal.css">
+    <link rel="stylesheet" type="text/css" href="/libs/bootstrap-modal/bootstrap-modal-bs3patch.css">
+    <link rel="stylesheet" href="/libs/bootstrap-modal/bootstrap-responsive.css">
+    <script type="text/javascript" src="/libs/bootstrap-modal/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="/libs/bootstrap-modal/bootstrap-modalmanager.js"></script>
    <script type="text/javascript">
      $(function(){$(".alert button").click(function(event) {/* Act on the event */ $(this).parent().hide("fast"); }); })
    </script>
@@ -43,8 +51,9 @@
       <?php $this->renderPartial("//layouts/header"); ?>
     <?php echo $content ?>
       <?php $this->renderPartial("//layouts/footer"); ?>
-    <?php $this->renderPartial("//layouts/nav-bottom"); ?>
+    <?php // $this->renderPartial("//layouts/nav-bottom"); ?>
     <?php $this->renderPartial("//layouts/messengerFB"); ?>
+      <?php $this->renderPartial("//layouts/tu-van-mien-phi"); ?>
  </div>
 </body>
 </html>
