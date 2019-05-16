@@ -37,7 +37,7 @@ figure {
 }
 img{max-width: 100%}
 .fix-scroll{position: fixed;max-width: 1650px;top: 0px;left: 0px;z-index: 988}
-a{cursor: pointer;}
+a{cursor: pointer;text-decoration: none}
 .center{text-align: center}
 
 .alert {
@@ -147,7 +147,7 @@ a{text-decoration:none;color: inherit;}
 }
 .kns .hd-dropdown-content {
     width: 90%;
-    background: #0b82b3;
+    background: #073236;
     padding: 0;
     left: 0;
     top: 50px;
@@ -228,7 +228,7 @@ a{text-decoration:none;color: inherit;}
     padding: 10px 20px;
     width: 200px;
     font-size: 13px;
-    background: #0b82b3;
+    background: #073236;
     text-decoration: none;
     color: #c8ecfb;
     -webkit-transition: color .2s ease;
@@ -300,7 +300,7 @@ a{text-decoration:none;color: inherit;}
 .kns .line1::before, .kns .line2::before {
     width: 160px;
     margin: 0 auto;
-    border-top: 3px solid #00597e;
+    border-top: 3px solid #073236;
     position: absolute;
     left: 50px;
     top: -1px;
@@ -533,7 +533,7 @@ a{text-decoration:none;color: inherit;}
     position: absolute;
     bottom: -1px;
     left: 0;
-    border-bottom: 3px solid #00597e;
+    border-bottom: 3px solid #073236;
     width: 90px;
 }
 .kns .page3 article {
@@ -638,7 +638,7 @@ a{text-decoration:none;color: inherit;}
     position: absolute;
     bottom: -1px;
     left: 0;
-    border-bottom: 3px solid #00597e;
+    border-bottom: 3px solid #073236;
     width: 90px;
 }
 .kns .page4 figure .pagett {
@@ -1213,6 +1213,126 @@ span.comment-content {
 .wrp-menumobile{
     display: none;
 }
+.kns .tuts ul .n1 .t1 .giadv .dvg, .kns .tuts ul .n1 .t2 .giadv .dvg, .kns .tuts ul .n1 .t3 .giadv .dvg, .kns .tuts ul .n1 .t4 .giadv .dvg, .kns .tuts ul .n1 .t5 .giadv .dvg, .kns .tuts ul .n2 .t1 .giadv .dvg, .kns .tuts ul .n2 .t2 .giadv .dvg, .kns .tuts ul .n2 .t3 .giadv .dvg, .kns .tuts ul .n2 .t4 .giadv .dvg, .kns .tuts ul .n2 .t5 .giadv .dvg, .kns .tuts ul .n3 .t1 .giadv .dvg, .kns .tuts ul .n3 .t2 .giadv .dvg, .kns .tuts ul .n3 .t3 .giadv .dvg, .kns .tuts ul .n3 .t4 .giadv .dvg, .kns .tuts ul .n3 .t5 .giadv .dvg, .kns .tuts ul .n4 .t1 .giadv .dvg, .kns .tuts ul .n4 .t2 .giadv .dvg, .kns .tuts ul .n4 .t3 .giadv .dvg, .kns .tuts ul .n4 .t4 .giadv .dvg, .kns .tuts ul .n4 .t5 .giadv .dvg, .kns .tuts ul .n5 .t1 .giadv .dvg, .kns .tuts ul .n5 .t2 .giadv .dvg, .kns .tuts ul .n5 .t3 .giadv .dvg, .kns .tuts ul .n5 .t4 .giadv .dvg, .kns .tuts ul .n5 .t5 .giadv .dvg {
+    padding: 8px;
+}
+.tuts li{
+    list-style: none;
+}
+.tuts li  span{
+    text-align: center;
+}
+.kns .tuts ul .n1 .t1, .kns .tuts ul .n1 .t2, .kns .tuts ul .n1 .t3, .kns .tuts ul .n1 .t4, .kns .tuts ul .n1 .t5, .kns .tuts ul .n2 .t1, .kns .tuts ul .n2 .t2, .kns .tuts ul .n2 .t3, .kns .tuts ul .n2 .t4, .kns .tuts ul .n2 .t5, .kns .tuts ul .n3 .t1, .kns .tuts ul .n3 .t2, .kns .tuts ul .n3 .t3, .kns .tuts ul .n3 .t4, .kns .tuts ul .n3 .t5, .kns .tuts ul .n4 .t1, .kns .tuts ul .n4 .t2, .kns .tuts ul .n4 .t3, .kns .tuts ul .n4 .t4, .kns .tuts ul .n4 .t5, .kns .tuts ul .n5 .t1, .kns .tuts ul .n5 .t2, .kns .tuts ul .n5 .t3, .kns .tuts ul .n5 .t4, .kns .tuts ul .n5 .t5 {
+    visibility: hidden;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: 0.5s;
+    position: absolute;
+    width: 0;
+    height: 390px;
+    left: 0;
+    top: 5px;
+    background: #fff;
+    color: #313131;
+    z-index: 100;
+    border-radius: 6px 0 0 6px;
+    text-align: left;
+    overflow: hidden;
+}
+.kns .tuts ul .n1:hover, .kns .tuts ul .n2:hover, .kns .tuts ul .n3:hover, .kns .tuts ul .n4:hover, .kns .tuts ul .n5:hover {
+    opacity: 1;
+    transition: 0.8;
+}
+.kns .tuts ul .n1:hover .t1, .kns .tuts ul .n1:hover .t2, .kns .tuts ul .n1:hover .t3, .kns .tuts ul .n1:hover .t4, .kns .tuts ul .n1:hover .t5, .kns .tuts ul .n2:hover .t1, .kns .tuts ul .n2:hover .t2, .kns .tuts ul .n2:hover .t3, .kns .tuts ul .n2:hover .t4, .kns .tuts ul .n2:hover .t5, .kns .tuts ul .n3:hover .t1, .kns .tuts ul .n3:hover .t2, .kns .tuts ul .n3:hover .t3, .kns .tuts ul .n3:hover .t4, .kns .tuts ul .n3:hover .t5, .kns .tuts ul .n4:hover .t1, .kns .tuts ul .n4:hover .t2, .kns .tuts ul .n4:hover .t3, .kns .tuts ul .n4:hover .t4, .kns .tuts ul .n4:hover .t5, .kns .tuts ul .n5:hover .t1, .kns .tuts ul .n5:hover .t2, .kns .tuts ul .n5:hover .t3, .kns .tuts ul .n5:hover .t4, .kns .tuts ul .n5:hover .t5 {
+    visibility: inherit;
+    opacity: 1;
+    transition: 0.5s;
+    width: 420px;
+    top: 5px;
+    left: -420px;
+    height: 390px;
+}
+.kns .tuts ul .n1 .t1 .giadv, .kns .tuts ul .n1 .t2 .giadv, .kns .tuts ul .n1 .t3 .giadv, .kns .tuts ul .n1 .t4 .giadv, .kns .tuts ul .n1 .t5 .giadv, .kns .tuts ul .n2 .t1 .giadv, .kns .tuts ul .n2 .t2 .giadv, .kns .tuts ul .n2 .t3 .giadv, .kns .tuts ul .n2 .t4 .giadv, .kns .tuts ul .n2 .t5 .giadv, .kns .tuts ul .n3 .t1 .giadv, .kns .tuts ul .n3 .t2 .giadv, .kns .tuts ul .n3 .t3 .giadv, .kns .tuts ul .n3 .t4 .giadv, .kns .tuts ul .n3 .t5 .giadv, .kns .tuts ul .n4 .t1 .giadv, .kns .tuts ul .n4 .t2 .giadv, .kns .tuts ul .n4 .t3 .giadv, .kns .tuts ul .n4 .t4 .giadv, .kns .tuts ul .n4 .t5 .giadv, .kns .tuts ul .n5 .t1 .giadv, .kns .tuts ul .n5 .t2 .giadv, .kns .tuts ul .n5 .t3 .giadv, .kns .tuts ul .n5 .t4 .giadv, .kns .tuts ul .n5 .t5 .giadv {
+    border: 4px solid #073236;
+    border-radius: 3px;
+    margin: 14px;
+    padding: 10px;
+}
+.kns .tuts ul .n1 .t1 .giadv .dvg span, .kns .tuts ul .n1 .t2 .giadv .dvg span, .kns .tuts ul .n1 .t3 .giadv .dvg span, .kns .tuts ul .n1 .t4 .giadv .dvg span, .kns .tuts ul .n1 .t5 .giadv .dvg span, .kns .tuts ul .n2 .t1 .giadv .dvg span, .kns .tuts ul .n2 .t2 .giadv .dvg span, .kns .tuts ul .n2 .t3 .giadv .dvg span, .kns .tuts ul .n2 .t4 .giadv .dvg span, .kns .tuts ul .n2 .t5 .giadv .dvg span, .kns .tuts ul .n3 .t1 .giadv .dvg span, .kns .tuts ul .n3 .t2 .giadv .dvg span, .kns .tuts ul .n3 .t3 .giadv .dvg span, .kns .tuts ul .n3 .t4 .giadv .dvg span, .kns .tuts ul .n3 .t5 .giadv .dvg span, .kns .tuts ul .n4 .t1 .giadv .dvg span, .kns .tuts ul .n4 .t2 .giadv .dvg span, .kns .tuts ul .n4 .t3 .giadv .dvg span, .kns .tuts ul .n4 .t4 .giadv .dvg span, .kns .tuts ul .n4 .t5 .giadv .dvg span, .kns .tuts ul .n5 .t1 .giadv .dvg span, .kns .tuts ul .n5 .t2 .giadv .dvg span, .kns .tuts ul .n5 .t3 .giadv .dvg span, .kns .tuts ul .n5 .t4 .giadv .dvg span, .kns .tuts ul .n5 .t5 .giadv .dvg span {
+    display: inline !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+.kns .tuts ul .n1 .t1 .t2b a img, .kns .tuts ul .n1 .t2 .t2b a img, .kns .tuts ul .n1 .t3 .t2b a img, .kns .tuts ul .n1 .t4 .t2b a img, .kns .tuts ul .n1 .t5 .t2b a img, .kns .tuts ul .n2 .t1 .t2b a img, .kns .tuts ul .n2 .t2 .t2b a img, .kns .tuts ul .n2 .t3 .t2b a img, .kns .tuts ul .n2 .t4 .t2b a img, .kns .tuts ul .n2 .t5 .t2b a img, .kns .tuts ul .n3 .t1 .t2b a img, .kns .tuts ul .n3 .t2 .t2b a img, .kns .tuts ul .n3 .t3 .t2b a img, .kns .tuts ul .n3 .t4 .t2b a img, .kns .tuts ul .n3 .t5 .t2b a img, .kns .tuts ul .n4 .t1 .t2b a img, .kns .tuts ul .n4 .t2 .t2b a img, .kns .tuts ul .n4 .t3 .t2b a img, .kns .tuts ul .n4 .t4 .t2b a img, .kns .tuts ul .n4 .t5 .t2b a img, .kns .tuts ul .n5 .t1 .t2b a img, .kns .tuts ul .n5 .t2 .t2b a img, .kns .tuts ul .n5 .t3 .t2b a img, .kns .tuts ul .n5 .t4 .t2b a img, .kns .tuts ul .n5 .t5 .t2b a img {
+    float: left;
+    margin: 0 10px 0 0;
+}
+.kns .tuts ul .n1 .t1 .t2b, .kns .tuts ul .n1 .t2 .t2b, .kns .tuts ul .n1 .t3 .t2b, .kns .tuts ul .n1 .t4 .t2b, .kns .tuts ul .n1 .t5 .t2b, .kns .tuts ul .n2 .t1 .t2b, .kns .tuts ul .n2 .t2 .t2b, .kns .tuts ul .n2 .t3 .t2b, .kns .tuts ul .n2 .t4 .t2b, .kns .tuts ul .n2 .t5 .t2b, .kns .tuts ul .n3 .t1 .t2b, .kns .tuts ul .n3 .t2 .t2b, .kns .tuts ul .n3 .t3 .t2b, .kns .tuts ul .n3 .t4 .t2b, .kns .tuts ul .n3 .t5 .t2b, .kns .tuts ul .n4 .t1 .t2b, .kns .tuts ul .n4 .t2 .t2b, .kns .tuts ul .n4 .t3 .t2b, .kns .tuts ul .n4 .t4 .t2b, .kns .tuts ul .n4 .t5 .t2b, .kns .tuts ul .n5 .t1 .t2b, .kns .tuts ul .n5 .t2 .t2b, .kns .tuts ul .n5 .t3 .t2b, .kns .tuts ul .n5 .t4 .t2b, .kns .tuts ul .n5 .t5 .t2b {
+    height: 100%;
+    overflow: auto;
+}
+.kns .tuts ul .n1 .t1 .t2b a, .kns .tuts ul .n1 .t2 .t2b a, .kns .tuts ul .n1 .t3 .t2b a, .kns .tuts ul .n1 .t4 .t2b a, .kns .tuts ul .n1 .t5 .t2b a, .kns .tuts ul .n2 .t1 .t2b a, .kns .tuts ul .n2 .t2 .t2b a, .kns .tuts ul .n2 .t3 .t2b a, .kns .tuts ul .n2 .t4 .t2b a, .kns .tuts ul .n2 .t5 .t2b a, .kns .tuts ul .n3 .t1 .t2b a, .kns .tuts ul .n3 .t2 .t2b a, .kns .tuts ul .n3 .t3 .t2b a, .kns .tuts ul .n3 .t4 .t2b a, .kns .tuts ul .n3 .t5 .t2b a, .kns .tuts ul .n4 .t1 .t2b a, .kns .tuts ul .n4 .t2 .t2b a, .kns .tuts ul .n4 .t3 .t2b a, .kns .tuts ul .n4 .t4 .t2b a, .kns .tuts ul .n4 .t5 .t2b a, .kns .tuts ul .n5 .t1 .t2b a, .kns .tuts ul .n5 .t2 .t2b a, .kns .tuts ul .n5 .t3 .t2b a, .kns .tuts ul .n5 .t4 .t2b a, .kns .tuts ul .n5 .t5 .t2b a {
+    display: block;
+    padding: 15px 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.kns .tuts ul .n1 .t1 .giadv, .kns .tuts ul .n1 .t2 .giadv, .kns .tuts ul .n1 .t3 .giadv, .kns .tuts ul .n1 .t4 .giadv, .kns .tuts ul .n1 .t5 .giadv, .kns .tuts ul .n2 .t1 .giadv, .kns .tuts ul .n2 .t2 .giadv, .kns .tuts ul .n2 .t3 .giadv, .kns .tuts ul .n2 .t4 .giadv, .kns .tuts ul .n2 .t5 .giadv, .kns .tuts ul .n3 .t1 .giadv, .kns .tuts ul .n3 .t2 .giadv, .kns .tuts ul .n3 .t3 .giadv, .kns .tuts ul .n3 .t4 .giadv, .kns .tuts ul .n3 .t5 .giadv, .kns .tuts ul .n4 .t1 .giadv, .kns .tuts ul .n4 .t2 .giadv, .kns .tuts ul .n4 .t3 .giadv, .kns .tuts ul .n4 .t4 .giadv, .kns .tuts ul .n4 .t5 .giadv, .kns .tuts ul .n5 .t1 .giadv, .kns .tuts ul .n5 .t2 .giadv, .kns .tuts ul .n5 .t3 .giadv, .kns .tuts ul .n5 .t4 .giadv, .kns .tuts ul .n5 .t5 .giadv {
+    border: 4px solid #073236;
+    border-radius: 3px;
+    margin: 14px;
+    padding: 10px;
+}
+.kns .tuts ul .n1 span i, .kns .tuts ul .n2 span i, .kns .tuts ul .n3 span i, .kns .tuts ul .n4 span i, .kns .tuts ul .n5 span i {
+    display: block;
+    font-size: 22px;
+}
+.kns .tuts ul .n1 span, .kns .tuts ul .n2 span, .kns .tuts ul .n3 span, .kns .tuts ul .n4 span, .kns .tuts ul .n5 span {
+    display: block;
+    padding: 5px 10px 5px;
+    z-index: 101;
+    transition: 0.6;
+    cursor: pointer;
+    position: relative;
+    font-size: 11px;
+}
+.kns .tuts {
+    position: fixed;
+    right: 0;
+    top: 180px;
+    z-index: 9;
+    background: #1576b1;
+    width: 65px;
+    border-radius: 4px;
+}
+.kns .tuts {
+    z-index: 99;
+}
+.kns .fixtut {
+    top: 50px;
+    transition: 0.5s;
+}
+.kns .tuts ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.kns .tuts ul .n1, .kns .tuts ul .n2, .kns .tuts ul .n3, .kns .tuts ul .n4, .kns .tuts ul .n5 {
+    transition: 0.3;
+    color: #fff;
+}
+.kns .tuts {
+    position: fixed;
+    right: 0;
+    top: 180px;
+    z-index: 9;
+    background: #073236;
+    width: 65px;
+    border-radius: 4px;
+}
+.kns .tuts li a:hover{
+    color: white;
+}
 @media (max-width: 1366px){
     .kns .page1 .city .text {
         margin-right: 50px;
@@ -1224,6 +1344,9 @@ span.comment-content {
     }
 }
 @media (max-width: 1024px){
+    .kns .tuts {
+        display: none;
+    }
     .kns main .hd-container {
         padding: 0 15px;
     }

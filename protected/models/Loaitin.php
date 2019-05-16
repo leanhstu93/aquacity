@@ -132,6 +132,7 @@ class Loaitin extends CActiveRecord
             $criteria->condition = "idNgonNgu = 1 and Active = 1";
             $criteria->order = "t.id desc";
             $data_id = [];
+           
             Common::getloaicon($result->category->id,"Loaitin",$data_id);
             $criteria->addInCondition("idLoaiTin",$data_id);
 
