@@ -26,6 +26,9 @@ html,body{
     line-height: 1.5;
 }
 *{ margin:0px;padding:0px;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;box-sizing:border-box;}
+a:hover{
+    text-decoration: none;
+}
 p{
     margin: 10px 0;
 }
@@ -319,6 +322,9 @@ a{text-decoration:none;color: inherit;}
 .kns .page1 .ct2 {
     width: 100%;
     text-align: center;
+}
+.kns .page1 .ct2 .hd-col.m3{
+    padding: 0 10px;
 }
 .kns .page1 .ct2 .tt {
     color: #073236;
@@ -779,7 +785,7 @@ a{text-decoration:none;color: inherit;}
     height: 45px;
     padding: 0 0 10px 0;
     font-size: 17px;
-    border-bottom: 1px solid #04668E;
+    border-bottom: 1px solid #073236;
     position: relative;
 }
 .kns main aside section .boxct {
@@ -826,7 +832,7 @@ a{text-decoration:none;color: inherit;}
 }
 .kns main aside section .title::after {
     content: "";
-    border-bottom: 3px solid #04668E;
+    border-bottom: 3px solid #073236;
     width: 80px;
     position: absolute;
     left: 0;
@@ -1332,6 +1338,12 @@ span.comment-content {
 }
 .kns .tuts li a:hover{
     color: white;
+}
+.kns .menu .hd-dropdown-hover:hover a {
+    background: #29676d;
+}
+.kns .menu .hd-dropdown-content{
+    background: #29676d;
 }
 @media (max-width: 1366px){
     .kns .page1 .city .text {
