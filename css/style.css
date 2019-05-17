@@ -29,6 +29,9 @@ html,body{
 a:hover{
     text-decoration: none;
 }
+a:hover, a:focus{
+    color: #073336;
+}
 p{
     margin: 10px 0;
 }
