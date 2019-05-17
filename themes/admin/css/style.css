@@ -211,6 +211,11 @@ b, strong {
     font-size: 30px;
     font-weight: bold;
 }
+.applogo .logo img{
+    max-height: 43px;
+    max-width: 80%;
+    width: auto;
+}
 .sidebar-open-button {
     //border-right: 1px solid rgba(0, 0, 0, 0.14);
     color: #fff;

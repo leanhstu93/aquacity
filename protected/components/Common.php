@@ -1205,15 +1205,16 @@ public static function phanquyen($idper)
         }
     }
 
-    public function getloaicon($id,$name = "Loaisanpham",&$data)
+    public static function getloaicon($id,$name = "Loaisanpham",&$data)
     {
-        array_push($data, $id);
-        $lsp = $name::model()->findAll("Parent =$id and Active = 1");
-        foreach ($lsp as $key => $value) {
-            # code...
-            if($lsp != NULL)
-            {
-                self::getloaicon($value->id,$name,$data);
+        if(!empty($id)) {
+            array_push($data, $id);
+            $lsp = $name::model()->findAll("Parent = " . $id . " and Active = 1");
+            foreach ($lsp as $key => $value) {
+                # code...
+                if ($lsp != NULL) {
+                    self::getloaicon($value->id, $name, $data);
+                }
             }
         }
     }

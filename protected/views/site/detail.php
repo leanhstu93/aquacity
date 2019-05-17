@@ -4,24 +4,29 @@
             <?php
             $arrBread[0]["Name"] = $model->Name;
             $criteria = new CDbCriteria();
-            $criteria->with = "loaisanpham_lang";
+            $criteria->with = "loaitin_lang";
             $criteria->condition = "idNgonNgu = $this->lang and Active = 1";
             $criteria->order = "t.id desc";
-            $criteria->addInCondition("idLoai",$this->arridloai);
-            $arrloai = Loaisanpham::model()->findAll($criteria);
+            $criteria->addInCondition("idLoaiTin",$this->arridloai);
+            $arrloai = Loaitin::model()->findAll($criteria);
             $j = 0;
             for ($i= (count($arrloai)-1); $i >= 0; $i--) {
                 $j++;
-                $arrBread[$j]["Name"] = $arrloai[$i]->loaisanpham_lang->Name;
-                $routerCateNews = Router::model()->find("idObject = " . $arrloai[$i]->loaisanpham_lang->id . " AND type = " . Router::TYPE_NEWS_PRODUCT);
+                $arrBread[$j]["Name"] = $arrloai[$i]->loaitin_lang->Name;
+                $routerCateNews = Router::model()->find("idObject = " . $arrloai[$i]->loaitin_lang->id . " AND type = " . Router::TYPE_NEWS_CATEGORY);
                 $arrBread[$j]["Href"] = $routerCateNews->alias;
             }
             $this->renderPartial("//layouts/breadcrumb",array('data'=>$arrBread));
-
+            $hinhanh = Hinhanh::getDataByCustomSetting('home_banner_trang_con');
             ?>
             <div class="detail">
 
-                <div class="bannertop"><div id='polyad_ads_zone3' style="text-align: center">	</div></div>
+                <div class="bannertop"><div id='polyad_ads_zone3' style="text-align: center">
+                        <a target="_blank" href="<?php echo $hinhanh->hinhanh->link ?>">
+                            <img src="<?php echo $hinhanh->hinhanh->url_image ?>">
+                        </a>
+                    </div>
+                </div>
                 <h1 class="title"><?php echo $model->Name ?>    </h1>
                 <section class="detailct">
                     <div class="sapo">

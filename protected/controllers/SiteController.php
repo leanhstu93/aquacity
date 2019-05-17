@@ -66,11 +66,16 @@ class SiteController extends Controller {
             switch ($model->type){
                 case Router::TYPE_PRODUCT:
                     $this->actionSanpham($model->idObject);
-                break;
+                    break;
                 case Router::TYPE_NEWS :
                     $this->actionChitiet($model->idObject);
+                    break;
                 case Router::TYPE_NEWS_CATEGORY :
                     $this->actionLoaitin($model->idObject);
+                    break;
+                case Router::TYPE_SINGLE_PAGE:
+                    $this->actionSinglePage($model->idObject);
+                    break;
                 case 'video' :
                     $this->actionVideo();
                 break;
@@ -91,6 +96,17 @@ class SiteController extends Controller {
         $model = Gioithieu::model()->find($criteria);
         $this->pageTitle = $model->gioithieu_lang->Name;
         $this->render('gioithieu',array('model'=>$model));
+    }
+
+    public function actionSinglePage($id)
+    {
+
+        $criteria = new CDbCriteria();
+        $criteria->condition = "id = $id";
+        $criteria->order = "t.id";
+        $model = SinglePage::model()->find($criteria);
+        $this->pageTitle = $model->name;
+        $this->render('single-page',array('model'=>$model));
     }
 
     public function actionIndex() {
@@ -662,7 +678,7 @@ class SiteController extends Controller {
 
             $count = Tintuc::model()->count($criteria);
             $pages = new CPagination($count);
-            $pages->pageSize = 2;
+            $pages->pageSize = 12;
             $pages->applyLimit($criteria);
             $tintuc = Tintuc::model()->findAll($criteria);
 
