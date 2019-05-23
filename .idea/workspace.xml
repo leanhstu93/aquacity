@@ -5,8 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0fcd73d-6327-444c-8756-c8829089bc84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/bg-header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg-header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/carousel/docs.theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/docs.theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/carousel/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/carousel/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/owl.theme.default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/carousel/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dropmenu/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropmenu/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dropmenu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropmenu/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menu/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menumobile/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menumobile/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menumobile/jquery.mmenu.all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menumobile/jquery.mmenu.all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/config/settingTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/settingTemplate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/runtime/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/home-ct2.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/home-ct2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/home-page4.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/home-page4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/video.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,31 +55,48 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/scp00231/public_html/protected/modules/admin/views/video/update.php">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+            <state relative-caret-position="326">
+              <caret line="181" column="7" selection-start-line="181" selection-start-column="7" selection-end-line="181" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/scp01551/public_html/protected/modules/admin/views/video/_form.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/home-page3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="138" column="10" selection-start-line="138" selection-start-column="10" selection-end-line="138" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/home-page4.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -69,10 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>buildUrl</find>
-      <find>rty=&quot;og:</find>
-      <find>báo giá</find>
-      <find>xem</find>
       <find>link</find>
       <find>.hd-col.m3, .hd-quarter</find>
       <find>Ta__js-slider-pp</find>
@@ -99,6 +138,10 @@
       <find>loaisanpham_lang</find>
       <find>class=&quot; page2-slide&quot;</find>
       <find>a:hover</find>
+      <find>.kns .page1</find>
+      <find>bg-hea</find>
+      <find>.wrp-menu</find>
+      <find>.kns .menupc li.hd-dropdown-hover</find>
     </findStrings>
     <replaceStrings>
       <replace>hd-dropdown-hover</replace>
@@ -118,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/protected/models/LoaitinLang.php" />
         <option value="$PROJECT_DIR$/protected/views/site/cat.php" />
         <option value="$PROJECT_DIR$/protected/models/TintucLang.php" />
         <option value="$PROJECT_DIR$/protected/views/site/detailcopy.php" />
@@ -132,15 +174,11 @@
         <option value="$PROJECT_DIR$/protected/models/Baogia.php" />
         <option value="$PROJECT_DIR$/themes/frontend/views/layouts/tu-van-mien-phi.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/baogia/admin.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/home-ct2.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/site/home-page3.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/home-page4.php" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/header.php" />
-        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" />
         <option value="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp54304/public_html/themes/frontend/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
@@ -166,17 +204,22 @@
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/singlePage/update.php" />
         <option value="$PROJECT_DIR$/protected/views/site/home-page2.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp00231/public_html/protected/modules/admin/views/video/update.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp01551/public_html/protected/modules/admin/views/video/_form.php" />
+        <option value="$PROJECT_DIR$/protected/config/settingTemplate.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/home-ct2.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/home-page4.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="2" />
+    <option name="y" value="1" />
+    <option name="width" value="1022" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,75 +244,25 @@
               <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
               <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
               <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
               <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
               <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/protected/modules/admin/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -276,11 +270,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\bacsisuamui\images" />
       <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\views" />
       <recent name="C:\xampp\htdocs\bacsisuamui" />
       <recent name="C:\xampp\htdocs\bacsisuamui\protected\views\site" />
       <recent name="C:\xampp\htdocs\bacsisuamui\libs\fancybox" />
-      <recent name="C:\xampp\htdocs\bacsisuamui\libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\controllers" />
@@ -329,6 +323,8 @@
       <workItem from="1557772457914" duration="16686000" />
       <workItem from="1557845409061" duration="3093000" />
       <workItem from="1558014982977" duration="5952000" />
+      <workItem from="1558447786372" duration="1788000" />
+      <workItem from="1558621468801" duration="5768000" />
     </task>
     <task id="LOCAL-00001" summary="cm">
       <created>1556426344862</created>
@@ -425,13 +421,34 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196856000" />
+    <option name="totallyTimeSpent" value="204412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20051414" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20758355" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.13560411" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20758355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -450,7 +467,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.13560411" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -486,28 +503,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/protected/views/site/home-ct2.php</url>
-          <line>3</line>
+          <line>8</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29852">
-          <caret line="1756" column="1" selection-start-line="1756" selection-start-column="1" selection-end-line="1756" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/footer.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/main 4.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/header.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/menu.php" />
@@ -516,13 +518,6 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/tu-van-mien-phi.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/menumobile.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
-    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp54304/public_html/themes/frontend/views/layouts/header.php" />
     <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/header.php">
@@ -556,20 +551,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp53725/public_html/themes/admin/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="169" column="36" lean-forward="true" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp00533/public_html/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp53725/public_html/themes/admin/views/layouts/main.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp00533/public_html/index.php" />
     <entry file="file://$PROJECT_DIR$/themes/admin/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -577,53 +560,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp24077/public_html/protected/views/site/detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="41" selection-end-line="432" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#article#0;n#section#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#section#9;n#aside#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#section#9;n#aside#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#section#9;n#aside#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#section#9;n#aside#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#section#9;n#aside#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp29717/public_html/protected/views/site/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="112" column="6" lean-forward="true" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23102/public_html/protected/views/site/sanpham.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#article#0;n#section#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp24077/public_html/protected/views/site/detail.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp29717/public_html/protected/views/site/sidebar.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23102/public_html/protected/views/site/sanpham.php" />
     <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="1209" column="38" selection-start-line="1209" selection-start-column="38" selection-end-line="1209" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/settingTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -762,24 +705,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/home-ct2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/home-page2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -788,32 +717,55 @@
         <state relative-caret-position="-51" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp00630/public_html/protected/modules/admin/views/video/_form.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp00630/public_html/protected/modules/admin/views/video/_form.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp00231/public_html/protected/modules/admin/views/video/update.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp01551/public_html/protected/modules/admin/views/video/_form.php" />
+    <entry file="file://$PROJECT_DIR$/protected/config/settingTemplate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp00231/public_html/protected/modules/admin/views/video/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+        <state relative-caret-position="365">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp01551/public_html/protected/modules/admin/views/video/_form.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/site/home-ct2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/home-page3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="138" column="10" selection-start-line="138" selection-start-column="10" selection-end-line="138" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/home-page4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="181" column="7" selection-start-line="181" selection-start-column="7" selection-end-line="181" selection-end-column="7" />
         </state>
       </provider>
     </entry>

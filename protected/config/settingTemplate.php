@@ -70,6 +70,12 @@
                 'limit' => 1,
                 'note' => '',
             ],
+            'mulitple_why' =>[
+                'name' => 'Hình ảnh những lý do',
+                'data' => 13,
+                'limit' => 5,
+                'note' => '',
+            ],
 
         ],
         #END setting image
