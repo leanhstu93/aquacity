@@ -306,7 +306,7 @@ public static function menutintuc($id,$model ="Loaitin",$idnn)
 	$count = $model::model()->count($criteria);
 	$ul_open = '<ul class="dropdown-menu">';
 	$ul_close = "</ul>";
-	$li_open_ ='<li>';
+	$li_open_ ='<li class="hd-dropdown-hover">';
 	$li_open ='<li class="dropdown-submenu">';
 	$li_close = '</li>';
 		if($count > 0)

@@ -26,6 +26,13 @@ $form=$this->beginWidget('CActiveForm', array(
         <span class="help-block" id="helpBlock"><?php echo $form->error($model,'col2',array("text"=>"aaa")); ?></span> </div>
 </div>
 
+<div class="form-group" style="margin-bottom:0px">
+    <label class="col-sm-2 control-label form-label" for="input001">Cột 3 </label>
+    <div class="col-sm-6">
+        <?php echo $form->textArea($model,'col3',array('rows'=>3,'class'=>'form-control')); ?>
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model,'col3',array("text"=>"aaa")); ?></span> </div>
+</div>
+
 <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
         <?php echo CHtml::submitButton($model->isNewRecord ? 'Thêm hình ảnh' : 'Lưu hình ảnh'); ?>
@@ -34,5 +41,6 @@ $form=$this->beginWidget('CActiveForm', array(
 <script>
     CKEDITOR.replace('Footer_col1', {height: 300, });
     CKEDITOR.replace('Footer_col2', {height: 300, });
+    CKEDITOR.replace('Footer_col3', {height: 300, });
 </script>
 <?php $this->endWidget(); ?>

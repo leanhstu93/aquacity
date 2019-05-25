@@ -125,7 +125,7 @@
                 'name' => 'Danh sách bài viết liên quan',
                 'data' => 7,
                 'note' => '',
-                'limit' => 12,
+                'limit' => 15,
             ]
         ]
         #END setting danh muc bai viet

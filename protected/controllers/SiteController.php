@@ -457,7 +457,11 @@ class SiteController extends Controller {
         $pages->applyLimit($criteria);
         $c_json = json_encode($criteria);
     	$model = VideoCategory::model()->findAll($criteria);
-        $video = Video::model()->findAll("SetHome = 1 AND Active = 1");
+          $criteria = new CDbCriteria();
+          $criteria->condition ="Active = 1 AND SetHome = 1" ;
+          $criteria->order = "id desc";
+          $criteria->limit = 4;
+        $video = Video::model()->findAll($criteria);
         $this->pageTitle = "Video";
         Yii::app()->clientScript->registerMetaTag( "video", '', null, array('property' => 'og:title'), 'meta_og_title');
         Yii::app()->clientScript->registerMetaTag(Common::curPageURLY(), '', null, array('property' => 'og:url'), 'meta_og_site_name');

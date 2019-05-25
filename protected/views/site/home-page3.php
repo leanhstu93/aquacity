@@ -138,7 +138,13 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
         $hinhanh = Hinhanh::getDataByCustomSetting('home_kien_thuc');
         ?>
         <div class='hd-row'>
-            <div class="pagett pagett-sub"><?php echo $hinhanh->category->name ?></div>
+            <div class="pagett"><h3 class="cnkh">
+                    <a href="javascript:;">
+                        <?php echo $hinhanh->category->name ?>
+                    </a>
+                </h3>
+            </div>
+
             <?php if(!empty($hinhanh)){ ?>
             <div class='hd-col m6'>
                 <figure>

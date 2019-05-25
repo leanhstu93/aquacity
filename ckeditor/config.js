@@ -23,8 +23,11 @@ config.toolbar_Full =
     '/',
     { name: 'styles',      items : [ 'Styles','Format','Font','FontSize' ] },
     { name: 'colors',      items : [ 'TextColor','BGColor' ] },
+    { name: 'CKAwesome', items: ['Image', 'ckawesome']},
     { name: 'tools',       items : [ 'Maximize', 'ShowBlocks','-','About' ] }
 ];
+    config.extraPlugins = 'ckawesome';
+    config.fontawesomePath = "http://"+window.location.host+"/css/font-awesome.min.css";
 	/*config.removeButtons = 'Underline,Subscript,Superscript,Flash,Find,Replace,-,SelectAll,Save,SpellChecker, Scayt,NewPage,DocProps,Print,Templates,HorizontalRule,Smiley,SpecialChar,PageBreak,ShowBlocks,CreateDiv,BidiLtr,BidiRtl,Blockquote,Indent,Outdent,BulletedList,NumberedList,RemoveFormat,Superscript,Subscript,HiddenField,ImageButton,Button,Select,Textarea,TextField,Radio,Checkbox,Form,Scayt,Table,Anchor,PageBreak,/';
 */
 

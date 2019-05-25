@@ -50,6 +50,7 @@
                 Common::menutintuc($value->id, "Loaitin", $this->lang);
             } ?>
             <li class="hd-dropdown-hover"><a href='/video.html'> Video </a></li>
+            <li class="logo"><a>&nbsp;</a></li>
         </ul>
 <!--        <a rel="nofollow" href="#Ta__js-tu-van" data-toggle="modal" class="regist btnkn2tv">Đăng kí tư vấn</a> <a-->
 <!--                rel="nofollow" id="callme" href="tel:--><?php //echo $this->ttc->Phone ?><!--" class="call btncallme"><i-->

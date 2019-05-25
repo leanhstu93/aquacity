@@ -2,7 +2,11 @@
 <link rel="stylesheet" type="text/css" href="/css/menumobile/jquery.mmenu.all.css">
 <link rel="stylesheet" type="text/css" href="/css/menumobile/demo.css">
 <div class="header wrp-menumobile">
-	<a class="menu_m" href="#menu"><span></span>Menu</a>
+	<a class="menu_m" href="#menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
 	<div class="" >
 		<form method="post" action="">
 			<gcse:search></gcse:search>

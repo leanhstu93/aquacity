@@ -35,6 +35,15 @@
                         </p>
                     </div>
                     <?php echo $model->Content ?>
+                    <div class="wrp-share">
+                        <div class="fb-like" data-href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                    </div>
+                    <div class="Ta__btn-tuvan">
+                        <a rel="nofollow" href="#Ta__js-tu-van" data-toggle="modal" class="regist btnkn2tv">Đăng kí tư vấn</a>
+                    </div>
+                    <div class="wrp-comment w100">
+                        <?php $this->renderPartial("//layouts/comment"); ?>
+                    </div>
                     <!-- kk-star-ratings -->
                     <br clear="both" />
                     <!-- comment -->

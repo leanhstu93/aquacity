@@ -26,10 +26,10 @@ class Footer extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('col1, col2', 'required'),
+			array('col1, col2, col3', 'required'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, col1, col2', 'safe', 'on'=>'search'),
+			array('id, col1, col2,col3', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -53,6 +53,7 @@ class Footer extends CActiveRecord
 			'id' => 'ID',
 			'col1' => 'Col1',
 			'col2' => 'Col2',
+            'col3' => 'Col3',
 		);
 	}
 
@@ -77,6 +78,7 @@ class Footer extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('col1',$this->col1,true);
 		$criteria->compare('col2',$this->col2,true);
+        $criteria->compare('col3',$this->col3,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
