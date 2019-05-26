@@ -132,16 +132,18 @@ class SinglePage extends CActiveRecord
 
         if(!empty($custom_image->data)) {
             $data = implode(',',$custom_image->data);
-            if($custom_image->limit == 1) {
-                return self::model()->find('id IN ('.$data .') AND active = 1');
-            } elseif ($custom_image->limit == 0) {
-                return self::model()->findAll('id IN ('.$data . ') AND active = 1');
-            } else {
-                $criteria = new CDbCriteria();
-                $criteria->condition = 'id IN ('.$data . ') AND active = 1';
-                $criteria->order = "id";
-                $criteria->limit = $custom_image->limit;
-                return self::model()->findAll($criteria);
+            if(!empty($data)) {
+                if ($custom_image->limit == 1) {
+                    return self::model()->find('id IN (' . $data . ') AND active = 1');
+                } elseif ($custom_image->limit == 0) {
+                    return self::model()->findAll('id IN (' . $data . ') AND active = 1');
+                } else {
+                    $criteria = new CDbCriteria();
+                    $criteria->condition = 'id IN (' . $data . ') AND active = 1';
+                    $criteria->order = "id";
+                    $criteria->limit = $custom_image->limit;
+                    return self::model()->findAll($criteria);
+                }
             }
         }
 

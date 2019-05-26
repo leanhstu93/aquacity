@@ -7,7 +7,6 @@
     <div class='hd-container'>
         <figure>
             <div class='pagett'>
-                <h5><?php echo $data->category->loaitin_lang->Name  ?></h5>
                 <div class='btn-lk2'>
                     <a class='hd-btn' href='<?php echo $routerCateNews->alias ?>' rel='nofollow'>Xem thêm</a>
                 </div>

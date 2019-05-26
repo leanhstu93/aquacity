@@ -7,10 +7,8 @@
         <span></span>
         <span></span>
     </a>
-	<div class="" >
-		<form method="post" action="">
-			<gcse:search></gcse:search>
-		</form>
+	<div class="box-logo-menumobile" >
+        <img src="<?php echo $this->ttc->Slogan ?>" />
 	</div>
 </div>
 

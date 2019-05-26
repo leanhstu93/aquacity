@@ -87,6 +87,18 @@
                 'note' => '',
                 'limit' => 0
             ],
+            'one_nav_right_chi_phi' =>[
+                'name' => 'Bài viết thứ nhất ở khối bên phải màn hình',
+                'data' => 2,
+                'note' => 'Bài viết hiển thị ở khối bên phải màn hình',
+                'limit' => 1
+            ],
+            'list_nav_right_two' =>[
+                'name' => 'Danh sách bài viết thứ 2 ở khối bên phải màn hình',
+                'data' => 3,
+                'note' => 'Bài viết hiển thị ở khối bên phải màn hình',
+                'limit' => 6
+            ],
         ],
         #END setting trang don
         # cấu hình danh muc bai viet
@@ -126,6 +138,12 @@
                 'data' => 7,
                 'note' => '',
                 'limit' => 15,
+            ],
+            'list_nav_right_five' => [
+                'name' => 'Danh sách bài viết hiện thị ở khối phải màn hình mục thứ 5',
+                'data' => 8,
+                'note' => '',
+                'limit' => 7,
             ]
         ]
         #END setting danh muc bai viet

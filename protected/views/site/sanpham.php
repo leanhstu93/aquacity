@@ -47,6 +47,7 @@
                     <div class="Ta__btn-tuvan">
                         <a rel="nofollow" href="#Ta__js-tu-van" data-toggle="modal" class="regist btnkn2tv">Đăng kí tư vấn</a>
                     </div>
+                    <?php $this->renderPartial("//layouts/form-tu-van"); ?>
                     <div class="wrp-comment w100">
                         <?php $this->renderPartial("//layouts/comment"); ?>
                     </div>

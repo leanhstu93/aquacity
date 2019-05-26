@@ -5,378 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0fcd73d-6327-444c-8756-c8829089bc84" name="Default Changelist" comment="cm">
-      <change afterPath="$PROJECT_DIR$/ckeditor4/CHANGES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/adapters/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/build-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/contents.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/en-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/es-mx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/a11yhelp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/es-mx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/a11yhelp/dialogs/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/about/dialogs/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/about/dialogs/logo_ckeditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/balloonpanel/skins/kama/balloonpanel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/balloonpanel/skins/moono-lisa/balloonpanel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/balloonpanel/skins/moono-lisa/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/balloonpanel/skins/moono-lisa/images/hidpi/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/balloonpanel/skins/moono/balloonpanel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/balloonpanel/skins/moono/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/balloonpanel/skins/moono/images/hidpi/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/balloontoolbar/skins/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/balloontoolbar/skins/kama/balloontoolbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/balloontoolbar/skins/moono-lisa/balloontoolbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/balloontoolbar/skins/moono/balloontoolbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/clipboard/dialogs/paste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/dialog/dialogDefinition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/easyimage/dialogs/easyimagealt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/easyimage/styles/easyimage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/icons_hidpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/image/dialogs/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/image/images/noimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/imagebase/styles/imagebase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/link/dialogs/anchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/link/dialogs/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/link/images/anchor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/link/images/hidpi/anchor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/magicline/images/hidpi/icon-rtl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/magicline/images/hidpi/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/magicline/images/icon-rtl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/magicline/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/pastefromword/filter/default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/scayt/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/scayt/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/scayt/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/scayt/dialogs/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/scayt/dialogs/options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/scayt/dialogs/toolbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/scayt/skins/moono-lisa/scayt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/en-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/es-mx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/specialchar/dialogs/specialchar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/table/dialogs/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/tableselection/styles/tableselection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/tabletools/dialogs/tableCell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/widget/images/handle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/wsc/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/wsc/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/wsc/dialogs/ciframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/wsc/dialogs/tmpFrameset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/wsc/dialogs/wsc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/wsc/dialogs/wsc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/wsc/dialogs/wsc_ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/plugins/wsc/skins/moono-lisa/wsc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/css/samples.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/img/github-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/img/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/img/header-separator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/img/navigation-tip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/js/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/js/sf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/api.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/appendto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/assets/inlineall/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/assets/outputxhtml/outputxhtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/assets/posteddata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/assets/sample.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/assets/uilanguages/languages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/datafiltering.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/dialog/assets/my_dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/dialog/dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/divreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/easyimage/easyimage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/enterkey/enterkey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/htmlwriter/assets/outputforflash/swfobject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/htmlwriter/outputforflash.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/htmlwriter/outputhtml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/inlineall.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/inlinebycode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/inlinetextarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/magicline/magicline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/readonly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/replacebyclass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/replacebycode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/sample.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/sample_posteddata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/tabindex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/toolbar/toolbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/uicolor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/uilanguages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/wysiwygarea/fullpage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/old/xhtmlstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/css/fontello.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/font/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/font/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/font/fontello.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/font/fontello.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/font/fontello.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/font/fontello.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/js/toolbarmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/lib/codemirror/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/lib/codemirror/neo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/dialog_ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/dialog_ie8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/dialog_iequirks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/editor_gecko.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/editor_ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/editor_ie8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/editor_iequirks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/icons_hidpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/images/hidpi/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/images/hidpi/lock-open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/images/hidpi/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/images/hidpi/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/images/lock-open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/images/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/images/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/images/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/skins/moono-lisa/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckeditor4/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/boxvideo-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protected/runtime/application.log.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dang-ky-ngay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckeditor/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ckeditor/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/carousel/docs.theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/docs.theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/carousel/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/carousel/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/owl.theme.default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/carousel/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dropmenu/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropmenu/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dropmenu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropmenu/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menu/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menumobile/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menumobile/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menumobile/jquery.mmenu.all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menumobile/jquery.mmenu.all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/components/Common.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/components/Common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg-header.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg-header.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/config/settingTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/settingTemplate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/models/Footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/Footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/models/SinglePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/SinglePage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/footer/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/footer/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/singlePage/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/singlePage/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/video/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/video/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/video/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/video/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/video/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/video/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/video/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/video/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/runtime/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/application.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/application.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/application.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/application.log.4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/site/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/site/home-page3.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/home-page3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/views/site/home-page4.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/home-page4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/views/site/sanpham.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/sanpham.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/nav-right-fix.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/nav-right-fix.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -403,27 +70,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="207" column="16" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
+            <state relative-caret-position="494">
+              <caret line="1623" column="16" lean-forward="true" selection-start-line="1623" selection-start-column="16" selection-end-line="1623" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/tintuc/_form.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckeditor4/lang/af.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckeditor/config.js">
+        <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="29" column="86" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
+            <state relative-caret-position="544">
+              <caret line="35" column="92" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/tu-van-mien-phi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="48" column="132" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="48" selection-end-column="132" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/sanpham.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -439,23 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getloaicon</find>
-      <find>Danh sách bác s</find>
-      <find>.kns .menu .hd-dropdown-content</find>
-      <find>sản</find>
-      <find>TÊN SẢN PHẨM</find>
-      <find>sản phẩm</find>
-      <find>gi</find>
-      <find>home_banner_trang_con</find>
-      <find>detail(</find>
-      <find>loaitin</find>
-      <find>04668E</find>
-      <find>00597d</find>
-      <find>loaisanpham_lang</find>
-      <find>class=&quot; page2-slide&quot;</find>
-      <find>a:hover</find>
-      <find>.kns .page1</find>
-      <find>bg-hea</find>
       <find>.kns .menupc li.hd-dropdown-hover</find>
       <find>.kns .menupc li</find>
       <find>.kns .menupc li.hd-dropdown-hover&gt;a</find>
@@ -469,6 +127,23 @@
       <find>.wrp-share</find>
       <find>home_cau_hoi</find>
       <find>.ftbox li</find>
+      <find>sing</find>
+      <find>nglePage::getDataByCustomSetti</find>
+      <find>SinglePage</find>
+      <find>$posts</find>
+      <find>Những câu hỏi thường gặp khi nâng mũi</find>
+      <find>câu hỏi thường gặp khi nâng m</find>
+      <find>.kns .page4 figure .pagett .btn-lk2</find>
+      <find>idebar/service</find>
+      <find>debar/news-care'</find>
+      <find>sidebar/video',</find>
+      <find>'sidebar/truoc-sau-na</find>
+      <find>trang_con_banner_video_sid</find>
+      <find>debar/news-new', ['data</find>
+      <find>.kns main aside section .sb_new li img</find>
+      <find>.box-logo-menumobile img</find>
+      <find>650px</find>
+      <find>wrp-form-tu-van</find>
     </findStrings>
     <replaceStrings>
       <replace>hd-dropdown-hover</replace>
@@ -488,9 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/libs/bootstrap-modal/bootstrap-modal.js" />
-        <option value="$PROJECT_DIR$/libs/bootstrap-modal/bootstrap-modalmanager.js" />
-        <option value="$PROJECT_DIR$/libs/bootstrap-modal/bootstrap-modal-bs3patch.css" />
         <option value="$PROJECT_DIR$/libs/bootstrap-modal/bootstrap.css" />
         <option value="$PROJECT_DIR$/protected/models/Baogia.php" />
         <option value="$PROJECT_DIR$/themes/frontend/views/layouts/tu-van-mien-phi.php" />
@@ -500,9 +172,7 @@
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/header.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp54304/public_html/themes/frontend/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/nav-right-fix.php" />
         <option value="$PROJECT_DIR$/js/custom.js" />
-        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp53725/public_html/themes/admin/views/layouts/main.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp00533/public_html/index.php" />
         <option value="$PROJECT_DIR$/themes/admin/css/style.css" />
@@ -519,7 +189,6 @@
         <option value="$PROJECT_DIR$/protected/views/site/single-page.php" />
         <option value="$PROJECT_DIR$/themes/frontend/views/layouts/pagination.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/singlePage/update.php" />
         <option value="$PROJECT_DIR$/protected/views/site/home-page2.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp00231/public_html/protected/modules/admin/views/video/update.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp01551/public_html/protected/modules/admin/views/video/_form.php" />
@@ -527,26 +196,32 @@
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/views/site/home-page3.php" />
         <option value="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" />
-        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/home-page4.php" />
         <option value="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/themes/frontend/views/layouts/comment.php" />
         <option value="$PROJECT_DIR$/protected/models/Footer.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/footer/_form.php" />
         <option value="$PROJECT_DIR$/themes/frontend/views/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/sanpham.php" />
         <option value="$PROJECT_DIR$/protected/views/site/detail.php" />
-        <option value="$PROJECT_DIR$/protected/config/settingTemplate.php" />
         <option value="$PROJECT_DIR$/ckeditor/config.js" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/singlePage/update.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/protected/models/SinglePage.php" />
+        <option value="$PROJECT_DIR$/protected/config/settingTemplate.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/nav-right-fix.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/home-page4.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/sidebar.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/sanpham.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="319" />
-    <option name="y" value="104" />
-    <option name="width" value="808" />
-    <option name="height" value="572" />
+    <option name="x" value="2" />
+    <option name="y" value="1" />
+    <option name="width" value="1022" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -554,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -564,87 +240,64 @@
             <path>
               <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
               <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
               <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
               <item name="protected" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="tintuc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
               <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\controllers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="C:\xampp\htdocs\bacsisuamui\images" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\views" />
       <recent name="C:\xampp\htdocs\bacsisuamui" />
       <recent name="C:\xampp\htdocs\bacsisuamui\protected\views\site" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\bacsisuamui\protected\modules\admin\controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -692,6 +345,7 @@
       <workItem from="1558014982977" duration="5952000" />
       <workItem from="1558447786372" duration="1788000" />
       <workItem from="1558621468801" duration="5768000" />
+      <workItem from="1558854956019" duration="13540000" />
     </task>
     <task id="LOCAL-00001" summary="cm">
       <created>1556426344862</created>
@@ -788,16 +442,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221271000" />
+    <option name="totallyTimeSpent" value="234632000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20757575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20694087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -810,6 +463,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -878,24 +532,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp53725/public_html/themes/admin/views/layouts/main.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp00533/public_html/index.php" />
-    <entry file="file://$PROJECT_DIR$/themes/admin/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="211" column="22" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp24077/public_html/protected/views/site/detail.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp29717/public_html/protected/views/site/sidebar.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23102/public_html/protected/views/site/sanpham.php" />
     <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
@@ -1019,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/singlePage/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/home-page2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1043,8 +672,8 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp01551/public_html/protected/modules/admin/views/video/_form.php" />
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -1062,51 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/home-page3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/home-page4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="54" column="114" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="114" />
-          <folding>
-            <element signature="e#3375#3381#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/home-ct2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="20" column="122" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="122" />
+        <state relative-caret-position="850">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1114,13 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
           <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1152,24 +733,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/sanpham.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="51" column="26" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="51" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/detail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/settingTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1199,10 +766,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/singlePage/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/SinglePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/home-ct2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="84" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/home-page3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="182" column="101" lean-forward="true" selection-start-line="182" selection-start-column="29" selection-end-line="182" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/settingTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="141" column="32" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/nav-right-fix.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="91" column="6" lean-forward="true" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/home-page4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/admin/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="211" column="22" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/sanpham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/tu-van-mien-phi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="48" column="132" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="48" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="92" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="207" column="16" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
+        <state relative-caret-position="494">
+          <caret line="1623" column="16" lean-forward="true" selection-start-line="1623" selection-start-column="16" selection-end-line="1623" selection-end-column="16" />
         </state>
       </provider>
     </entry>
