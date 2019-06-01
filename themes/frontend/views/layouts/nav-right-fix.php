@@ -88,5 +88,17 @@
             </div>
         </li>
         <?php } ?>
+        <li class="n6" onclick='toggle_visibility("t6");'>
+            <span><i class="fa fa-phone animated tada"></i>Liên hệ</span>
+            <div class="t6" id="t6">
+                <a href="tel:<?php echo $this->ttc->Phone ?>">
+                    <?php echo $this->ttc->Phone ?>
+                </a>
+            </div>
+        </li>
+        <li class="n7">
+            <a data-toggle="modal" href="#Ta__js-tu-van"><span><i class="fa fa-calendar"></i>Tư vấn</span>
+            </a>
+        </li>
     </ul>
 </div>

@@ -39,28 +39,7 @@
     ?>
         <?php $this->renderPartial('sidebar/truoc-sau-nang-mui',[ 'data' => $hinhanh],false); ?>
     <?php } ?>
-
-
-
-    <?php
-    $hinhanh = Hinhanh::getDataByCustomSetting('trang_con_banner_video_sidebar');
-    if(!empty($hinhanh->hinhanh)){
-        ?>
-        <section>
-            <div class='title'>
-                <a title='<?php echo $hinhanh->category->name ?>'
-                   Alt='<?php echo $hinhanh->category->name ?>'
-                   href='<?php echo $hinhanh->category->link ?>'><?php echo $hinhanh->category->name ?>
-                </a>
-            </div>
-            <div class='boxct'>
-                <a data-fancybox href='<?php echo $hinhanh->hinhanh->link ?>' >
-                    <img src='<?php echo $hinhanh->hinhanh->url_image ?>'>
-                </a>
-            </div>
-        </section>
-    <?php } ?>
-
+    
     <?php
     $criteria = new CDbCriteria();
     $criteria->with = "tintuc_lang";

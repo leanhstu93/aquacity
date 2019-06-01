@@ -1,4 +1,4 @@
-<?php $data = Loaitin::getDataByCustomSetting('home_kien_thuc'); ?>
+<?php $data = Loaitin::getDataByCustomSetting('home_cau_hoi'); ?>
 <?php $hinhanh = Hinhanh::getDataByCustomSetting('home_bg_cau_hoi'); ?>
 <?php $routerCateNews = Router::model()->find("idObject = ". $data->category->loaitin_lang->id ." AND type = ".Router::TYPE_NEWS_CATEGORY); ?>
 <h3 class="pagett"> Những câu hỏi thường gặp khi nâng mũi </h3>

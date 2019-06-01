@@ -110,7 +110,7 @@
                 'limit' => 4
             ],
             'home_cau_hoi' =>[
-                'name' => 'Tư vấn nâng mũi',
+                'name' => 'Danh sách câu hỏi ở trang chủ',
                 'data' => 2,
                 'limit' => 4,
                 'note' => '',

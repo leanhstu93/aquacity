@@ -95,7 +95,7 @@
 
 <div class='ht-lq w100'>
     <div class='hd-container'>
-        <div class='title'>CÁC TIN LIÊN QUAN</div>
+        <div class='title'>Những câu hỏi thường gặp khi nâng mũi</div>
         <div class='hd-row'>
             <?php
             $data = Loaitin::getDataByCustomSetting('list_lien_quan');
