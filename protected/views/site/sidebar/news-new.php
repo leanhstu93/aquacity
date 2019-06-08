@@ -10,7 +10,7 @@
                 ?>
                 <li>
                     <a title='<?php echo $item->tintuc_lang->Name ?>'
-                       href='<?php echo $router->alias ?>'>
+                       href='<?php echo $router->alias ?>.html'>
                         <img src='<?php echo $item->UrlImage ?>'
                              alt='<?php echo $item->tintuc_lang->Name ?>'
                              Title='<?php echo $item->tintuc_lang->Name ?>'>

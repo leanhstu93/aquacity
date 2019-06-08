@@ -31,10 +31,10 @@
                 <section class="detailct">
                     <div class="sapo">
                         <p style="text-align: justify;">
-                            <?php echo $model->Description ?>
+                            <?php echo html_entity_decode($model->Description) ?>
                         </p>
                     </div>
-                    <?php echo $model->Content ?>
+                    <?php echo html_entity_decode($model->Content) ?>
                     <div class="wrp-share">
                         <div class="fb-like" data-href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                     </div>
@@ -51,7 +51,7 @@
 
                 <section class="detailct">
                     <article class="sv_other svo2">
-                        <p class="hd-large">CÁC TIN NỔI BẬT</p>
+                        <h3 class="hd-large">CÁC TIN NỔI BẬT</h3>
                         <ul>
                             <?php
                             $criteria = new CDbCriteria();
@@ -65,12 +65,12 @@
                                     $router = Router::model()->find("idObject = ". $item->sanpham_lang->id ." AND type = ".Router::TYPE_PRODUCT);
                                     ?>
                                     <li>
-                                        <a href="<?php echo $router->alias ?>">
+                                        <a href="<?php echo $router->alias ?>.html">
                                             <img style="max-width:80px;"
                                                  src="<?php echo $item->UrlImage  ?>"
                                                  alt="<?php echo $item->sanpham_lang->Name ?>">
                                         </a>
-                                        <a href="<?php echo $router->alias ?>"
+                                        <a href="<?php echo $router->alias ?>.html"
                                            title="<?php echo $item->sanpham_lang->Name ?>">
                                             <?php echo $item->sanpham_lang->Name ?>
                                         </a>
@@ -91,7 +91,7 @@
 
 <div class='ht-lq w100'>
     <div class='hd-container'>
-        <div class='title'>CÁC TIN LIÊN QUAN</div>
+        <h3 class='title'>CÁC TIN LIÊN QUAN</h3>
         <div class='hd-row'>
             <?php
             $data = Loaitin::getDataByCustomSetting('list_lien_quan');
@@ -107,7 +107,7 @@
                         <div class="hd-col m3 ">
                         <figure>
                         <a title="<?php echo $item->tintuc_lang->Name ?>"
-                           href="<?php echo $router->alias ?>">
+                           href="<?php echo $router->alias ?>.html">
                             <img src="<?php echo $item->UrlImage ?>"
                                  alt="<?php echo $item->tintuc_lang->Name ?>"
                                  title="<?php echo $item->tintuc_lang->Name ?>">
@@ -117,7 +117,7 @@
                         <?php $i++; continue; } ?>
                     <li>
                         <a title="<?php echo $item->tintuc_lang->Name ?>"
-                           href="<?php echo $router->alias ?>">
+                           href="<?php echo $router->alias ?>.html">
                             <?php echo $item->tintuc_lang->Name ?>
                         </a>
                     </li>

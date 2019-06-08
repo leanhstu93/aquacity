@@ -6,13 +6,13 @@
         ?>
         <li class="n1" onclick='toggle_visibility("t1");'>
             <a href="<?php echo Common::buildUrl($data->id, Router::TYPE_SINGLE_PAGE) ?>">
-                <span><i class="fa fa-opencart"></i><?php echo $data->name ?></span>
+                <span><i class="fa fa-opencart"></i><?php echo html_entity_decode($data->name) ?></span>
             </a>
 
             <div class="t1" id="t1">
                 <div class="t1b">
                     <div class="giadv">
-                        <?php echo $data->content ?>
+                        <?php echo html_entity_decode($data->content) ?>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                     <?php foreach ($data as $item) { ?>
                         <a class="w100" href="<?php echo Common::buildUrl($item->id, Router::TYPE_SINGLE_PAGE) ?>">
                             <img width="70px" src="<?php echo $item->urlImage ?>">
-                            <?php echo $item->name ?>
+                            <?php echo html_entity_decode($item->name) ?>
                         </a>
                     <?php } ?>
 
@@ -46,7 +46,7 @@
                 <div class="t3b">
                     <a rel="nofollow" href="/video.html" class="fancybox-media">
                         <img src="<?php echo $videoSetting->urlImage ?>"
-                             alt="<?php echo $videoSetting->name ?>">\
+                             alt="<?php echo html_entity_decode($videoSetting->name) ?>">\
                     </a>
 
                     <div class="btn-lk">
@@ -81,7 +81,7 @@
                 foreach ($posts->post as $item){
                 ?>
                 <a href="<?php echo Common::buildUrl($item->tintuc_lang->id,Router::TYPE_NEWS) ?>">
-                    <?php echo $item->tintuc_lang->Name ?>
+                    <?php echo html_entity_decode($item->tintuc_lang->Name) ?>
                 </a>
                     <?php } ?>
                 </div>

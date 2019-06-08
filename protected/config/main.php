@@ -97,6 +97,7 @@ return array(
             'showScriptName' => false,
             'urlSuffix' => '.html',
 			'rules'=>array(
+			    'sitemap.xml' => 'site/SiteMap',
 				'loai-tin/<alias>' => 'site/loaitin',
 				'tags/<alias>' => 'site/tags',
 				'authrender/<id>/<mangaunhien>' => 'site/AuthRender',
@@ -130,7 +131,7 @@ return array(
 				'admin/them-ban-quan-tri' => 'admin/quantri/create',
 				'admin/sua-ban-quan-tri/<id:\d+>' => 'admin/quantri/update',
 				'admin/sua-thong-tin-tai-khoan' => 'admin/quantri/suataikhoan',
-				'gioi-thieu' =>'site/gioithieu',
+			
 				'video' => 'site/video',
 				'video/<alias>' => 'site/viewclip',
 				'bai-viet/<alias>' =>'site/chitiet',

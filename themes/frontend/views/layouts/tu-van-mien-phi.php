@@ -31,10 +31,10 @@
                         <?php echo $form->textField($model,'Name',array("placeholder"=>"Họ tên:", 'class' => 'form-control')); ?>
                     </div>
                     <div class="form-group">
-                        <?php echo $form->textField($model,'Phone',array("placeholder"=>"Điện thoại:*", 'class' => 'form-control', 'required' => 'required')); ?>
+                        <input placeholder="Điện thoại:*" class="form-control" required="required" name="Baogia[Phone]" id="Baogia_Phone" pattern="^\+?\d{0,13}" type="text" maxlength="12">
                     </div>
                     <div class="form-group">
-                        <?php echo $form->textField($model,'Email',array("placeholder"=>"Email:", 'class' => 'form-control')); ?>
+                        <?php echo $form->emailField($model,'Email',array("placeholder"=>"Email:", 'class' => 'form-control' )); ?>
                     </div>
                     <div class="form-group">
                         <?php echo $form->textArea($model,'Description',array("placeholder"=>"Mô tả:","rows"=>3, 'class' => 'form-control')); ?>

@@ -21,7 +21,7 @@ foreach ($data as $item) {
                     ?>
                     <li>
                         <a title='<?php echo $item_child->sanpham_lang->Name  ?>'
-                           href='<?php echo $router->alias ?>'>
+                           href='<?php echo $router->alias ?>.html'>
                             <?php echo $item_child->sanpham_lang->Name  ?>
                         </a>
                     </li>

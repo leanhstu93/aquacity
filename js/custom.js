@@ -14,6 +14,34 @@ function openCity(evt, cityName) {
 }
 $(document).ready(function(){
 
+    $(".Ta__js-slider-why").owlCarousel({
+        autoplay:true,
+        smartSpeed : 900,
+        navigation : true, // Show next and prev buttons
+        paginationSpeed : 70000,
+        loop:true,
+        nav: true,
+        items:5,
+        margin:20,
+        responsive : {
+            // breakpoint from 0 up
+            0 : {
+                items : 1,
+            },
+            // breakpoint from 480 up
+            480 : {
+                items : 2,
+            },
+            // breakpoint from 768 up
+            768 : {
+                items : 3,
+            },
+            1020 : {
+                items : 5,
+            }
+        }
+    });
+
     $(".Ta__js-slider-pp").owlCarousel({
         autoplay:true,
         smartSpeed : 900,

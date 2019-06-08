@@ -4,46 +4,41 @@
     <bookmark url="file://$PROJECT_DIR$/protected/controllers/SiteController.php" line="65" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0fcd73d-6327-444c-8756-c8829089bc84" name="Default Changelist" comment="cm">
-      <change afterPath="$PROJECT_DIR$/images/dang-ky-ngay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php" afterDir="false" />
+    <list default="true" id="c0fcd73d-6327-444c-8756-c8829089bc84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/carousel/docs.theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/docs.theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/carousel/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/carousel/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/owl.theme.default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/carousel/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/carousel/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dropmenu/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropmenu/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dropmenu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropmenu/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/menu/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/menu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/menumobile/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menumobile/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/menumobile/jquery.mmenu.all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menumobile/jquery.mmenu.all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg-header.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg-header.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/config/settingTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/settingTemplate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/models/SinglePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/SinglePage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/footer/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/footer/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/components/Common.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/components/Common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/models/VideoSetting.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/VideoSetting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaitin/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaitin/_form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/singlePage/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/singlePage/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/video/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/video/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/video/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/video/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/video/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/video/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/video/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/video/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/runtime/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/cat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/gioithieu.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/gioithieu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/home-ct2.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/home-ct2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/home-page2.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/home-page2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/home-page3.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/home-page3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/views/site/home-page4.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/home-page4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/lienhe.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/lienhe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/views/site/sanpham.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/sanpham.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/site/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/sidebar/comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/sidebar/comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/sidebar/news-care.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/sidebar/news-care.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/sidebar/news-new.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/sidebar/news-new.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/sidebar/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/sidebar/service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/single-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/single-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/admin/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/admin/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/nav-right-fix.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/nav-right-fix.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/tu-van-mien-phi.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/tu-van-mien-phi.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,44 +61,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="1623" column="16" lean-forward="true" selection-start-line="1623" selection-start-column="16" selection-end-line="1623" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="35" column="92" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/tu-van-mien-phi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="48" column="132" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="48" selection-end-column="132" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/site/sanpham.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,10 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.kns .menupc li.hd-dropdown-hover</find>
-      <find>.kns .menupc li</find>
-      <find>.kns .menupc li.hd-dropdown-hover&gt;a</find>
-      <find>header-top</find>
       <find>.header-top</find>
       <find>.wrp-menu</find>
       <find>Những câu hỏi thường gặp khi nâng m</find>
@@ -144,6 +98,10 @@
       <find>.box-logo-menumobile img</find>
       <find>650px</find>
       <find>wrp-form-tu-van</find>
+      <find>txt-left</find>
+      <find>.header-top .txt-left</find>
+      <find>.kns .page4 figure</find>
+      <find>.contact-page .excerpt p</find>
     </findStrings>
     <replaceStrings>
       <replace>hd-dropdown-hover</replace>
@@ -163,20 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/libs/bootstrap-modal/bootstrap.css" />
-        <option value="$PROJECT_DIR$/protected/models/Baogia.php" />
-        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/tu-van-mien-phi.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/baogia/admin.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php" />
-        <option value="$PROJECT_DIR$/css/responsive.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/header.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp54304/public_html/themes/frontend/views/layouts/header.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/js/custom.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp53725/public_html/themes/admin/views/layouts/main.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp00533/public_html/index.php" />
-        <option value="$PROJECT_DIR$/themes/admin/css/style.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp24077/public_html/protected/views/site/detail.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp23102/public_html/protected/views/site/sanpham.php" />
         <option value="$PROJECT_DIR$/protected/components/Common.php" />
         <option value="$PROJECT_DIR$/protected/models/Loaitin.php" />
@@ -204,7 +148,6 @@
         <option value="$PROJECT_DIR$/protected/views/site/detail.php" />
         <option value="$PROJECT_DIR$/ckeditor/config.js" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/singlePage/update.php" />
-        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/models/SinglePage.php" />
         <option value="$PROJECT_DIR$/protected/config/settingTemplate.php" />
         <option value="$PROJECT_DIR$/themes/frontend/views/layouts/nav-right-fix.php" />
@@ -214,6 +157,21 @@
         <option value="$PROJECT_DIR$/protected/views/site/sanpham.php" />
         <option value="$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/robots.txt" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/Product.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/header.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/home-ct2.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/home-page2.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/home-page3.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/home-page4.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/detail.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/sanpham.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/custom.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/style.css" />
+        <option value="$USER_HOME$/Desktop/Novexl.html" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/lienhe.php" />
       </list>
     </option>
   </component>
@@ -229,60 +187,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="protected" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bacsisuamui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bacsisuamui" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="aquacity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aquacity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -346,6 +268,9 @@
       <workItem from="1558447786372" duration="1788000" />
       <workItem from="1558621468801" duration="5768000" />
       <workItem from="1558854956019" duration="13540000" />
+      <workItem from="1559364972028" duration="2154000" />
+      <workItem from="1559663260126" duration="4588000" />
+      <workItem from="1560010308346" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="cm">
       <created>1556426344862</created>
@@ -438,17 +363,23 @@
       <option name="project" value="LOCAL" />
       <updated>1558021447038</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="cm">
+      <created>1559365899062</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559365899062</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234632000" />
+    <option name="totallyTimeSpent" value="241683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20694087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2114396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -459,7 +390,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32956383" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.26244953" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -470,7 +401,7 @@
       <window_info anchor="right" id="Database" order="3" weight="0.13560411" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20758355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20951156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -481,14 +412,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32839838" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.13560411" />
+      <window_info anchor="right" id="Database" order="3" weight="0.13560411" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,126 +460,15 @@
           <line>8</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/custom.js</url>
+          <line>44</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp29717/public_html/protected/views/site/sidebar.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp23102/public_html/protected/views/site/sanpham.php" />
-    <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1209" column="38" selection-start-line="1209" selection-start-column="38" selection-end-line="1209" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Loaitin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="134" column="11" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/admin/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="236" column="41" selection-start-line="236" selection-start-column="41" selection-end-line="236" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/sanpham/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="50" column="148" selection-start-line="50" selection-start-column="148" selection-end-line="50" selection-end-column="148" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/sanpham/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2288">
-          <caret line="141" column="91" selection-start-line="141" selection-start-column="91" selection-end-line="141" selection-end-column="91" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/sanpham/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/sanpham/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/SanphamLang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/single-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/pagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="671" column="30" selection-start-line="671" selection-start-column="30" selection-end-line="671" selection-end-column="30" />
-          <folding>
-            <element signature="n#actionIndex#0;n#SiteController#0;n#!!top" />
-            <element signature="n#actionDieukhoan#0;n#SiteController#0;n#!!top" />
-            <element signature="n#getloaicon#0;n#SiteController#0;n#!!top" />
-            <element signature="n#actionTags#0;n#SiteController#0;n#!!top" />
-            <element signature="n#actionTimkiem#0;n#SiteController#0;n#!!top" />
-            <element signature="n#actionViewclip#0;n#SiteController#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/singlePage/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -773,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/SinglePage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -853,31 +667,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/sanpham.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/Product.php" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+        <state relative-caret-position="162">
+          <caret line="1679" column="25" selection-start-line="1679" selection-start-column="25" selection-end-line="1679" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/tu-van-mien-phi.php">
+    <entry file="file://$PROJECT_DIR$/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="48" column="132" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="48" selection-end-column="132" />
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="595">
           <caret line="35" column="92" selection-start-line="35" selection-start-column="92" selection-end-line="35" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/tu-van-mien-phi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="1623" column="16" lean-forward="true" selection-start-line="1623" selection-start-column="16" selection-end-line="1623" selection-end-column="16" />
+        <state relative-caret-position="816">
+          <caret line="48" column="132" selection-start-line="47" selection-start-column="7" selection-end-line="48" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/sanpham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/header.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/home-page2.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/home-page3.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/home-page4.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/sanpham.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/home-ct2.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/custom.js" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/style.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/detail.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/lienhe.php" />
+    <entry file="file://$USER_HOME$/Desktop/Novexl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
         </state>
       </provider>
     </entry>

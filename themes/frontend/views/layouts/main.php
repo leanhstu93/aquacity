@@ -3,10 +3,9 @@
   $ch = Cauhinh::model()->find("id = 1 ");
   common::luuThongtin();
 ?>
-<script type="text/javascript">
- var appid = '<?php  echo $ch->Appid;?> ';
-</script>
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
    <meta charset="UTF-8">
    <meta name="google-site-verification" content="thIN_-Eh2apP5tF5RbzPfhi9py5rRlzJ7yez8g2NP4g" />
@@ -14,7 +13,9 @@
    <meta property="fb:app_id" content="<?php  echo $ch->Appid;?>" />
    <link href="<?php echo $ttc->Favicon ?>" rel="shortcut icon" type="image/x-icon" />
     <meta property="og:type" content="article" />
-
+    <script type="text/javascript">
+        var appid = '<?php  echo $ch->Appid;?> ';
+    </script>
   <!--  end fb -->
   <title><?php echo $this->pageTitle ?></title>
   <!-- start nhung bootstrap -->
@@ -38,7 +39,8 @@
    <script type="text/javascript">
      $(function(){$(".alert button").click(function(event) {/* Act on the event */ $(this).parent().hide("fast"); }); })
    </script>
-    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl ?>/css/style.css">
+    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl ?>/css/style.css?v1">
+    <?php echo $ch->head ?>
 </head>
 <body class="kns">
  <?php echo $ch->body ?>

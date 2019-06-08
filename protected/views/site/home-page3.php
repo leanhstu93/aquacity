@@ -5,11 +5,11 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
     <div class='hd-container '>
         <div class="hd-row">
             <div class="hd-col m12">
-                <div class="pagett"><h3 class="cnkh">
+                <div class="pagett"><h2 class="cnkh">
                         <a href="javascript:;">
-                            <?php echo $data->category->name ?>
+                            <?php echo html_entity_decode($data->category->name) ?>
                         </a>
-                    </h3>
+                    </h2>
                 </div>
                 <div class="line1"></div>
                 <div class="hd-row cckh">
@@ -21,10 +21,10 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
                             $url_image = $data->hinhanh[0]->url_image;
                             ?>
                         <div class="img">
-                            <a title="<?php echo $name ?>" href="<?php echo $link ?>">
-                                <img  src='<?php echo $url_image ?>' alt="<?php echo $name ?>">
+                            <a title="<?php echo html_entity_decode($name) ?>" href="<?php echo $link ?>">
+                                <img  src='<?php echo $url_image ?>' alt="<?php echo html_entity_decode($name) ?>">
                                 <div class="faded">
-                                    <p class="tt"><?php echo $name ?></p>
+                                    <p class="tt"><?php echo html_entity_decode($name) ?></p>
                                     <p class="ct">
 
                                     </p>
@@ -34,7 +34,7 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
                         <?php } ?>
                         <?php
                         if(isset($data->hinhanh[1])){
-                            $name = $data->hinhanh[1]->name;
+                            $name = html_entity_decode($data->hinhanh[1]->name);
                             $link = $data->hinhanh[1]->link;
                             $url_image = $data->hinhanh[1]->url_image;
                             ?>
@@ -54,7 +54,7 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
                     <div class="hd-col m4">
                         <?php
                         if(isset($data->hinhanh[2])){
-                            $name = $data->hinhanh[2]->name;
+                            $name = html_entity_decode($data->hinhanh[2]->name);
                             $link = $data->hinhanh[2]->link;
                             $url_image = $data->hinhanh[2]->url_image;
                             ?>
@@ -74,7 +74,7 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
                     <div class="hd-col m4">
                         <?php
                         if(isset($data->hinhanh[3])){
-                            $name = $data->hinhanh[3]->name;
+                            $name = html_entity_decode($data->hinhanh[3]->name);
                             $link = $data->hinhanh[3]->link;
                             $url_image = $data->hinhanh[3]->url_image;
                             ?>
@@ -94,7 +94,7 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
                     <div class="hd-col m2">
                         <?php
                         if(isset($data->hinhanh[4])){
-                            $name = $data->hinhanh[4]->name;
+                            $name = html_entity_decode($data->hinhanh[4]->name);
                             $link = $data->hinhanh[4]->link;
                             $url_image = $data->hinhanh[4]->url_image;
                             ?>
@@ -112,7 +112,7 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
                         <?php } ?>
                         <?php
                         if(isset($data->hinhanh[5])){
-                            $name = $data->hinhanh[5]->name;
+                            $name = html_entity_decode($data->hinhanh[5]->name);
                             $link = $data->hinhanh[5]->link;
                             $url_image = $data->hinhanh[5]->url_image;
                             ?>
@@ -138,11 +138,11 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
         $hinhanh = Hinhanh::getDataByCustomSetting('home_kien_thuc');
         ?>
         <div class='hd-row'>
-            <div class="pagett"><h3 class="cnkh">
+            <div class="pagett"><h2 class="cnkh">
                     <a href="javascript:;">
-                        <?php echo $hinhanh->category->name ?>
+                        <?php echo html_entity_decode($hinhanh->category->name) ?>
                     </a>
-                </h3>
+                </h2>
             </div>
 
             <?php if(!empty($hinhanh)){ ?>
@@ -156,16 +156,16 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
                                 ?>
                                 <li>
                                     <a href="<?php echo $item->link ?>">
-                                        <img title="<?php echo $item->name ?>"
+                                        <img title="<?php echo html_entity_decode($item->name) ?>"
                                              src='<?php echo $item->url_image ?>'
-                                             alt="<?php echo $item->name ?>">
+                                             alt="<?php echo html_entity_decode($item->name) ?>">
                                     </a>
                                 </li>
                                 <?php } ?>
                             </ul>
                         </div>
                     </div>
-                    <p><?php echo $hinhanh->category->description ?></p>
+                    <p><?php echo html_entity_decode($hinhanh->category->description) ?></p>
                     <div class="btn-lk">
                         <a class="hd-btn" href="<?php echo $hinhanh->category->link ?>"  rel="nofollow">Xem thêm >></a>
                     </div>
@@ -179,13 +179,13 @@ $data = Hinhanh::getDataByCustomSetting('home_kinh_nghiem');
                 ?>
                 <article>
                     <a class="pic"
-                       title="<?php echo $item->tintuc_lang->Name ?>"
+                       title="<?php echo html_entity_decode($item->tintuc_lang->Name) ?>"
                        href="<?php echo Common::buildUrl($item->tintuc_lang->id,Router::TYPE_NEWS) ?>">
-                        <img src="<?php echo $item->UrlImage ?>" alt="<?php echo $item->tintuc_lang->Name ?>">
+                        <img src="<?php echo $item->UrlImage ?>" alt="<?php echo html_entity_decode($item->tintuc_lang->Name) ?>">
                     </a>
-                    <a title="<?php echo $item->tintuc_lang->Name ?>"
+                    <a title="<?php echo html_entity_decode($item->tintuc_lang->Name) ?>"
                        href="<?php echo Common::buildUrl($item->tintuc_lang->id,Router::TYPE_NEWS) ?>">
-                        <strong><?php echo $item->tintuc_lang->Name ?></strong>
+                        <strong><?php echo html_entity_decode($item->tintuc_lang->Name) ?></strong>
                     </a>
                 </article>
                 <?php } ?>

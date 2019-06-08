@@ -180,7 +180,7 @@ a{text-decoration:none;color: inherit;}
     margin-top: 5px;
     margin-right: 10px;
 }
-.kns .menupc > li:nth-child(n+4){
+.kns .menupc > li:nth-child(n+5){
     order:2;
 }
 .n4 .t4{
@@ -410,6 +410,9 @@ a{text-decoration:none;color: inherit;}
     color: #073236;
     font-size: 16px;
     font-weight: 600;
+}
+#t2 .t2b a:hover{
+    color: #313131;
 }
 .kns .btn-lk {
     margin: 20px 0;
@@ -848,9 +851,16 @@ a:focus{
 .Ta__btn-tuvan:hover a{
     color: #f26649;
 }
+h2.cnkh{
+    font-size: 24px;
+}
 .header-top .txt-left{
     float:left;
     width: 50%;
+    font-size:13px;
+    padding: 0px;
+    margin: 0;
+    line-height: normal;
 }
 .header-top .txt-right{
     width: 50%;
@@ -1013,6 +1023,8 @@ span.comment-content {
     background: url(../images/sv_line.gif) left bottom no-repeat;
     padding-bottom: 15px;
     color: #333;
+    font-size: 15px;
+    margin: 0;
 }
 .kns main .mainpage .detail .detailct ul {
     color: #505050;
@@ -1047,6 +1059,8 @@ span.comment-content {
     padding: 20px 20px 10px 0;
     color: #073236;
     font-weight: bold;
+    margin: 0;
+    line-height: normal;
 }
 .kns .ht-lq .hd-row {
     margin: -20px;
@@ -1550,9 +1564,7 @@ span.comment-content {
     width: 65px;
     border-radius: 4px;
 }
-.kns .tuts li a:hover{
-    color: white;
-}
+
 .kns .menu .hd-dropdown-hover:hover a {
     background: #29676d;
 }
@@ -1703,6 +1715,26 @@ input[type="number"]:focus{
 .ftbox a:hover{
     color: white;
 }
+.Ta__js-slider-why .owl-nav{
+    margin-top: 16px;
+}
+.Ta__js-slider-why .owl-nav .owl-prev:before {
+    content: "\f053";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: white;
+    font-size: 20px;
+}
+.Ta__js-slider-why .owl-nav .owl-next:before{
+    content: "\f054";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: white;
+    font-size: 20px;
+}
+.Ta__js-slider-why .owl-nav .owl-prev, .Ta__js-slider-why .owl-nav .owl-next {
+    display: inline-block;
+    vertical-align: middle;
+    color: transparent;
+}
 @media (max-width: 1366px){
     .kns .page1 .city .text {
         margin-right: 50px;
@@ -1743,6 +1775,13 @@ input[type="number"]:focus{
     }
 }
 @media (max-width: 768px){
+    .kns .page4 .hd-container{
+        background: #ffffffe0;
+    }
+    .kns .page4{
+        min-height: 400px;
+        padding: 0;
+    }
     .kns main .mainpage {
         padding-right: 0;
         width: 100%;
@@ -1758,7 +1797,7 @@ input[type="number"]:focus{
     }
     .kns .page4 figure {
         margin: 0;
-        width: 60%;
+        width: 100%;
     }
     .kns .page4 figure .pagett {
         font-size: 17px;
@@ -1771,7 +1810,9 @@ input[type="number"]:focus{
         padding-top: 50px;
     }
     .kns .page1 .city .text .img {
-        left: -300px;
+        left: -109%;
+        width: 100%;
+
     }
 }
 @media only screen and (min-width: 601px) {

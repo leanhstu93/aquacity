@@ -6,7 +6,7 @@ $data = Hinhanh::getDataByCustomSetting('home_bg_phuong_phap');
         <?php
         $data = Hinhanh::getDataByCustomSetting('home_phuong_phap');
         ?>
-        <h3 class="pagett"><?php echo $data->category->name ?> </h3>
+        <h2 class="pagett"><?php echo html_entity_decode($data->category->name) ?> </h2>
         <div class="line2"></div>
         <div class=" page2-slide">
             <div class="flex-viewport">
@@ -14,8 +14,8 @@ $data = Hinhanh::getDataByCustomSetting('home_bg_phuong_phap');
                     <?php foreach ($data->hinhanh as $item){ ?>
                     <li><figure>
                             <a title="<?php echo $item->name ?>" href="<?php echo $item->link ?>">
-                                <img   src='<?php echo $item->url_image ?>' alt="<?php echo $item->name ?>" title="<?php echo $item->name ?>">
-                                <p><?php echo $item->name ?></p>
+                                <img   src='<?php echo $item->url_image ?>' alt="<?php echo $item->name ?>" title="<?php echo html_entity_decode($item->name) ?>">
+                                <p><?php echo html_entity_decode($item->name) ?></p>
                             </a>
                         </figure>
                     </li>

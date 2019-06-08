@@ -3,8 +3,9 @@
         <ul class="menupc">
             <li class="hd-dropdown-hover"><a class="active" href='/'> Trang chủ </a></li>
             <?php $criteria = new CDbCriteria();
-            $criteria->condition = "active = 1 and set_home = 1";
+            $criteria->condition = "active = 1 and set_menu = 1";
             $criteria->limit = 3;
+            $criteria->order = 'id DESC';
             $model = SinglePage::model()->findAll($criteria);
             $count = SinglePage::model()->count($criteria);
             if ($count > 0) {
@@ -30,7 +31,7 @@
                                             $i++;
                                             $router = Router::model()->find("idObject = " . $value->sanpham_lang->id . " AND type = " . Router::TYPE_PRODUCT);
                                             echo "<li>";
-                                            echo '<a href="' . Yii::app()->request->baseUrl . $router->alias . '">' . $value->sanpham_lang->NameShort . '</a>                ';
+                                            echo '<a href="/' . $router->alias . '.html">' . $value->sanpham_lang->NameShort . '</a>                ';
                                             echo "</li>";
                                             if ($i % 4 == 0 && $i < $count) {
                                                 echo '</figure></ul> </div> <div class="hd-col m3"> <ul><figure>';
@@ -43,13 +44,14 @@
                     </div>                    <?php } ?>                </li>
                           <?php $criteria = new CDbCriteria();
             $criteria->with = "loaitin_lang";
-            $criteria->condition = "Active = 1 and Parent = 0 and idNgonNgu = $this->lang";
+            $criteria->condition = "Active = 1 and Parent = 0 and SetMenu = 1 and idNgonNgu = $this->lang";
             $criteria->order = "t.Order";
             $model = Loaitin::model()->findAll($criteria);
             $count = Loaitin::model()->count($criteria); ?>                <?php foreach ($model as $key => $value) {
                 Common::menutintuc($value->id, "Loaitin", $this->lang);
             } ?>
             <li class="hd-dropdown-hover"><a href='/video.html'> Video </a></li>
+            <li class="hd-dropdown-hover"><a href='/lien-he.html'> Liên hệ </a></li>
             <li class="logo"><a>&nbsp;</a></li>
         </ul>
 <!--        <a rel="nofollow" href="#Ta__js-tu-van" data-toggle="modal" class="regist btnkn2tv">Đăng kí tư vấn</a> <a-->

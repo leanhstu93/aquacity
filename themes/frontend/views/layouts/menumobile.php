@@ -19,6 +19,7 @@
         $criteria = new CDbCriteria();
         $criteria->condition = "active = 1 and set_home = 1";
         $criteria->limit = 3;
+        $criteria->order = 'id DESC';
         $model = SinglePage::model()->findAll($criteria);
         $count = SinglePage::model()->count($criteria);
         if ($count > 0) {
@@ -49,7 +50,7 @@
                 foreach ($model as $key => $value) {
                     $i++;
                     $router = Router::model()->find("idObject = ". $value->sanpham_lang->id ." AND type = ".Router::TYPE_PRODUCT);
-                    echo '<li><a href="'.Yii::app()->request->baseUrl.$router->alias.'">'.$value->sanpham_lang->NameShort.'</a></li>
+                    echo '<li><a href="'.Yii::app()->request->baseUrl.$router->alias.'.html">'.$value->sanpham_lang->NameShort.'</a></li>
                 ';
                 }
                 ?>

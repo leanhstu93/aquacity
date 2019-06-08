@@ -25,6 +25,14 @@ echo Common::dequyOptions1($data,0,"--",$parent,$id);  ?>
         <span class="help-block" id="helpBlock"><?php echo $form->error($model,'id'); ?></span> </div>
 </div>
 
+<div class="form-group" style="margin-bottom:0px">
+    <?php echo $form->labelEx($model, 'SetMenu', array('class' => 'col-sm-2 control-label form-label')); ?>
+    <div class="col-sm-6">
+        <?php echo $form->dropDownList($model, 'SetMenu',array("Không","Có"), array( 'class' => 'form-control ')); ?>
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'SetMenu'); ?></span>
+    </div>
+</div>
+
 
 
 
