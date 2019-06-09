@@ -4,3 +4,29 @@
 .Ta__select-image {
     margin-left: 17px;
 }
+.Ta__css-wrap-thumb-image .item{
+    width: 100px;
+    float: left;
+    position: relative;
+}
+
+.Ta__css-wrap-thumb-image .item .Ta__css-remove-item .fa {
+    position: absolute;
+    z-index: 9;
+    display: none;
+    color: white;
+
+}
+
+.Ta__css-wrap-thumb-image .item:hover .Ta__css-remove-item .fa {
+    display: block;
+    background: black;
+    /* padding: 5px; */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    right: 0px;
+    top: -10px;
+}

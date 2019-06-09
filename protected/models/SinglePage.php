@@ -33,13 +33,13 @@ class SinglePage extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('set_home, set_menu, name', 'required'),
+			array('name', 'required'),
 			array('set_home, set_menu, active', 'numerical', 'integerOnly'=>true),
-			array('name, urlImage, seo_description, seo_keywords', 'length', 'max'=>255),
+			array('name, icon,urlImage, seo_description, seo_keywords,expand_1', 'length', 'max'=>255),
 			array('description, content', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, set_home, set_menu, name, urlImage, description, content, seo_description, seo_keywords, active', 'safe', 'on'=>'search'),
+			array('id, set_home, set_menu, name,icon,expand_1, urlImage, description, content, seo_description, seo_keywords, active', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -61,6 +61,7 @@ class SinglePage extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
+			'icon' => 'icon',
 			'set_home' => 'Set Home',
 			'set_menu' => 'Set Menu',
 			'name' => 'Name',
@@ -70,6 +71,7 @@ class SinglePage extends CActiveRecord
 			'seo_description' => 'Seo Description',
 			'seo_keywords' => 'Seo Keywords',
 			'active' => 'Active',
+            'expand_1' => 'Mở rộng'
 		);
 	}
 
@@ -95,12 +97,15 @@ class SinglePage extends CActiveRecord
 		$criteria->compare('set_home',$this->set_home);
 		$criteria->compare('set_menu',$this->set_menu);
 		$criteria->compare('name',$this->name,true);
+        $criteria->compare('icon',$this->icon,true);
 		$criteria->compare('urlImage',$this->urlImage,true);
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('content',$this->content,true);
 		$criteria->compare('seo_description',$this->seo_description,true);
 		$criteria->compare('seo_keywords',$this->seo_keywords,true);
+        $criteria->compare('date_create',$this->date_create);
 		$criteria->compare('active',$this->active);
+        $criteria->compare('expand_1',$this->expand_1);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

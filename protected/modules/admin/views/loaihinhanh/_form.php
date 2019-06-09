@@ -1,3 +1,4 @@
+
 <?php
  $form=$this->beginWidget('CActiveForm', array(
     'id'=>'user-form',
@@ -10,7 +11,7 @@
         'class'=>'form-horizontal',
     ),
 )); ?>
-
+<script src="<?php echo Yii::app()->request->baseUrl ?>/ckeditor/ckeditor.js"></script>
 
 <div class="form-group" style="margin-bottom:0px">
     <label class="col-sm-2 control-label form-label" for="input001">Tên loại:</label>
@@ -35,7 +36,13 @@
         <span class="help-block" id="helpBlock"><?php echo $form->error($model,'description',array("text"=>"aaa")); ?></span>
     </div>
 </div>
-
+<div class="form-group" style="margin-bottom:0px">
+    <label class="col-sm-2 control-label form-label" for="input001">Mở rộng 1:</label>
+    <div class="col-sm-6">
+        <?php echo $form->textField($model,'extend_1',array('required'=>'required','size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
+        <span class="help-block" id="helpBlock"><?php echo $form->error($model,'extend_1',array("text"=>"aaa")); ?></span>
+    </div>
+</div>
 <div class="form-group" style="margin-bottom:0px">
     <?php echo $form->labelEx($model, 'active', array('class' => 'col-sm-2 control-label form-label')); ?>
     <div class="col-sm-6">
@@ -123,6 +130,7 @@
 </style>
 <script type="text/javascript">
 $(function(){
+
     $(".tabngonngu a:first").click(function(){
         $(".tabngonngu a:last").removeClass("active");
         $(this).addClass("active");

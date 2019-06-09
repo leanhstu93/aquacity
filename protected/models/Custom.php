@@ -12,6 +12,7 @@ class Custom extends CActiveRecord
     const KEY_IMAGE = 'CUSTOM_IMAGE';
     const KEY_SINGLE_PAGE = 'CUSTOM_SINGLE_PAGE';
     const KEY_NEWS_CATEGORY = 'CUSTOM_NEWS_CATEGORY';
+    const KEY_LIBRARY_CATEGORY = 'CUSTOM_LIBRARY_IMAGE';
 	/**
 	 * @return string the associated database table name
 	 */

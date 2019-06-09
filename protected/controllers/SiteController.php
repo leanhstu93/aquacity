@@ -39,7 +39,7 @@ class SiteController extends Controller {
        if(isset($_SESSION['lang'])){
             if($_SESSION['lang'] == 2)
                 $this->lang = 2;
-             $this->ngonngu = Common::translate($this->lang);
+            $this->ngonngu = Common::translate($this->lang);
             return true;
         }
        $this->lang = 1;
@@ -661,6 +661,7 @@ class SiteController extends Controller {
     }
   
     Yii::app()->user->setFlash('error', 'Yêu cầu thất bại!');
+
     $this->redirect(Yii::app()->request->urlReferrer);
    }
    public function actionSanpham($id)

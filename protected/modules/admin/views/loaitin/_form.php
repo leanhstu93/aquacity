@@ -25,16 +25,6 @@ echo Common::dequyOptions1($data,0,"--",$parent,$id);  ?>
         <span class="help-block" id="helpBlock"><?php echo $form->error($model,'id'); ?></span> </div>
 </div>
 
-<div class="form-group" style="margin-bottom:0px">
-    <?php echo $form->labelEx($model, 'SetMenu', array('class' => 'col-sm-2 control-label form-label')); ?>
-    <div class="col-sm-6">
-        <?php echo $form->dropDownList($model, 'SetMenu',array("Không","Có"), array( 'class' => 'form-control ')); ?>
-        <span class="help-block" id="helpBlock"><?php echo $form->error($model, 'SetMenu'); ?></span>
-    </div>
-</div>
-
-
-
 
  <div class="tt_tv">
 	<div class="form-group" style="margin-bottom:0px">
@@ -43,6 +33,12 @@ echo Common::dequyOptions1($data,0,"--",$parent,$id);  ?>
 	        <?php echo $form->textField($lt,'Name',array('required'=>'required','size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
 	        <span class="help-block" id="helpBlock"><?php echo $form->error($lt,'Name',array("text"=>"aaa")); ?></span> </div>
 	</div>
+     <div class="form-group" style="margin-bottom:0px">
+         <label class="col-sm-2 control-label form-label" for="input001">Mô tả:</label>
+         <div class="col-sm-6">
+             <?php echo $form->textArea($lt,'Description',array('required'=>'required','size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
+             <span class="help-block" id="helpBlock"><?php echo $form->error($lt,'Name',array("text"=>"aaa")); ?></span> </div>
+     </div>
 
     <div class="form-group" style="margin-bottom:0px">
         <label class="col-sm-2 control-label form-label" for="input001">Thứ tự :</label>

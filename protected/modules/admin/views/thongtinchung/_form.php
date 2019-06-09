@@ -110,18 +110,13 @@ $form=$this->beginWidget('CActiveForm', array(
 </div>
 <!-- tab -->
 <div class="form-group" style="margin-bottom:0px">
-    <label class="col-sm-2 control-label form-label" for="input001">Pinterest</label>
+    <label class="col-sm-2 control-label form-label" for="input001">Linkedin</label>
     <div class="col-sm-6">
         <?php echo $form->textField($model,'Pinterest',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
         <span class="help-block" id="helpBlock"><?php echo $form->error($model,'Pinterest',array("text"=>"aaa")); ?></span> </div>
 </div>
 <!-- tab -->
-<div class="form-group" style="margin-bottom:0px">
-    <label class="col-sm-2 control-label form-label" for="input001">Tumblr</label>
-    <div class="col-sm-6">
-        <?php echo $form->textField($model,'Tumblr',array('size'=>60,'maxlength'=>100,'class'=>'form-control')); ?>
-        <span class="help-block" id="helpBlock"><?php echo $form->error($model,'Tumblr',array("text"=>"aaa")); ?></span> </div>
-</div>
+
 <!-- tab -->
 
 
